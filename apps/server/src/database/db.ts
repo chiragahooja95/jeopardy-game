@@ -2,7 +2,7 @@
 // Handles database initialization and provides a singleton connection
 
 import Database from 'better-sqlite3';
-import { existsSync, readFileSync } from 'fs';
+import { existsSync, mkdirSync, readFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
@@ -22,6 +22,9 @@ export function initDatabase(): Database.Database {
   if (db) {
     return db;
   }
+
+  // Fresh cloud instances may not have /apps/server/data yet.
+  mkdirSync(dirname(DB_PATH), { recursive: true });
 
   // Create database connection
   db = new Database(DB_PATH, {
