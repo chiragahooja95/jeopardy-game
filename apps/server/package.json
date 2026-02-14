@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Jeopardy game server with Socket.IO",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "node --watch --loader ts-node/esm src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "type-check": "tsc --noEmit",
+    "test": "node --loader ts-node/esm --test src/**/*.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@jeopardy/shared": "*",
+    "socket.io": "^4.7.4",
+    "express": "^4.18.2",
+    "better-sqlite3": "^11.8.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/express": "^4.17.21",
+    "@types/better-sqlite3": "^7.6.9",
+    "@types/uuid": "^9.0.8",
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.2"
+  }
+}

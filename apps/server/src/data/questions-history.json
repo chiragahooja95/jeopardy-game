@@ -1,0 +1,3906 @@
+{
+  "name": "World History",
+  "description": "Questions about historical events, figures, and civilizations",
+  "categories": [
+    {
+      "name": "World War II",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The year World War II ended",
+          "answer": "1945",
+          "choices": [
+            "1939",
+            "1989",
+            "1945",
+            "1991"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The dictator who led Nazi Germany during World War II",
+          "answer": "Adolf Hitler",
+          "choices": [
+            "Manhattan Project",
+            "Pearl Harbor",
+            "Adolf Hitler",
+            "Bengal Famine"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The two cities in Japan where atomic bombs were dropped",
+          "answer": "Hiroshima and Nagasaki",
+          "choices": [
+            "Battle of Midway",
+            "Luftwaffe",
+            "Hiroshima and Nagasaki",
+            "Blitzkrieg"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The alliance between Germany, Italy, and Japan was called this",
+          "answer": "The Axis Powers",
+          "choices": [
+            "Harry S. Truman",
+            "Manhattan Project",
+            "Pearl Harbor",
+            "The Axis Powers"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The year World War II began in Europe",
+          "answer": "1939",
+          "choices": [
+            "1945",
+            "1989",
+            "1938",
+            "1939"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The British Prime Minister who led the UK during most of WWII",
+          "answer": "Winston Churchill",
+          "choices": [
+            "The Axis Powers",
+            "Subhas Chandra Bose",
+            "Yalta Conference",
+            "Winston Churchill"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The country that was invaded by Germany to start World War II",
+          "answer": "Poland",
+          "choices": [
+            "Poland",
+            "Kursk",
+            "London",
+            "Africa"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The beach landings on June 6, 1944, known as this",
+          "answer": "D-Day",
+          "choices": [
+            "Molotov-Ribbentrop Pact",
+            "D-Day",
+            "Battle of the Atlantic",
+            "Nuremberg"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian National Army was formed by this freedom fighter to fight against British rule during WWII",
+          "answer": "Subhas Chandra Bose",
+          "choices": [
+            "Subhas Chandra Bose",
+            "Indian Army",
+            "Operation Overlord",
+            "Operation Fortitude"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The conference where Churchill, Roosevelt, and Stalin met in 1945",
+          "answer": "Yalta Conference",
+          "choices": [
+            "Yalta Conference",
+            "Indian Army",
+            "Operation Overlord",
+            "Operation Fortitude"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest tank battle in history occurred at this Russian city",
+          "answer": "Kursk",
+          "choices": [
+            "Kursk",
+            "Poland",
+            "London",
+            "Sparta"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The systematic genocide of six million Jews by Nazi Germany",
+          "answer": "The Holocaust",
+          "choices": [
+            "Operation Overlord",
+            "Operation Fortitude",
+            "Operation Husky",
+            "The Holocaust"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The U.S. President who ordered the atomic bombs dropped on Japan",
+          "answer": "Harry S. Truman",
+          "choices": [
+            "Erwin Rommel",
+            "Island Hopping",
+            "Harry S. Truman",
+            "Adolf Hitler"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The secret project to develop the atomic bomb",
+          "answer": "Manhattan Project",
+          "choices": [
+            "Manhattan Project",
+            "Winston Churchill",
+            "Subhas Chandra Bose",
+            "Yalta Conference"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The U.S. military base attacked by Japan on December 7, 1941",
+          "answer": "Pearl Harbor",
+          "choices": [
+            "Benito Mussolini",
+            "Pearl Harbor",
+            "Operation Barbarossa",
+            "Operation Sea Lion"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The turning point battle on the Eastern Front where Soviet forces defeated Germany",
+          "answer": "Battle of Stalingrad",
+          "choices": [
+            "Battle of Stalingrad",
+            "Ultra",
+            "Battle of Imphal",
+            "Hiroshima and Nagasaki"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The British city heavily bombed during the German air campaign known as the Blitz",
+          "answer": "London",
+          "choices": [
+            "Poland",
+            "Kursk",
+            "Afghanistan",
+            "London"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 1943 famine in British-ruled Bengal that killed millions",
+          "answer": "Bengal Famine",
+          "choices": [
+            "Benito Mussolini",
+            "Operation Barbarossa",
+            "Operation Sea Lion",
+            "Bengal Famine"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The fascist leader of Italy who allied with Hitler",
+          "answer": "Benito Mussolini",
+          "choices": [
+            "Yalta Conference",
+            "The Holocaust",
+            "Benito Mussolini",
+            "Harry S. Truman"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Pacific battle considered the turning point against Japan",
+          "answer": "Battle of Midway",
+          "choices": [
+            "Battle of Midway",
+            "Ultra",
+            "Battle of Imphal",
+            "Hiroshima and Nagasaki"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The German air force during World War II",
+          "answer": "Luftwaffe",
+          "choices": [
+            "Hiroshima and Nagasaki",
+            "D-Day",
+            "Luftwaffe",
+            "Battle of Stalingrad"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The German military strategy of 'lightning war'",
+          "answer": "Blitzkrieg",
+          "choices": [
+            "D-Day",
+            "Battle of Stalingrad",
+            "Battle of Midway",
+            "Blitzkrieg"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The failed German invasion of the Soviet Union launched in 1941",
+          "answer": "Operation Barbarossa",
+          "choices": [
+            "Operation Barbarossa",
+            "Indian Army",
+            "Operation Overlord",
+            "Operation Fortitude"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The treaty signed in 1939 between Germany and the Soviet Union",
+          "answer": "Molotov-Ribbentrop Pact",
+          "choices": [
+            "Nuremberg",
+            "Molotov-Ribbentrop Pact",
+            "Ultra",
+            "Battle of Imphal"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The naval battle where the British sank the German battleship Bismarck",
+          "answer": "Battle of the Atlantic",
+          "choices": [
+            "Blitzkrieg",
+            "Molotov-Ribbentrop Pact",
+            "Nuremberg",
+            "Battle of the Atlantic"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The code name for the German invasion of Britain that never happened",
+          "answer": "Operation Sea Lion",
+          "choices": [
+            "Indian Army",
+            "Operation Overlord",
+            "Operation Sea Lion",
+            "Operation Fortitude"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian soldiers who fought for the Allies in North Africa and Burma",
+          "answer": "Indian Army",
+          "choices": [
+            "Bengal Famine",
+            "Indian Army",
+            "Benito Mussolini",
+            "Operation Barbarossa"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The location where Nazi leaders were tried for war crimes after WWII",
+          "answer": "Nuremberg",
+          "choices": [
+            "Blitzkrieg",
+            "Nuremberg",
+            "Molotov-Ribbentrop Pact",
+            "Battle of the Atlantic"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The codename for the Allied invasion of Normandy",
+          "answer": "Operation Overlord",
+          "choices": [
+            "Operation Husky",
+            "Erwin Rommel",
+            "Island Hopping",
+            "Operation Overlord"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Allied deception operation that misled Germans about D-Day's location",
+          "answer": "Operation Fortitude",
+          "choices": [
+            "Operation Fortitude",
+            "Pearl Harbor",
+            "Bengal Famine",
+            "Benito Mussolini"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The British campaign to break German encrypted communications",
+          "answer": "Ultra",
+          "choices": [
+            "D-Day",
+            "Battle of Stalingrad",
+            "Battle of Midway",
+            "Ultra"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The largest amphibious invasion in history prior to D-Day",
+          "answer": "Operation Husky",
+          "choices": [
+            "Operation Husky",
+            "Operation Sea Lion",
+            "Indian Army",
+            "Operation Overlord"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The German general known as the 'Desert Fox'",
+          "answer": "Erwin Rommel",
+          "choices": [
+            "Benito Mussolini",
+            "Operation Barbarossa",
+            "Erwin Rommel",
+            "Operation Sea Lion"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The battle where Indian forces defended against Japanese invasion of India",
+          "answer": "Battle of Imphal",
+          "choices": [
+            "Battle of Imphal",
+            "Luftwaffe",
+            "Blitzkrieg",
+            "Molotov-Ribbentrop Pact"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The U.S. strategy of bypassing heavily fortified Japanese islands",
+          "answer": "Island Hopping",
+          "choices": [
+            "Winston Churchill",
+            "Subhas Chandra Bose",
+            "Island Hopping",
+            "Yalta Conference"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Indian Independence",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The year India gained independence from British rule",
+          "answer": "1947",
+          "choices": [
+            "1991",
+            "1789",
+            "1945",
+            "1947"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The date India celebrates as Independence Day",
+          "answer": "August 15",
+          "choices": [
+            "Non-Cooperation Movement",
+            "Kesari",
+            "August 15",
+            "Gandhi-Irwin Pact"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The country India was partitioned with in 1947",
+          "answer": "Pakistan",
+          "choices": [
+            "Bengal",
+            "Kashmir",
+            "Hyderabad",
+            "Pakistan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The movement Gandhi launched to protest British salt tax",
+          "answer": "Salt March",
+          "choices": [
+            "Rabindranath Tagore",
+            "Lord Mountbatten",
+            "Mahatma Gandhi",
+            "Salt March"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian national anthem written by this Nobel laureate",
+          "answer": "Rabindranath Tagore",
+          "choices": [
+            "Madan Lal Dhingra",
+            "Cripps Mission",
+            "Rabindranath Tagore",
+            "Sarojini Naidu"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The last Viceroy of India who oversaw the transfer of power",
+          "answer": "Lord Mountbatten",
+          "choices": [
+            "Communal Award",
+            "Lahore Conspiracy Case",
+            "Lord Mountbatten",
+            "Rash Behari Bose"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The principle of non-violent resistance practiced by Gandhi",
+          "answer": "Satyagraha",
+          "choices": [
+            "Ohm's Law",
+            "Newton's Third Law",
+            "Satyagraha",
+            "Avogadro's Law"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Father of the Nation who led India's non-violent independence movement",
+          "answer": "Mahatma Gandhi",
+          "choices": [
+            "Swadeshi Movement",
+            "Jawaharlal Nehru",
+            "Muhammad Ali Jinnah",
+            "Mahatma Gandhi"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The political party that led India's independence movement",
+          "answer": "Indian National Congress",
+          "choices": [
+            "Rabindranath Tagore",
+            "Indian National Congress",
+            "Lord Mountbatten",
+            "Mahatma Gandhi"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The lawyer who drafted India's Constitution",
+          "answer": "B.R. Ambedkar",
+          "choices": [
+            "Indian National Congress",
+            "Sepoy Mutiny",
+            "Bhagat Singh",
+            "B.R. Ambedkar"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 1857 uprising against British rule, India's first war of independence",
+          "answer": "Sepoy Mutiny",
+          "choices": [
+            "Sepoy Mutiny",
+            "Lahore Conspiracy Case",
+            "Rash Behari Bose",
+            "Salt March"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The revolutionary who threw a bomb in the Central Legislative Assembly in 1929",
+          "answer": "Bhagat Singh",
+          "choices": [
+            "Sepoy Mutiny",
+            "Bhagat Singh",
+            "Indira Gandhi",
+            "Swadeshi Movement"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The woman who became the Iron Lady of India and first woman Prime Minister",
+          "answer": "Indira Gandhi",
+          "choices": [
+            "Rabindranath Tagore",
+            "Lord Mountbatten",
+            "Mahatma Gandhi",
+            "Indira Gandhi"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The movement to boycott British goods and promote Indian-made products",
+          "answer": "Swadeshi Movement",
+          "choices": [
+            "Sarojini Naidu",
+            "Swadeshi Movement",
+            "Quit India Movement",
+            "Communal Award"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The first Prime Minister of independent India",
+          "answer": "Jawaharlal Nehru",
+          "choices": [
+            "Muhammad Ali Jinnah",
+            "Bal Gangadhar Tilak",
+            "Hindustan Socialist Republican Association",
+            "Jawaharlal Nehru"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The brutal suppression of the 1905 partition protest in this Bengali region",
+          "answer": "Bengal",
+          "choices": [
+            "Pakistan",
+            "Kashmir",
+            "Bengal",
+            "Hyderabad"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The protest movement where Gandhi called for total British withdrawal from India",
+          "answer": "Non-Cooperation Movement",
+          "choices": [
+            "August 15",
+            "Non-Cooperation Movement",
+            "Kesari",
+            "Gandhi-Irwin Pact"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian states that refused to join India or Pakistan initially, including Hyderabad and this northwestern state",
+          "answer": "Kashmir",
+          "choices": [
+            "Pakistan",
+            "Kashmir",
+            "Bengal",
+            "Hyderabad"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The leader of the Muslim League who became Pakistan's first Governor-General",
+          "answer": "Muhammad Ali Jinnah",
+          "choices": [
+            "Sarojini Naidu",
+            "Quit India Movement",
+            "Muhammad Ali Jinnah",
+            "Communal Award"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The radical nationalist who coined the slogan 'Swaraj is my birthright'",
+          "answer": "Bal Gangadhar Tilak",
+          "choices": [
+            "Sepoy Mutiny",
+            "Bhagat Singh",
+            "Bal Gangadhar Tilak",
+            "Indira Gandhi"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The revolutionary group Bhagat Singh belonged to",
+          "answer": "Hindustan Socialist Republican Association",
+          "choices": [
+            "Rash Behari Bose",
+            "Salt March",
+            "Rabindranath Tagore",
+            "Hindustan Socialist Republican Association"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The 1919 massacre where British troops fired on unarmed civilians in Punjab",
+          "answer": "Jallianwala Bagh Massacre",
+          "choices": [
+            "Indira Gandhi",
+            "Swadeshi Movement",
+            "Jawaharlal Nehru",
+            "Jallianwala Bagh Massacre"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The incident where Gandhi called off the Non-Cooperation Movement after protesters killed police",
+          "answer": "Chauri Chaura",
+          "choices": [
+            "Chauri Chaura",
+            "Lord Mountbatten",
+            "Mahatma Gandhi",
+            "Indian National Congress"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The British plan that proposed dividing India into Hindu and Muslim majority provinces",
+          "answer": "Cabinet Mission Plan",
+          "choices": [
+            "Mahatma Gandhi",
+            "Cabinet Mission Plan",
+            "Indian National Congress",
+            "B.R. Ambedkar"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The revolutionary who assassinated British official Sir Curzon Wyllie in London",
+          "answer": "Madan Lal Dhingra",
+          "choices": [
+            "Madan Lal Dhingra",
+            "Sarojini Naidu",
+            "Quit India Movement",
+            "Communal Award"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The 1942 proposal by British to grant India dominion status after WWII",
+          "answer": "Cripps Mission",
+          "choices": [
+            "Swadeshi Movement",
+            "Jawaharlal Nehru",
+            "Cripps Mission",
+            "Muhammad Ali Jinnah"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The woman revolutionary known as 'Nightingale of India'",
+          "answer": "Sarojini Naidu",
+          "choices": [
+            "Cabinet Mission Plan",
+            "Madan Lal Dhingra",
+            "Cripps Mission",
+            "Sarojini Naidu"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The revolutionary newspaper founded by Bal Gangadhar Tilak",
+          "answer": "Kesari",
+          "choices": [
+            "Kesari",
+            "August 15",
+            "Non-Cooperation Movement",
+            "Gandhi-Irwin Pact"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The movement launched by Gandhi in 1942 demanding immediate British withdrawal",
+          "answer": "Quit India Movement",
+          "choices": [
+            "Lord Mountbatten",
+            "Mahatma Gandhi",
+            "Quit India Movement",
+            "Indian National Congress"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The revolutionary organization founded in 1914 by Indians living abroad",
+          "answer": "Ghadar Party",
+          "choices": [
+            "1947",
+            "Ghadar Party",
+            "1991",
+            "1789"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The policy of divide and rule where British favored one community over another",
+          "answer": "Communal Award",
+          "choices": [
+            "Muhammad Ali Jinnah",
+            "Communal Award",
+            "Bal Gangadhar Tilak",
+            "Hindustan Socialist Republican Association"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The agreement signed by Gandhi and Viceroy Irwin in 1931 to suspend civil disobedience",
+          "answer": "Gandhi-Irwin Pact",
+          "choices": [
+            "Gandhi-Irwin Pact",
+            "August 15",
+            "Non-Cooperation Movement",
+            "Kesari"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The revolutionary trial where Bhagat Singh, Rajguru, and Sukhdev were sentenced to death",
+          "answer": "Lahore Conspiracy Case",
+          "choices": [
+            "Indian National Congress",
+            "B.R. Ambedkar",
+            "Lahore Conspiracy Case",
+            "Sepoy Mutiny"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The princely state forcibly annexed by India in 1948 through Operation Polo",
+          "answer": "Hyderabad",
+          "choices": [
+            "Hyderabad",
+            "Pakistan",
+            "Bengal",
+            "Kashmir"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The revolutionary who attempted to assassinate Viceroy Lord Hardinge in 1912",
+          "answer": "Rash Behari Bose",
+          "choices": [
+            "Bal Gangadhar Tilak",
+            "Hindustan Socialist Republican Association",
+            "Jallianwala Bagh Massacre",
+            "Rash Behari Bose"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancient Civilizations",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The ancient civilization that built Machu Picchu",
+          "answer": "Inca",
+          "choices": [
+            "Proto-Indo-European",
+            "Inca",
+            "Egypt",
+            "China"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient civilization known for pyramids and pharaohs",
+          "answer": "Egypt",
+          "choices": [
+            "Cuneiform",
+            "Egypt",
+            "Nalanda",
+            "Minoan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient civilization that built the Great Wall",
+          "answer": "China",
+          "choices": [
+            "Egypt",
+            "Colosseum",
+            "Mesopotamia",
+            "China"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The river along which the Indus Valley Civilization flourished",
+          "answer": "Indus River",
+          "choices": [
+            "Athens",
+            "Indus River",
+            "Sparta",
+            "Nile"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient Greek city-state known for its military culture",
+          "answer": "Sparta",
+          "choices": [
+            "Nile",
+            "Harappa",
+            "Vedas",
+            "Sparta"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Roman structure used for gladiator fights",
+          "answer": "Colosseum",
+          "choices": [
+            "Minoan",
+            "Colosseum",
+            "Vedas",
+            "Maya"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient wonder located in Giza, Egypt",
+          "answer": "Great Pyramid",
+          "choices": [
+            "Sea Peoples",
+            "Great Pyramid",
+            "Persian Empire",
+            "Rosetta Stone"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The river valley where ancient Egyptian civilization developed",
+          "answer": "Nile",
+          "choices": [
+            "Athens",
+            "Nile",
+            "Sparta",
+            "War in the Vendée"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient Indian city known for its advanced urban planning and drainage system",
+          "answer": "Harappa",
+          "choices": [
+            "Athens",
+            "Sparta",
+            "Library of Alexandria",
+            "Harappa"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient civilization between the Tigris and Euphrates rivers",
+          "answer": "Mesopotamia",
+          "choices": [
+            "Maya",
+            "Mesopotamia",
+            "Olmec",
+            "Proto-Indo-European"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The legendary founder of Rome who was raised by a wolf",
+          "answer": "Romulus",
+          "choices": [
+            "Sea Peoples",
+            "Romulus",
+            "Indus Valley Civilization",
+            "Donato Bramante"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient script used in the Indus Valley Civilization that remains undeciphered",
+          "answer": "Indus Script",
+          "choices": [
+            "Sparta",
+            "Nile",
+            "London",
+            "Indus Script"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient empire ruled by Cyrus the Great",
+          "answer": "Persian Empire",
+          "choices": [
+            "Great Pyramid",
+            "Warsaw Pact",
+            "Persian Empire",
+            "Vietnam War"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient Greek historian known as the 'Father of History'",
+          "answer": "Herodotus",
+          "choices": [
+            "Minoan",
+            "Herodotus",
+            "Vedas",
+            "Maya"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The city-state that was home to the Parthenon",
+          "answer": "Athens",
+          "choices": [
+            "Sparta",
+            "Nile",
+            "Harappa",
+            "Athens"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient Indian empire under Chandragupta Maurya's grandson who embraced Buddhism",
+          "answer": "Ashoka",
+          "choices": [
+            "Ashoka",
+            "Indus Valley Civilization",
+            "Great Pyramid",
+            "Reform Acts"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Macedonian king who conquered most of the known world by age 30",
+          "answer": "Alexander the Great",
+          "choices": [
+            "Rosetta Stone",
+            "Achaemenid Empire",
+            "Alexander the Great",
+            "Space Race"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient wonder library located in Egypt",
+          "answer": "Library of Alexandria",
+          "choices": [
+            "Cuneiform",
+            "Library of Alexandria",
+            "Nalanda",
+            "Minoan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Carthaginian general who crossed the Alps with elephants to attack Rome",
+          "answer": "Hannibal",
+          "choices": [
+            "Rosetta Stone",
+            "Hannibal",
+            "Achaemenid Empire",
+            "John D. Rockefeller"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient Chinese philosophy emphasizing harmony with nature",
+          "answer": "Taoism",
+          "choices": [
+            "Egypt",
+            "Taoism",
+            "China",
+            "Colosseum"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The stone that helped decode Egyptian hieroglyphics",
+          "answer": "Rosetta Stone",
+          "choices": [
+            "Achaemenid Empire",
+            "Rani Lakshmibai",
+            "Rosetta Stone",
+            "Michael Collins"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The writing system used by ancient Mesopotamians",
+          "answer": "Cuneiform",
+          "choices": [
+            "Cuneiform",
+            "Inca",
+            "Egypt",
+            "China"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient Indian university that attracted scholars from across Asia",
+          "answer": "Nalanda",
+          "choices": [
+            "Maya",
+            "Nalanda",
+            "Olmec",
+            "Proto-Indo-European"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Bronze Age civilization on Crete known for the palace at Knossos",
+          "answer": "Minoan",
+          "choices": [
+            "Egypt",
+            "Minoan",
+            "China",
+            "Colosseum"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The legal code created by the Babylonian king around 1750 BCE",
+          "answer": "Code of Hammurabi",
+          "choices": [
+            "Code of Hammurabi",
+            "Rosetta Stone",
+            "Achaemenid Empire",
+            "Nikita Khrushchev"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient empire that built an extensive road network including the Royal Road",
+          "answer": "Achaemenid Empire",
+          "choices": [
+            "Rosetta Stone",
+            "David Livingstone",
+            "Achaemenid Empire",
+            "Marco Polo"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The first emperor who unified China and standardized writing",
+          "answer": "Qin Shi Huang",
+          "choices": [
+            "Qin Shi Huang",
+            "Sinatra Doctrine",
+            "Smiling Buddha",
+            "Helsinki Accords"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient Indian texts containing hymns and rituals",
+          "answer": "Vedas",
+          "choices": [
+            "Colosseum",
+            "Mesopotamia",
+            "Herodotus",
+            "Vedas"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient civilization that created the concept of zero",
+          "answer": "Maya",
+          "choices": [
+            "Maya",
+            "Minoan",
+            "Vedas",
+            "Olmec"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indian mathematician who gave the approximation of pi",
+          "answer": "Aryabhata",
+          "choices": [
+            "Rosetta Stone",
+            "Achaemenid Empire",
+            "Umayyad Caliphate",
+            "Aryabhata"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The mysterious sea peoples who contributed to the Bronze Age collapse",
+          "answer": "Sea Peoples",
+          "choices": [
+            "Sea Peoples",
+            "Rosetta Stone",
+            "Maximilien Robespierre",
+            "French Republican Calendar"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The oldest known civilization in the Americas, predating the Maya",
+          "answer": "Olmec",
+          "choices": [
+            "Herodotus",
+            "Olmec",
+            "Library of Alexandria",
+            "Taoism"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indian grammarian who wrote the Ashtadhyayi",
+          "answer": "Panini",
+          "choices": [
+            "Great Pyramid",
+            "Panini",
+            "Persian Empire",
+            "Yalta Conference"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The first urban civilization in South Asia, contemporary with ancient Egypt",
+          "answer": "Indus Valley Civilization",
+          "choices": [
+            "Achaemenid Empire",
+            "Qin Shi Huang",
+            "Indus Valley Civilization",
+            "Robert Mugabe"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indo-European language that influenced Sanskrit",
+          "answer": "Proto-Indo-European",
+          "choices": [
+            "Taoism",
+            "Proto-Indo-European",
+            "Cuneiform",
+            "Nalanda"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Medieval Times",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The system of lords and vassals in medieval Europe",
+          "answer": "Feudalism",
+          "choices": [
+            "Battle of Tarain",
+            "Feudalism",
+            "Concordat of Worms",
+            "Dubbing"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The heavily armored warriors on horseback in medieval Europe",
+          "answer": "Knights",
+          "choices": [
+            "Knights",
+            "Battle of Hastings",
+            "Battle of Tarain",
+            "Concordat of Worms"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian emperor who built the Delhi Sultanate's most famous tower",
+          "answer": "Qutub-ud-din Aibak",
+          "choices": [
+            "Umayyad Caliphate",
+            "Rosetta Stone",
+            "Qutub-ud-din Aibak",
+            "Yuan Dynasty"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The medieval fortress and residence of a lord or monarch",
+          "answer": "Castle",
+          "choices": [
+            "Castle",
+            "Battle of Hastings",
+            "Battle of Tarain",
+            "Concordat of Worms"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The French heroine who led troops during the Hundred Years' War",
+          "answer": "Joan of Arc",
+          "choices": [
+            "Ibn Sina",
+            "Joan of Arc",
+            "Alauddin Khilji",
+            "Knights Templar"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Mongol conqueror who built the largest land empire in history",
+          "answer": "Genghis Khan",
+          "choices": [
+            "Genghis Khan",
+            "Vijayanagara Empire",
+            "The Crusades",
+            "Veer Savarkar"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The medieval Indian empire known for its military prowess in the Deccan",
+          "answer": "Vijayanagara Empire",
+          "choices": [
+            "The Crusades",
+            "Abbasid Caliphate",
+            "Rash Behari Bose",
+            "Vijayanagara Empire"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The religious wars to reclaim the Holy Land",
+          "answer": "The Crusades",
+          "choices": [
+            "Chola Dynasty",
+            "The Crusades",
+            "Black Death",
+            "Lala Har Dayal"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Mongol emperor who invaded India and defeated the Delhi Sultanate",
+          "answer": "Timur",
+          "choices": [
+            "Umayyad Caliphate",
+            "Operation Overlord",
+            "Operation Fortitude",
+            "Timur"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The series of wars between England and France lasting over 100 years",
+          "answer": "Hundred Years' War",
+          "choices": [
+            "Hundred Years' War",
+            "The Book of the Courtier",
+            "Knights Templar",
+            "Magna Carta"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Islamic empire centered in Baghdad during its Golden Age",
+          "answer": "Abbasid Caliphate",
+          "choices": [
+            "Abbasid Caliphate",
+            "Silk Road",
+            "Rana Kumbha",
+            "Charlotte Corday"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The medieval ruler who founded the Mughal Empire in India",
+          "answer": "Babur",
+          "choices": [
+            "Babur",
+            "Magna Carta",
+            "Investiture Controversy",
+            "Adi Shankaracharya"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The architectural style characterized by pointed arches and flying buttresses",
+          "answer": "Gothic",
+          "choices": [
+            "Dubbing",
+            "Feudalism",
+            "Knights",
+            "Gothic"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The powerful medieval Indian dynasty that ruled from Thanjavur",
+          "answer": "Chola Dynasty",
+          "choices": [
+            "Rana Kumbha",
+            "Jawaharlal Nehru",
+            "Chola Dynasty",
+            "Muhammad Ali Jinnah"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The pandemic that killed millions in 14th century Europe",
+          "answer": "Black Death",
+          "choices": [
+            "Alauddin Khilji",
+            "Black Death",
+            "Knights Templar",
+            "Magna Carta"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Byzantine Empire's capital that fell to the Ottomans in 1453",
+          "answer": "Constantinople",
+          "choices": [
+            "Athens",
+            "England",
+            "Mumbai",
+            "Constantinople"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Hindu empire that resisted Muslim invasions in medieval South India",
+          "answer": "Vijayanagara",
+          "choices": [
+            "Knights",
+            "Vijayanagara",
+            "Castle",
+            "Gothic"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The medieval Islamic scholar and physician who wrote the Canon of Medicine",
+          "answer": "Ibn Sina",
+          "choices": [
+            "Communal Award",
+            "Ibn Sina",
+            "Lahore Conspiracy Case",
+            "Rash Behari Bose"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The battle in 1066 where William conquered England",
+          "answer": "Battle of Hastings",
+          "choices": [
+            "Battle of Tarain",
+            "Battle of Hastings",
+            "Concordat of Worms",
+            "Dubbing"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Delhi Sultan who repelled multiple Mongol invasions",
+          "answer": "Alauddin Khilji",
+          "choices": [
+            "Magna Carta",
+            "Investiture Controversy",
+            "Alauddin Khilji",
+            "Adi Shankaracharya"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The religious military orders formed during the Crusades",
+          "answer": "Knights Templar",
+          "choices": [
+            "Knights Templar",
+            "Abbasid Caliphate",
+            "Francisco Pizarro",
+            "Robert Falcon Scott"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The document signed in 1215 that limited the king's power",
+          "answer": "Magna Carta",
+          "choices": [
+            "Magna Carta",
+            "The Crusades",
+            "Abbasid Caliphate",
+            "Genghis Khan"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The conflict between the Pope and Holy Roman Emperor over church authority",
+          "answer": "Investiture Controversy",
+          "choices": [
+            "Investiture Controversy",
+            "Chola Dynasty",
+            "Black Death",
+            "Aung San Suu Kyi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The medieval Indian philosopher who established Advaita Vedanta",
+          "answer": "Adi Shankaracharya",
+          "choices": [
+            "Umayyad Caliphate",
+            "Adi Shankaracharya",
+            "Abel Tasman",
+            "Matthew Henson"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Mongol dynasty that ruled China and was visited by Marco Polo",
+          "answer": "Yuan Dynasty",
+          "choices": [
+            "Rana Kumbha",
+            "Yuan Dynasty",
+            "Umayyad Caliphate",
+            "Ibn Sina"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The battle where Prithviraj Chauhan was defeated by Muhammad Ghori",
+          "answer": "Battle of Tarain",
+          "choices": [
+            "Gothic",
+            "Vijayanagara",
+            "Battle of Hastings",
+            "Battle of Tarain"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The schism that split Christianity into Catholic and Orthodox churches",
+          "answer": "Great Schism",
+          "choices": [
+            "Great Schism",
+            "Yuan Dynasty",
+            "Silk Road",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The medieval trade route connecting Europe and Asia",
+          "answer": "Silk Road",
+          "choices": [
+            "Chola Dynasty",
+            "Black Death",
+            "Silk Road",
+            "Ibn Sina"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Norman king who conquered England in 1066",
+          "answer": "William the Conqueror",
+          "choices": [
+            "Genghis Khan",
+            "Vijayanagara Empire",
+            "William the Conqueror",
+            "The Crusades"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Rajput ruler who built the fortress city of Chittor",
+          "answer": "Rana Kumbha",
+          "choices": [
+            "Genghis Khan",
+            "Lord Mountbatten",
+            "Rana Kumbha",
+            "Mahatma Gandhi"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The treaty that ended the investiture controversy in 1122",
+          "answer": "Concordat of Worms",
+          "choices": [
+            "Concordat of Worms",
+            "Feudalism",
+            "Knights",
+            "Castle"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The medieval Indian mathematician who contributed to algebra and trigonometry",
+          "answer": "Bhaskara II",
+          "choices": [
+            "Abbasid Caliphate",
+            "Bhaskara II",
+            "Chola Dynasty",
+            "Ronald Reagan"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Islamic empire that ruled Spain during the medieval period",
+          "answer": "Umayyad Caliphate",
+          "choices": [
+            "Genghis Khan",
+            "Umayyad Caliphate",
+            "Vijayanagara Empire",
+            "Pearl Harbor"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Chola king who launched naval expeditions to Southeast Asia",
+          "answer": "Rajendra Chola I",
+          "choices": [
+            "Rana Kumbha",
+            "Rajendra Chola I",
+            "Umayyad Caliphate",
+            "Korean War"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ceremony where a person became a knight in medieval Europe",
+          "answer": "Dubbing",
+          "choices": [
+            "Gothic",
+            "Vijayanagara",
+            "Battle of Hastings",
+            "Dubbing"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Industrial Revolution",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The country where the Industrial Revolution began",
+          "answer": "England",
+          "choices": [
+            "Stock market",
+            "Mumbai",
+            "England",
+            "Calcutta"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The machine that automated the weaving of cloth",
+          "answer": "Power loom",
+          "choices": [
+            "Mass production",
+            "Capitalism",
+            "Power loom",
+            "Assembly line"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The transport innovation using rails and steam power",
+          "answer": "Railroad",
+          "choices": [
+            "18th century",
+            "Railroad",
+            "Coal",
+            "Cotton gin"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The century when the Industrial Revolution began",
+          "answer": "18th century",
+          "choices": [
+            "Coal",
+            "Cotton gin",
+            "18th century",
+            "Steam engine"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The primary fuel source that powered the Industrial Revolution",
+          "answer": "Coal",
+          "choices": [
+            "18th century",
+            "Cotton gin",
+            "Coal",
+            "Steam engine"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian city that became a major textile manufacturing center",
+          "answer": "Mumbai",
+          "choices": [
+            "Stock market",
+            "England",
+            "Mumbai",
+            "Florence"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The invention that separated cotton fibers from seeds",
+          "answer": "Cotton gin",
+          "choices": [
+            "Labor movement",
+            "Cotton gin",
+            "Jamshedpur",
+            "Luddite movement"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The machine invented by James Watt that powered factories",
+          "answer": "Steam engine",
+          "choices": [
+            "Telephone",
+            "Steam engine",
+            "Mass production",
+            "Capitalism"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The businessman who founded the Standard Oil Company",
+          "answer": "John D. Rockefeller",
+          "choices": [
+            "Jamsetji Tata",
+            "Andrew Carnegie",
+            "Thomas Edison",
+            "John D. Rockefeller"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian entrepreneur who founded the Tata Group during this era",
+          "answer": "Jamsetji Tata",
+          "choices": [
+            "Jamsetji Tata",
+            "Communist Manifesto",
+            "Reform Acts",
+            "John D. Rockefeller"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The process of people moving from rural areas to cities",
+          "answer": "Urbanization",
+          "choices": [
+            "Bessemer process",
+            "Capitalism",
+            "Urbanization",
+            "Assembly line"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The steel magnate who built Carnegie Steel Company",
+          "answer": "Andrew Carnegie",
+          "choices": [
+            "Thomas Edison",
+            "Indian Railways",
+            "Adam Smith",
+            "Andrew Carnegie"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The invention by Alexander Graham Bell in 1876",
+          "answer": "Telephone",
+          "choices": [
+            "Telephone",
+            "Sweatshops",
+            "Labor movement",
+            "Jamshedpur"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The factory system that replaced cottage industries",
+          "answer": "Mass production",
+          "choices": [
+            "Mass production",
+            "Cotton gin",
+            "Steam engine",
+            "Telephone"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The economic system that emerged with industrialization",
+          "answer": "Capitalism",
+          "choices": [
+            "Mass production",
+            "Assembly line",
+            "Proletariat",
+            "Capitalism"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The method of production developed by Henry Ford",
+          "answer": "Assembly line",
+          "choices": [
+            "Railroad",
+            "Assembly line",
+            "18th century",
+            "Coal"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The political theory developed by Karl Marx as a response to capitalism",
+          "answer": "Communism",
+          "choices": [
+            "Communism",
+            "Ohm's Law",
+            "Newton's Third Law",
+            "Avogadro's Law"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian jute industry that flourished in this Bengali city",
+          "answer": "Calcutta",
+          "choices": [
+            "Stock market",
+            "England",
+            "Calcutta",
+            "Kashmir"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The inventor of the incandescent light bulb",
+          "answer": "Thomas Edison",
+          "choices": [
+            "Adam Smith",
+            "Communist Manifesto",
+            "Thomas Edison",
+            "Reform Acts"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The canal completed in 1869 connecting the Mediterranean and Red Sea",
+          "answer": "Suez Canal",
+          "choices": [
+            "Calcutta",
+            "Stock market",
+            "Suez Canal",
+            "England"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The working class that emerged during industrialization",
+          "answer": "Proletariat",
+          "choices": [
+            "Telegraph",
+            "Laissez-faire",
+            "Proletariat",
+            "Sweatshops"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The communication device invented by Samuel Morse",
+          "answer": "Telegraph",
+          "choices": [
+            "Telegraph",
+            "Cotton gin",
+            "Steam engine",
+            "Telephone"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The economic policy of minimal government intervention in business",
+          "answer": "Laissez-faire",
+          "choices": [
+            "Assembly line",
+            "Laissez-faire",
+            "Proletariat",
+            "Telegraph"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process developed by Henry Bessemer to mass-produce steel",
+          "answer": "Bessemer process",
+          "choices": [
+            "Urbanization",
+            "18th century",
+            "Coal",
+            "Bessemer process"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The railroad system built across India by the British Empire",
+          "answer": "Indian Railways",
+          "choices": [
+            "Adam Smith",
+            "Communist Manifesto",
+            "Reform Acts",
+            "Indian Railways"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The device that revolutionized textile production in 1764",
+          "answer": "Spinning jenny",
+          "choices": [
+            "Thermometer",
+            "Barometer",
+            "Spinning jenny",
+            "Seismograph"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The author of 'The Wealth of Nations' published in 1776",
+          "answer": "Adam Smith",
+          "choices": [
+            "Jamsetji Tata",
+            "Andrew Carnegie",
+            "Thomas Edison",
+            "Adam Smith"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The terrible working conditions and long hours in these facilities",
+          "answer": "Sweatshops",
+          "choices": [
+            "Mass production",
+            "Capitalism",
+            "Assembly line",
+            "Sweatshops"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The social movement advocating for workers' rights during this era",
+          "answer": "Labor movement",
+          "choices": [
+            "Telephone",
+            "Mass production",
+            "Labor movement",
+            "Capitalism"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The manifesto written by Marx and Engels in 1848",
+          "answer": "Communist Manifesto",
+          "choices": [
+            "Reform Acts",
+            "John D. Rockefeller",
+            "Jamsetji Tata",
+            "Communist Manifesto"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian steel plant established by Tata in 1907",
+          "answer": "Jamshedpur",
+          "choices": [
+            "Jamshedpur",
+            "Capitalism",
+            "Assembly line",
+            "Proletariat"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The movement to destroy machinery believed to threaten jobs",
+          "answer": "Luddite movement",
+          "choices": [
+            "Luddite movement",
+            "Cotton gin",
+            "Steam engine",
+            "Telephone"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The economic downturn theory of boom and bust cycles",
+          "answer": "Business cycle",
+          "choices": [
+            "Ohm's Law",
+            "Newton's Third Law",
+            "Business cycle",
+            "Avogadro's Law"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The reform acts that gradually extended voting rights in Britain",
+          "answer": "Reform Acts",
+          "choices": [
+            "Jamsetji Tata",
+            "Andrew Carnegie",
+            "Thomas Edison",
+            "Reform Acts"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The financial practice of selling shares in companies to raise capital",
+          "answer": "Stock market",
+          "choices": [
+            "Mumbai",
+            "Stock market",
+            "Calcutta",
+            "England"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cold War",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The barrier dividing East and West Berlin",
+          "answer": "Berlin Wall",
+          "choices": [
+            "Ronald Reagan",
+            "Eisenhower Doctrine",
+            "Berlin Wall",
+            "Red Telephone"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The two superpowers that competed during the Cold War",
+          "answer": "United States and Soviet Union",
+          "choices": [
+            "Non-Aligned Movement",
+            "United States and Soviet Union",
+            "Containment",
+            "Sputnik"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The year the Berlin Wall fell, symbolizing the end of the Cold War",
+          "answer": "1989",
+          "choices": [
+            "1991",
+            "1989",
+            "1789",
+            "1988"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The military alliance formed by Western nations",
+          "answer": "NATO",
+          "choices": [
+            "SALT I",
+            "NATO",
+            "Bay of Pigs",
+            "Détente"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The competition between superpowers to explore outer space",
+          "answer": "Space Race",
+          "choices": [
+            "Ronald Reagan",
+            "Eisenhower Doctrine",
+            "Space Race",
+            "Red Telephone"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian Prime Minister who led the Non-Aligned Movement",
+          "answer": "Jawaharlal Nehru",
+          "choices": [
+            "Ronald Reagan",
+            "Eisenhower Doctrine",
+            "Jawaharlal Nehru",
+            "Red Telephone"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The imaginary boundary dividing Communist and Western Europe",
+          "answer": "Iron Curtain",
+          "choices": [
+            "Warsaw Pact",
+            "Iron Curtain",
+            "Vietnam War",
+            "Nikita Khrushchev"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The U.S. program to provide economic aid to Europe after WWII",
+          "answer": "Marshall Plan",
+          "choices": [
+            "Marshall Plan",
+            "Berlin Wall",
+            "Space Race",
+            "Jawaharlal Nehru"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Asian war where U.S. and Soviet-backed forces fought from 1950-1953",
+          "answer": "Korean War",
+          "choices": [
+            "Korean War",
+            "Smiling Buddha",
+            "Helsinki Accords",
+            "Berlin Wall"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The movement of countries refusing to align with either superpower",
+          "answer": "Non-Aligned Movement",
+          "choices": [
+            "Bay of Pigs",
+            "Détente",
+            "Non-Aligned Movement",
+            "United States and Soviet Union"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Soviet military alliance formed in response to NATO",
+          "answer": "Warsaw Pact",
+          "choices": [
+            "Warsaw Pact",
+            "Cuban Missile Crisis",
+            "Berlin Airlift",
+            "Nikita Khrushchev"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The U.S. foreign policy to prevent spread of communism",
+          "answer": "Containment",
+          "choices": [
+            "Détente",
+            "United States and Soviet Union",
+            "NATO",
+            "Containment"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Southeast Asian war where the U.S. fought to stop communism",
+          "answer": "Vietnam War",
+          "choices": [
+            "Helsinki Accords",
+            "Vietnam War",
+            "Berlin Wall",
+            "Space Race"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Soviet leader who built the Berlin Wall",
+          "answer": "Nikita Khrushchev",
+          "choices": [
+            "Eisenhower Doctrine",
+            "Red Telephone",
+            "Sinatra Doctrine",
+            "Nikita Khrushchev"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 1962 crisis that nearly led to nuclear war",
+          "answer": "Cuban Missile Crisis",
+          "choices": [
+            "Cuban Missile Crisis",
+            "Red Telephone",
+            "Sinatra Doctrine",
+            "Smiling Buddha"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The airlift operation to supply West Berlin during Soviet blockade",
+          "answer": "Berlin Airlift",
+          "choices": [
+            "Berlin Airlift",
+            "Nikita Khrushchev",
+            "Cuban Missile Crisis",
+            "Andrew Carnegie"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The U.S. Senator who led anti-communist witch hunts in the 1950s",
+          "answer": "Joseph McCarthy",
+          "choices": [
+            "Eisenhower Doctrine",
+            "Red Telephone",
+            "Sinatra Doctrine",
+            "Joseph McCarthy"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The first artificial satellite launched by the Soviet Union",
+          "answer": "Sputnik",
+          "choices": [
+            "Non-Aligned Movement",
+            "Containment",
+            "Sputnik",
+            "Sino-Indian War"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian-Chinese border conflict during the Cold War in 1962",
+          "answer": "Sino-Indian War",
+          "choices": [
+            "Glasnost",
+            "Perestroika",
+            "Sino-Indian War",
+            "Angola"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The concept of assured mutual destruction preventing nuclear war",
+          "answer": "MAD",
+          "choices": [
+            "Non-Aligned Movement",
+            "Containment",
+            "MAD",
+            "Sputnik"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Soviet invasion of this country in 1979 that drew international condemnation",
+          "answer": "Afghanistan",
+          "choices": [
+            "War in the Vendée",
+            "Florence",
+            "Poland",
+            "Afghanistan"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Soviet policy of openness introduced by Gorbachev",
+          "answer": "Glasnost",
+          "choices": [
+            "Détente",
+            "United States and Soviet Union",
+            "NATO",
+            "Glasnost"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The economic restructuring policy introduced alongside Glasnost",
+          "answer": "Perestroika",
+          "choices": [
+            "Containment",
+            "Sputnik",
+            "Sino-Indian War",
+            "Perestroika"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The proxy war in this African nation involving Cuban troops",
+          "answer": "Angola",
+          "choices": [
+            "SALT I",
+            "Angola",
+            "Bay of Pigs",
+            "Détente"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The 1955 conference where India promoted non-alignment",
+          "answer": "Bandung Conference",
+          "choices": [
+            "Marshall Plan",
+            "Korean War",
+            "Bandung Conference",
+            "Warsaw Pact"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The treaty limiting strategic nuclear weapons signed in 1972",
+          "answer": "SALT I",
+          "choices": [
+            "Containment",
+            "Sputnik",
+            "Sino-Indian War",
+            "SALT I"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The U.S. President who declared 'Mr. Gorbachev, tear down this wall'",
+          "answer": "Ronald Reagan",
+          "choices": [
+            "Smiling Buddha",
+            "Helsinki Accords",
+            "Ronald Reagan",
+            "Berlin Wall"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The failed CIA-backed invasion of Cuba in 1961",
+          "answer": "Bay of Pigs",
+          "choices": [
+            "Sino-Indian War",
+            "Bay of Pigs",
+            "MAD",
+            "Glasnost"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The year the Soviet Union officially dissolved",
+          "answer": "1991",
+          "choices": [
+            "1989",
+            "1990",
+            "1991",
+            "1992"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The doctrine stating U.S. would intervene to prevent communist takeover in Middle East",
+          "answer": "Eisenhower Doctrine",
+          "choices": [
+            "Cuban Missile Crisis",
+            "Eisenhower Doctrine",
+            "Berlin Airlift",
+            "Renaissance Man"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The period of reduced Cold War tensions in the 1970s",
+          "answer": "Détente",
+          "choices": [
+            "Bay of Pigs",
+            "United States and Soviet Union",
+            "NATO",
+            "Détente"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The hotline established between Washington and Moscow after Cuban crisis",
+          "answer": "Red Telephone",
+          "choices": [
+            "Korean War",
+            "Red Telephone",
+            "Warsaw Pact",
+            "Vietnam War"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Soviet policy allowing Eastern European nations more independence",
+          "answer": "Sinatra Doctrine",
+          "choices": [
+            "Marshall Plan",
+            "Korean War",
+            "Sinatra Doctrine",
+            "Warsaw Pact"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian nuclear test in 1974 that surprised the world",
+          "answer": "Smiling Buddha",
+          "choices": [
+            "Vietnam War",
+            "Nikita Khrushchev",
+            "Cuban Missile Crisis",
+            "Smiling Buddha"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The charter signed by 35 nations in 1975 recognizing European borders",
+          "answer": "Helsinki Accords",
+          "choices": [
+            "Bandung Conference",
+            "Helsinki Accords",
+            "Ronald Reagan",
+            "Cuban Missile Crisis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Exploration",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The explorer credited with discovering America in 1492",
+          "answer": "Christopher Columbus",
+          "choices": [
+            "Francis Drake",
+            "James Cook",
+            "Great Schism",
+            "Christopher Columbus"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The continent that European powers explored and colonized in the 'Scramble'",
+          "answer": "Africa",
+          "choices": [
+            "Africa",
+            "Strait of Magellan",
+            "Nile",
+            "Harappa"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Spanish conquistador who conquered the Aztec Empire",
+          "answer": "Hernán Cortés",
+          "choices": [
+            "Leif Erikson",
+            "John Franklin",
+            "Magna Carta",
+            "Hernán Cortés"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The first European to reach the southern tip of Africa",
+          "answer": "Bartolomeu Dias",
+          "choices": [
+            "John Cabot",
+            "Abel Tasman",
+            "Dante Alighieri",
+            "Bartolomeu Dias"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The continent Australia was originally called by Dutch explorers",
+          "answer": "New Holland",
+          "choices": [
+            "Calicut",
+            "Africa",
+            "New Holland",
+            "Florence"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Chinese admiral who led voyages to Africa in the 15th century",
+          "answer": "Zheng He",
+          "choices": [
+            "Francisco Pizarro",
+            "Robert Falcon Scott",
+            "Zheng He",
+            "First Coalition"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Italian explorer who explored North America for France",
+          "answer": "Giovanni da Verrazzano",
+          "choices": [
+            "Giovanni da Verrazzano",
+            "John Cabot",
+            "Silk Road",
+            "Bartolomeu Dias"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The first person to circumnavigate the globe",
+          "answer": "Ferdinand Magellan",
+          "choices": [
+            "Christopher Columbus",
+            "Bartolomeu Dias",
+            "Ferdinand Magellan",
+            "Chola Dynasty"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The explorer who reached the North Pole first in 1909",
+          "answer": "Robert Peary",
+          "choices": [
+            "Robert Falcon Scott",
+            "Robert Peary",
+            "French Republican Calendar",
+            "New Holland"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Scottish missionary who explored central Africa",
+          "answer": "David Livingstone",
+          "choices": [
+            "Vitus Bering",
+            "Che Guevara",
+            "Aung San Suu Kyi",
+            "David Livingstone"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Italian merchant who traveled the Silk Road to China",
+          "answer": "Marco Polo",
+          "choices": [
+            "John Franklin",
+            "Francisco Pizarro",
+            "Robert Falcon Scott",
+            "Marco Polo"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Norwegian explorer who reached the South Pole first",
+          "answer": "Roald Amundsen",
+          "choices": [
+            "John Cabot",
+            "Roald Amundsen",
+            "Abel Tasman",
+            "Adolf Hitler"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The strait at South America's tip named after an explorer",
+          "answer": "Strait of Magellan",
+          "choices": [
+            "Calicut",
+            "Africa",
+            "Strait of Magellan",
+            "Treaty of Tordesillas"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The French explorer who claimed Louisiana for France",
+          "answer": "René-Robert Cavelier",
+          "choices": [
+            "Jacques Marquette",
+            "Great Trigonometrical Survey",
+            "René-Robert Cavelier",
+            "Christopher Columbus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Viking explorer who reached North America around 1000 AD",
+          "answer": "Leif Erikson",
+          "choices": [
+            "Jacques Marquette",
+            "Great Trigonometrical Survey",
+            "Leif Erikson",
+            "Christopher Columbus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The expedition led by Lewis and Clark to explore western America",
+          "answer": "Corps of Discovery",
+          "choices": [
+            "Corps of Discovery",
+            "Stanley's expedition",
+            "Treaty of Tordesillas",
+            "Ultra"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The British explorer who searched for the Northwest Passage and disappeared",
+          "answer": "John Franklin",
+          "choices": [
+            "Jacques Marquette",
+            "Great Trigonometrical Survey",
+            "John Franklin",
+            "Christopher Columbus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The river in Africa explored by Stanley and Livingstone",
+          "answer": "Congo River",
+          "choices": [
+            "Strait of Magellan",
+            "Congo River",
+            "Calicut",
+            "War in the Vendée"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Spanish explorer who conquered the Inca Empire",
+          "answer": "Francisco Pizarro",
+          "choices": [
+            "Francisco Pizarro",
+            "Marco Polo",
+            "Roald Amundsen",
+            "Cabinet Mission Plan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The British naval officer who explored Antarctica",
+          "answer": "Robert Falcon Scott",
+          "choices": [
+            "John Cabot",
+            "Robert Falcon Scott",
+            "Abel Tasman",
+            "Marshall Plan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The explorer who founded Quebec in 1608",
+          "answer": "Samuel de Champlain",
+          "choices": [
+            "Vitus Bering",
+            "Samuel de Champlain",
+            "Rabindranath Tagore",
+            "Lord Mountbatten"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Portuguese explorer who found a sea route to India",
+          "answer": "Vasco da Gama",
+          "choices": [
+            "Vitus Bering",
+            "Jacques Marquette",
+            "Vasco da Gama",
+            "Abel Tasman"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The city in India where Vasco da Gama first landed in 1498",
+          "answer": "Calicut",
+          "choices": [
+            "Strait of Magellan",
+            "Africa",
+            "Calicut",
+            "Nile"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Venetian explorer who may have preceded Columbus to America",
+          "answer": "John Cabot",
+          "choices": [
+            "Abel Tasman",
+            "Matthew Henson",
+            "Francis Drake",
+            "John Cabot"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Dutch explorer who discovered Tasmania and New Zealand",
+          "answer": "Abel Tasman",
+          "choices": [
+            "Abel Tasman",
+            "Bartolomeu Dias",
+            "Zheng He",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The African-American explorer who accompanied Peary to the North Pole",
+          "answer": "Matthew Henson",
+          "choices": [
+            "Leif Erikson",
+            "Matthew Henson",
+            "John Franklin",
+            "Francisco Pizarro"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The English explorer who circumnavigated the globe and fought the Spanish Armada",
+          "answer": "Francis Drake",
+          "choices": [
+            "Vitus Bering",
+            "Jacques Marquette",
+            "Francis Drake",
+            "Matthew Henson"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The journey Stanley made to find Livingstone in Africa",
+          "answer": "Stanley's expedition",
+          "choices": [
+            "Corps of Discovery",
+            "Treaty of Tordesillas",
+            "Clergy, Nobility, and Commoners",
+            "Stanley's expedition"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The British explorer who mapped much of the Pacific Ocean",
+          "answer": "James Cook",
+          "choices": [
+            "Vitus Bering",
+            "Jacques Marquette",
+            "James Cook",
+            "Udham Singh"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Portuguese explorer who claimed Brazil for Portugal",
+          "answer": "Pedro Álvares Cabral",
+          "choices": [
+            "Great Trigonometrical Survey",
+            "Christopher Columbus",
+            "Rash Behari Bose",
+            "Pedro Álvares Cabral"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The explorer who completed Magellan's circumnavigation after his death",
+          "answer": "Juan Sebastián Elcano",
+          "choices": [
+            "Juan Sebastián Elcano",
+            "Leif Erikson",
+            "John Franklin",
+            "Maximilien Robespierre"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Russian explorer who claimed Alaska for Russia",
+          "answer": "Vitus Bering",
+          "choices": [
+            "Francisco Pizarro",
+            "Robert Falcon Scott",
+            "Surya Sen",
+            "Vitus Bering"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The French explorer who mapped the Great Lakes region",
+          "answer": "Jacques Marquette",
+          "choices": [
+            "Abel Tasman",
+            "Matthew Henson",
+            "Jacques Marquette",
+            "Francis Drake"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The British expedition to measure the meridian arc in India",
+          "answer": "Great Trigonometrical Survey",
+          "choices": [
+            "Great Trigonometrical Survey",
+            "John Franklin",
+            "Francisco Pizarro",
+            "Robert Falcon Scott"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The treaty that divided the New World between Spain and Portugal",
+          "answer": "Treaty of Tordesillas",
+          "choices": [
+            "Treaty of Tordesillas",
+            "Corps of Discovery",
+            "Stanley's expedition",
+            "Power loom"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Freedom Fighters",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The Indian freedom fighter known as 'Netaji' who formed the Indian National Army",
+          "answer": "Subhas Chandra Bose",
+          "choices": [
+            "Subhas Chandra Bose",
+            "Bankim Chandra Chatterjee",
+            "Miguel Hidalgo",
+            "Nelson Mandela"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The leader of Cuba's revolution who overthrew Batista",
+          "answer": "Fidel Castro",
+          "choices": [
+            "Bipin Chandra Pal",
+            "Martin Luther King Jr.",
+            "Ho Chi Minh",
+            "Fidel Castro"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian revolutionary known as 'Shaheed' who was hanged at age 23",
+          "answer": "Bhagat Singh",
+          "choices": [
+            "Vinayak Damodar Savarkar",
+            "Bipin Chandra Pal",
+            "Bhagat Singh",
+            "Space Race"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Vietnamese leader who fought against French and American forces",
+          "answer": "Ho Chi Minh",
+          "choices": [
+            "Daniel Ortega",
+            "Ho Chi Minh",
+            "Bina Das",
+            "Miguel Hidalgo"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The 'Iron Lady of India' who was Jawaharlal Nehru's daughter",
+          "answer": "Indira Gandhi",
+          "choices": [
+            "Indira Gandhi",
+            "Udham Singh",
+            "Ahmed Ben Bella",
+            "Veer Savarkar"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Bengali revolutionary poet who wrote India's national song",
+          "answer": "Bankim Chandra Chatterjee",
+          "choices": [
+            "Ahmed Ben Bella",
+            "Bankim Chandra Chatterjee",
+            "Veer Savarkar",
+            "Samora Machel"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Mexican revolutionary priest who fought for independence",
+          "answer": "Miguel Hidalgo",
+          "choices": [
+            "Miguel Hidalgo",
+            "Subhas Chandra Bose",
+            "Fidel Castro",
+            "Bhagat Singh"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The South African anti-apartheid leader who became president after 27 years in prison",
+          "answer": "Nelson Mandela",
+          "choices": [
+            "Samora Machel",
+            "Rash Behari Bose",
+            "Daniel Ortega",
+            "Nelson Mandela"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian freedom fighter known as 'Lokmanya' meaning 'Accepted by the people'",
+          "answer": "Bal Gangadhar Tilak",
+          "choices": [
+            "Martin Luther King Jr.",
+            "Bal Gangadhar Tilak",
+            "Jomo Kenyatta",
+            "Rani Lakshmibai"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Argentinian revolutionary who fought alongside Fidel Castro",
+          "answer": "Che Guevara",
+          "choices": [
+            "Che Guevara",
+            "Bipin Chandra Pal",
+            "Martin Luther King Jr.",
+            "Jomo Kenyatta"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Burmese pro-democracy leader and Nobel Peace Prize winner",
+          "answer": "Aung San Suu Kyi",
+          "choices": [
+            "Robert Mugabe",
+            "Aung San Suu Kyi",
+            "Surya Sen",
+            "Yasser Arafat"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian revolutionary who established Hindu Mahasabha",
+          "answer": "Vinayak Damodar Savarkar",
+          "choices": [
+            "Kwame Nkrumah",
+            "Aurobindo Ghosh",
+            "Vinayak Damodar Savarkar",
+            "Udham Singh"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Polish labor leader who founded Solidarity movement",
+          "answer": "Lech Wałęsa",
+          "choices": [
+            "Veer Savarkar",
+            "Samora Machel",
+            "Lech Wałęsa",
+            "Rash Behari Bose"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian revolutionary known as 'Bengal Tiger'",
+          "answer": "Bipin Chandra Pal",
+          "choices": [
+            "B.R. Ambedkar",
+            "Bipin Chandra Pal",
+            "Kwame Nkrumah",
+            "Aurobindo Ghosh"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The leader of the U.S. civil rights movement known for his 'I Have a Dream' speech",
+          "answer": "Martin Luther King Jr.",
+          "choices": [
+            "Martin Luther King Jr.",
+            "Subhas Chandra Bose",
+            "Fidel Castro",
+            "Bhagat Singh"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Kenyan anti-colonial leader who became first president",
+          "answer": "Jomo Kenyatta",
+          "choices": [
+            "Miguel Hidalgo",
+            "Nelson Mandela",
+            "Jomo Kenyatta",
+            "Bal Gangadhar Tilak"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The queen of Jhansi who fought in the 1857 Indian Rebellion",
+          "answer": "Rani Lakshmibai",
+          "choices": [
+            "B.R. Ambedkar",
+            "Rani Lakshmibai",
+            "Kwame Nkrumah",
+            "Aurobindo Ghosh"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Irish republican leader who fought for independence",
+          "answer": "Michael Collins",
+          "choices": [
+            "Kwame Nkrumah",
+            "Aurobindo Ghosh",
+            "Michael Collins",
+            "Udham Singh"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian social reformer who fought against caste discrimination",
+          "answer": "B.R. Ambedkar",
+          "choices": [
+            "Nelson Mandela",
+            "Bal Gangadhar Tilak",
+            "Che Guevara",
+            "B.R. Ambedkar"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Ghanaian independence leader and Pan-Africanist",
+          "answer": "Kwame Nkrumah",
+          "choices": [
+            "Kwame Nkrumah",
+            "Bal Gangadhar Tilak",
+            "Che Guevara",
+            "Aung San Suu Kyi"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian revolutionary who founded Anushilan Samiti",
+          "answer": "Aurobindo Ghosh",
+          "choices": [
+            "Michael Collins",
+            "Aurobindo Ghosh",
+            "B.R. Ambedkar",
+            "Kwame Nkrumah"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian revolutionary who assassinated British official Michael O'Dwyer to avenge Jallianwala Bagh",
+          "answer": "Udham Singh",
+          "choices": [
+            "Bankim Chandra Chatterjee",
+            "Udham Singh",
+            "Miguel Hidalgo",
+            "Nelson Mandela"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Algerian independence fighter who led the FLN",
+          "answer": "Ahmed Ben Bella",
+          "choices": [
+            "Miguel Hidalgo",
+            "Nelson Mandela",
+            "Ahmed Ben Bella",
+            "Bal Gangadhar Tilak"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian revolutionary who was deported to Cellular Jail in Andaman",
+          "answer": "Veer Savarkar",
+          "choices": [
+            "Veer Savarkar",
+            "Bipin Chandra Pal",
+            "Martin Luther King Jr.",
+            "Indira Gandhi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Mozambican independence leader who fought Portuguese colonialism",
+          "answer": "Samora Machel",
+          "choices": [
+            "Michael Collins",
+            "Samora Machel",
+            "B.R. Ambedkar",
+            "Kwame Nkrumah"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian revolutionary who attempted to assassinate Viceroy Hardinge",
+          "answer": "Rash Behari Bose",
+          "choices": [
+            "Rash Behari Bose",
+            "Bipin Chandra Pal",
+            "Martin Luther King Jr.",
+            "Vijayanagara Empire"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Nicaraguan revolutionary who overthrew the Somoza dictatorship",
+          "answer": "Daniel Ortega",
+          "choices": [
+            "Nelson Mandela",
+            "Bal Gangadhar Tilak",
+            "Che Guevara",
+            "Daniel Ortega"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian woman who shot the British governor in Odisha",
+          "answer": "Bina Das",
+          "choices": [
+            "Nelson Mandela",
+            "Bal Gangadhar Tilak",
+            "Che Guevara",
+            "Bina Das"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Maratha warrior queen who fought against the Mughal Empire",
+          "answer": "Rani Lakshmibai",
+          "choices": [
+            "Bhagat Singh",
+            "Ho Chi Minh",
+            "Rani Lakshmibai",
+            "Indira Gandhi"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indonesian independence leader who became first president",
+          "answer": "Sukarno",
+          "choices": [
+            "Sukarno",
+            "Indira Gandhi",
+            "Bankim Chandra Chatterjee",
+            "Miguel Hidalgo"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian revolutionary who founded the Ghadar Party in San Francisco",
+          "answer": "Lala Har Dayal",
+          "choices": [
+            "Veer Savarkar",
+            "Samora Machel",
+            "Rash Behari Bose",
+            "Lala Har Dayal"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Zimbabwean independence fighter who fought white minority rule",
+          "answer": "Robert Mugabe",
+          "choices": [
+            "Michael Collins",
+            "Robert Mugabe",
+            "B.R. Ambedkar",
+            "Kwame Nkrumah"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian revolutionary who attempted the Chittagong armoury raid",
+          "answer": "Surya Sen",
+          "choices": [
+            "Bina Das",
+            "Lala Har Dayal",
+            "Berlin Airlift",
+            "Surya Sen"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Palestinian leader who founded the PLO",
+          "answer": "Yasser Arafat",
+          "choices": [
+            "Robert Mugabe",
+            "Surya Sen",
+            "Yasser Arafat",
+            "Subhas Chandra Bose"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian revolutionary siblings executed for attacking British officials",
+          "answer": "Khudiram Bose and Prafulla Chaki",
+          "choices": [
+            "Florence Cathedral dome",
+            "Titian",
+            "Humanism",
+            "Khudiram Bose and Prafulla Chaki"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "French Revolution",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The year the French Revolution began",
+          "answer": "1789",
+          "choices": [
+            "1789",
+            "1939",
+            "1947",
+            "1788"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The French king executed during the Revolution",
+          "answer": "Louis XVI",
+          "choices": [
+            "Marie Antoinette",
+            "National Assembly",
+            "Louis XVI",
+            "French Republican Calendar"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The queen known for 'Let them eat cake' who was also executed",
+          "answer": "Marie Antoinette",
+          "choices": [
+            "French Republican Calendar",
+            "Sea Peoples",
+            "Marie Antoinette",
+            "Maximilien Robespierre"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The three estates of French society before the Revolution",
+          "answer": "Clergy, Nobility, and Commoners",
+          "choices": [
+            "Guillotine",
+            "Clergy, Nobility, and Commoners",
+            "Jacobins",
+            "Declaration of the Rights of Man"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The legislative assembly during the early Revolution",
+          "answer": "National Assembly",
+          "choices": [
+            "National Assembly",
+            "Charlotte Corday",
+            "First Coalition",
+            "Vietnam War"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The revolutionary who led the radical Jacobins",
+          "answer": "Maximilien Robespierre",
+          "choices": [
+            "Revolutionary Tribunal",
+            "Maximilien Robespierre",
+            "Lala Har Dayal",
+            "First Coalition"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The palace where the royal family lived before the Revolution",
+          "answer": "Versailles",
+          "choices": [
+            "Fête de la Fédération",
+            "18 Brumaire",
+            "Flight to Varennes",
+            "Versailles"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The execution device used during the Reign of Terror",
+          "answer": "Guillotine",
+          "choices": [
+            "Assignat",
+            "Clergy, Nobility, and Commoners",
+            "Versailles",
+            "Guillotine"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The political group that controlled France during the Reign of Terror",
+          "answer": "Jacobins",
+          "choices": [
+            "Bastille",
+            "Fête de la Fédération",
+            "Jacobins",
+            "18 Brumaire"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The document declaring the Rights of Man and Citizen",
+          "answer": "Declaration of the Rights of Man",
+          "choices": [
+            "Declaration of the Rights of Man",
+            "18 Brumaire",
+            "Flight to Varennes",
+            "Liberté, Égalité, Fraternité"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The revolutionary calendar that replaced the Gregorian calendar",
+          "answer": "French Republican Calendar",
+          "choices": [
+            "French Republican Calendar",
+            "Tennis Court Oath",
+            "Andrew Carnegie",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The moderate political faction opposed to the Jacobins",
+          "answer": "Girondins",
+          "choices": [
+            "Flight to Varennes",
+            "Girondins",
+            "Liberté, Égalité, Fraternité",
+            "Assignat"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The period of extreme violence and executions in 1793-1794",
+          "answer": "Reign of Terror",
+          "choices": [
+            "Liberté, Égalité, Fraternité",
+            "Assignat",
+            "Reign of Terror",
+            "Clergy, Nobility, and Commoners"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The group of five leaders who ruled after Robespierre",
+          "answer": "Directory",
+          "choices": [
+            "Directory",
+            "Tennis Court Oath",
+            "Genghis Khan",
+            "Vijayanagara Empire"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The prison stormed by Parisians on July 14, 1789",
+          "answer": "Bastille",
+          "choices": [
+            "Jacobins",
+            "Declaration of the Rights of Man",
+            "Girondins",
+            "Bastille"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The march of women demanding bread that brought the king to Paris",
+          "answer": "Women's March on Versailles",
+          "choices": [
+            "Marie Antoinette",
+            "National Assembly",
+            "Women's March on Versailles",
+            "The Crusades"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The oath taken in a tennis court to create a constitution",
+          "answer": "Tennis Court Oath",
+          "choices": [
+            "Tennis Court Oath",
+            "First Coalition",
+            "Thermidorian Reaction",
+            "Ibn Sina"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The revolutionary journalist who published 'Friend of the People'",
+          "answer": "Jean-Paul Marat",
+          "choices": [
+            "Marie Antoinette",
+            "National Assembly",
+            "Jean-Paul Marat",
+            "The Holocaust"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The counter-revolutionary uprising in the Vendée region",
+          "answer": "War in the Vendée",
+          "choices": [
+            "Stock market",
+            "War in the Vendée",
+            "Afghanistan",
+            "Africa"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The philosopher whose ideas influenced the Revolution",
+          "answer": "Jean-Jacques Rousseau",
+          "choices": [
+            "Charlotte Corday",
+            "Jean-Jacques Rousseau",
+            "First Coalition",
+            "Tennis Court Oath"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The festival celebrating the anniversary of Bastille Day",
+          "answer": "Fête de la Fédération",
+          "choices": [
+            "Flight to Varennes",
+            "Fête de la Fédération",
+            "Liberté, Égalité, Fraternité",
+            "Assignat"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The leader who crowned himself Emperor of France in 1804",
+          "answer": "Napoleon Bonaparte",
+          "choices": [
+            "National Assembly",
+            "Maximilien Robespierre",
+            "French Republican Calendar",
+            "Napoleon Bonaparte"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The coup that brought Napoleon to power in 1799",
+          "answer": "18 Brumaire",
+          "choices": [
+            "Jacobins",
+            "Declaration of the Rights of Man",
+            "Girondins",
+            "18 Brumaire"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The woman who assassinated Marat in his bathtub",
+          "answer": "Charlotte Corday",
+          "choices": [
+            "First Coalition",
+            "Thermidorian Reaction",
+            "The Mountain",
+            "Charlotte Corday"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The committee that wielded executive power during the Terror",
+          "answer": "Committee of Public Safety",
+          "choices": [
+            "Yash Raj Films",
+            "Committee of Public Safety",
+            "Gravity 2",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The unsuccessful flight of the royal family from Paris",
+          "answer": "Flight to Varennes",
+          "choices": [
+            "Guillotine",
+            "Jacobins",
+            "Flight to Varennes",
+            "Declaration of the Rights of Man"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The revolutionary who created the Cult of the Supreme Being",
+          "answer": "Robespierre",
+          "choices": [
+            "Napoleon Bonaparte",
+            "Robespierre",
+            "Charlotte Corday",
+            "Bandung Conference"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The coalition of European monarchies fighting revolutionary France",
+          "answer": "First Coalition",
+          "choices": [
+            "Tennis Court Oath",
+            "David Livingstone",
+            "Marco Polo",
+            "First Coalition"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The revolutionary slogan meaning 'Liberty, Equality, Fraternity'",
+          "answer": "Liberté, Égalité, Fraternité",
+          "choices": [
+            "Liberté, Égalité, Fraternité",
+            "Clergy, Nobility, and Commoners",
+            "Versailles",
+            "Guillotine"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The conspiracy that ended Robespierre's rule and life",
+          "answer": "Thermidorian Reaction",
+          "choices": [
+            "First Coalition",
+            "The Mountain",
+            "Thermidorian Reaction",
+            "Revolutionary Tribunal"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The radical group including Robespierre, Danton, and Marat",
+          "answer": "The Mountain",
+          "choices": [
+            "The Mountain",
+            "Charlotte Corday",
+            "First Coalition",
+            "Subhas Chandra Bose"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The law that stripped clergy of special status",
+          "answer": "Civil Constitution of the Clergy",
+          "choices": [
+            "Ohm's Law",
+            "Civil Constitution of the Clergy",
+            "Newton's Third Law",
+            "Avogadro's Law"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The currency introduced by revolutionaries that caused hyperinflation",
+          "answer": "Assignat",
+          "choices": [
+            "Assignat",
+            "Clergy, Nobility, and Commoners",
+            "Versailles",
+            "Guillotine"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The revolutionary tribunal that tried enemies of the Revolution",
+          "answer": "Revolutionary Tribunal",
+          "choices": [
+            "Maximilien Robespierre",
+            "Revolutionary Tribunal",
+            "French Republican Calendar",
+            "Thermidorian Reaction"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Prussian general who threatened to destroy Paris if the king was harmed",
+          "answer": "Duke of Brunswick",
+          "choices": [
+            "Duke of Brunswick",
+            "Napoleon Bonaparte",
+            "Charlotte Corday",
+            "Thermidorian Reaction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Renaissance",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The Italian city considered the birthplace of the Renaissance",
+          "answer": "Florence",
+          "choices": [
+            "Kashmir",
+            "Hyderabad",
+            "Florence",
+            "Classical Greece and Rome"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Renaissance man who painted the Last Supper",
+          "answer": "Leonardo da Vinci",
+          "choices": [
+            "Leonardo da Vinci",
+            "Sandro Botticelli",
+            "Michael Collins",
+            "Kwame Nkrumah"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The invention by Gutenberg that revolutionized learning",
+          "answer": "Printing press",
+          "choices": [
+            "Printing press",
+            "Medieval period",
+            "Classical Greece and Rome",
+            "Linear perspective"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The period before the Renaissance known as the Dark Ages",
+          "answer": "Medieval period",
+          "choices": [
+            "Humanism",
+            "Medici",
+            "Medieval period",
+            "Sfumato"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The English playwright who wrote during the Renaissance",
+          "answer": "William Shakespeare",
+          "choices": [
+            "Mona Lisa",
+            "Martin Luther",
+            "Fidel Castro",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Renaissance ideal of a well-rounded, educated person",
+          "answer": "Renaissance Man",
+          "choices": [
+            "William Shakespeare",
+            "Marie Antoinette",
+            "Renaissance Man",
+            "Nicolaus Copernicus"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The revival of this ancient culture's art and philosophy",
+          "answer": "Classical Greece and Rome",
+          "choices": [
+            "Albrecht Dürer",
+            "Classical Greece and Rome",
+            "Prince Henry the Navigator",
+            "Krishnadevaraya"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The artist who painted the Sistine Chapel ceiling",
+          "answer": "Michelangelo",
+          "choices": [
+            "Sandro Botticelli",
+            "Achaemenid Empire",
+            "Martin Luther",
+            "Michelangelo"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Florentine poet who wrote The Divine Comedy",
+          "answer": "Dante Alighieri",
+          "choices": [
+            "Dante Alighieri",
+            "Martin Luther",
+            "Sandro Botticelli",
+            "Abbasid Caliphate"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The technique of creating depth in paintings using perspective",
+          "answer": "Linear perspective",
+          "choices": [
+            "Titian",
+            "Linear perspective",
+            "Humanism",
+            "Medici"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The artist who sculpted the statue of David",
+          "answer": "Michelangelo",
+          "choices": [
+            "William Shakespeare",
+            "Renaissance Man",
+            "Michelangelo",
+            "Mona Lisa"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Dutch humanist scholar who wrote 'In Praise of Folly'",
+          "answer": "Erasmus",
+          "choices": [
+            "Martin Luther",
+            "Sandro Botticelli",
+            "Erasmus",
+            "Mona Lisa"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Italian author who wrote 'The Prince' about political power",
+          "answer": "Niccolò Machiavelli",
+          "choices": [
+            "Bankim Chandra Chatterjee",
+            "Niccolò Machiavelli",
+            "Miguel Hidalgo",
+            "Nelson Mandela"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The painting technique of subtle gradations of light and shadow",
+          "answer": "Chiaroscuro",
+          "choices": [
+            "Chiaroscuro",
+            "Printing press",
+            "Medieval period",
+            "Classical Greece and Rome"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The famous painting by Leonardo da Vinci featuring a woman's smile",
+          "answer": "Mona Lisa",
+          "choices": [
+            "William Shakespeare",
+            "Renaissance Man",
+            "Muhammad Ali Jinnah",
+            "Mona Lisa"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Protestant Reformation leader who challenged the Catholic Church",
+          "answer": "Martin Luther",
+          "choices": [
+            "Martin Luther",
+            "Mona Lisa",
+            "Manhattan Project",
+            "Pearl Harbor"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The architectural dome designed by Brunelleschi in Florence",
+          "answer": "Florence Cathedral dome",
+          "choices": [
+            "Krishnadevaraya",
+            "Printing press",
+            "Medieval period",
+            "Florence Cathedral dome"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Venetian artist known for his use of color and light",
+          "answer": "Titian",
+          "choices": [
+            "Titian",
+            "Sfumato",
+            "Albrecht Dürer",
+            "Prince Henry the Navigator"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The English king who broke from the Catholic Church",
+          "answer": "Henry VIII",
+          "choices": [
+            "William Shakespeare",
+            "Renaissance Man",
+            "Sea Peoples",
+            "Henry VIII"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The artist who painted 'The Birth of Venus'",
+          "answer": "Sandro Botticelli",
+          "choices": [
+            "Sandro Botticelli",
+            "Martin Luther",
+            "Indian National Congress",
+            "B.R. Ambedkar"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The concept of studying classical texts and human potential",
+          "answer": "Humanism",
+          "choices": [
+            "Linear perspective",
+            "Chiaroscuro",
+            "Florence Cathedral dome",
+            "Humanism"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The wealthy Italian family that ruled Florence and patronized artists",
+          "answer": "Medici",
+          "choices": [
+            "Titian",
+            "Humanism",
+            "Medici",
+            "Sfumato"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Flemish painter who pioneered oil painting techniques",
+          "answer": "Jan van Eyck",
+          "choices": [
+            "Nicolaus Copernicus",
+            "Jan van Eyck",
+            "B.R. Ambedkar",
+            "Sepoy Mutiny"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The painter who created 'The School of Athens'",
+          "answer": "Raphael",
+          "choices": [
+            "Raphael",
+            "Renaissance Man",
+            "Dante Alighieri",
+            "Che Guevara"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The technique Leonardo used of soft, smoky transitions",
+          "answer": "Sfumato",
+          "choices": [
+            "Prince Henry the Navigator",
+            "Krishnadevaraya",
+            "Sfumato",
+            "Printing press"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The French Renaissance king who invited Leonardo to France",
+          "answer": "Francis I",
+          "choices": [
+            "Francis I",
+            "Mona Lisa",
+            "Martin Luther",
+            "Renaissance Man"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The German artist known for detailed engravings and prints",
+          "answer": "Albrecht Dürer",
+          "choices": [
+            "Prince Henry the Navigator",
+            "Krishnadevaraya",
+            "Albrecht Dürer",
+            "Printing press"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The papal architect who designed St. Peter's Basilica",
+          "answer": "Donato Bramante",
+          "choices": [
+            "Sandro Botticelli",
+            "Donato Bramante",
+            "Kwame Nkrumah",
+            "Aurobindo Ghosh"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The astronomer who proposed that Earth revolves around the Sun",
+          "answer": "Nicolaus Copernicus",
+          "choices": [
+            "Mona Lisa",
+            "Martin Luther",
+            "Nicolaus Copernicus",
+            "Smiling Buddha"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The book by Baldassare Castiglione defining the ideal Renaissance courtier",
+          "answer": "The Book of the Courtier",
+          "choices": [
+            "Hundred Years' War",
+            "The Book of the Courtier",
+            "Raphael",
+            "Sfumato"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The mathematician who introduced Hindu-Arabic numerals to Europe",
+          "answer": "Fibonacci",
+          "choices": [
+            "Donato Bramante",
+            "Nicolaus Copernicus",
+            "Fibonacci",
+            "Yuan Dynasty"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Venetian painter who introduced Mannerist style",
+          "answer": "Tintoretto",
+          "choices": [
+            "Dante Alighieri",
+            "The Axis Powers",
+            "Tintoretto",
+            "Winston Churchill"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The architect who designed the dome of St. Peter's Basilica",
+          "answer": "Michelangelo",
+          "choices": [
+            "William Shakespeare",
+            "Michelangelo",
+            "Renaissance Man",
+            "Dante Alighieri"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Portuguese explorer's voyages inspired by Renaissance navigation advances",
+          "answer": "Prince Henry the Navigator",
+          "choices": [
+            "Linear perspective",
+            "Chiaroscuro",
+            "Florence Cathedral dome",
+            "Prince Henry the Navigator"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Vijayanagara Empire contemporary with European Renaissance in India",
+          "answer": "Krishnadevaraya",
+          "choices": [
+            "Classical Greece and Rome",
+            "Linear perspective",
+            "Krishnadevaraya",
+            "Chiaroscuro"
+          ]
+        }
+      ]
+    }
+  ]
+}

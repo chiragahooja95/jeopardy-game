@@ -1,0 +1,4296 @@
+{
+  "name": "General Knowledge",
+  "description": "A diverse mix of categories covering various topics",
+  "categories": [
+    {
+      "name": "World Geography",
+      "questions": [
+        {
+          "value": 200,
+          "question": "This country is home to the ancient pyramids of Giza",
+          "answer": "Egypt",
+          "choices": [
+            "Egypt",
+            "Russia",
+            "Seine",
+            "Greenland"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The capital of India",
+          "answer": "New Delhi",
+          "choices": [
+            "Greenland",
+            "Brahmaputra",
+            "Strait of Gibraltar",
+            "New Delhi"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The largest country in the world by land area",
+          "answer": "Russia",
+          "choices": [
+            "Liechtenstein",
+            "Astana",
+            "Russia",
+            "Punjab"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The river that flows through Paris",
+          "answer": "Seine",
+          "choices": [
+            "Tokyo",
+            "Seine",
+            "Astana",
+            "Australia"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The continent where the Sahara Desert is located",
+          "answer": "Africa",
+          "choices": [
+            "Tokyo",
+            "Africa",
+            "Australia",
+            "Antarctica"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The island nation south of India",
+          "answer": "Sri Lanka",
+          "choices": [
+            "Ganges",
+            "Tokyo",
+            "Delhi",
+            "Sri Lanka"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ocean between Africa and Australia",
+          "answer": "Indian Ocean",
+          "choices": [
+            "Indian Ocean",
+            "Himalayas",
+            "Antarctica",
+            "Astana"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The capital city of Australia",
+          "answer": "Canberra",
+          "choices": [
+            "Egypt",
+            "Punjab",
+            "Coachella",
+            "Canberra"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The longest river in India",
+          "answer": "Ganges",
+          "choices": [
+            "Greenland",
+            "Ganges",
+            "Brahmaputra",
+            "Strait of Gibraltar"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The tallest mountain in the world",
+          "answer": "Mount Everest",
+          "choices": [
+            "Mount Everest",
+            "Egypt",
+            "Russia",
+            "Canberra"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The capital of Japan",
+          "answer": "Tokyo",
+          "choices": [
+            "Liechtenstein",
+            "Astana",
+            "Tokyo",
+            "Seine"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The body of water that separates India from Sri Lanka",
+          "answer": "Palk Strait",
+          "choices": [
+            "Palk Strait",
+            "Cape Agulhas",
+            "Antonio Vivaldi",
+            "Zakir Hussain"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of continents in the world",
+          "answer": "7",
+          "choices": [
+            "3 to 3.5 kg",
+            "7",
+            "37",
+            "6"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The desert located in Rajasthan, India",
+          "answer": "Thar Desert",
+          "choices": [
+            "Australia",
+            "Himalayas",
+            "Antarctica",
+            "Thar Desert"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "This mountain range separates Europe from Asia",
+          "answer": "The Ural Mountains",
+          "choices": [
+            "Seine",
+            "Africa",
+            "Antarctica",
+            "The Ural Mountains"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The highest mountain peak in India",
+          "answer": "Kanchenjunga",
+          "choices": [
+            "Egypt",
+            "Nile",
+            "Pompeii",
+            "Kanchenjunga"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The country with the most time zones",
+          "answer": "France",
+          "choices": [
+            "Australia",
+            "Himalayas",
+            "France",
+            "Delhi"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The deepest point in the ocean",
+          "answer": "Mariana Trench",
+          "choices": [
+            "Greenland",
+            "Mariana Trench",
+            "Brahmaputra",
+            "Strait of Gibraltar"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The southernmost point of the Indian mainland",
+          "answer": "Kanyakumari",
+          "choices": [
+            "Equator",
+            "Andaman and Nicobar Islands",
+            "Kanyakumari",
+            "Dolphin"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The only country that is also a continent",
+          "answer": "Australia",
+          "choices": [
+            "Antarctica",
+            "Australia",
+            "Greenland",
+            "Kanchenjunga"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The mountain range where Mount Everest is located",
+          "answer": "Himalayas",
+          "choices": [
+            "Tokyo",
+            "Himalayas",
+            "Ganges",
+            "Canberra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The world's largest desert by area",
+          "answer": "Antarctica",
+          "choices": [
+            "Russia",
+            "Seine",
+            "Antarctica",
+            "Africa"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The smallest country in the world by area",
+          "answer": "Vatican City",
+          "choices": [
+            "Vatican City",
+            "Australia",
+            "Himalayas",
+            "Antarctica"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The line of latitude at 0 degrees",
+          "answer": "Equator",
+          "choices": [
+            "Kanyakumari",
+            "Andaman and Nicobar Islands",
+            "Mozzarella",
+            "Equator"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest island in the world",
+          "answer": "Greenland",
+          "choices": [
+            "Canberra",
+            "Ganges",
+            "India",
+            "Greenland"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Union Territory of India consisting of islands in the Bay of Bengal",
+          "answer": "Andaman and Nicobar Islands",
+          "choices": [
+            "Kanyakumari",
+            "Equator",
+            "Hieroglyphics",
+            "Andaman and Nicobar Islands"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The river that forms a large delta in Bangladesh and India",
+          "answer": "Brahmaputra",
+          "choices": [
+            "Tokyo",
+            "Brahmaputra",
+            "Egypt",
+            "Seine"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The strait connecting the Mediterranean Sea to the Atlantic Ocean",
+          "answer": "Strait of Gibraltar",
+          "choices": [
+            "Canberra",
+            "Strait of Gibraltar",
+            "Japan",
+            "Hyderabad"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "This landlocked country is doubly landlocked, surrounded only by other landlocked countries",
+          "answer": "Liechtenstein",
+          "choices": [
+            "Liechtenstein",
+            "Kanchenjunga",
+            "France",
+            "Himalayas"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The capital of Kazakhstan",
+          "answer": "Astana",
+          "choices": [
+            "Astana",
+            "Egypt",
+            "Russia",
+            "Tokyo"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The highest capital city in the world",
+          "answer": "La Paz",
+          "choices": [
+            "La Paz",
+            "Kanchenjunga",
+            "France",
+            "Kanyakumari"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Western Ghats and Eastern Ghats meet at this hill range in Tamil Nadu",
+          "answer": "Nilgiri Hills",
+          "choices": [
+            "Delhi",
+            "Nilgiri Hills",
+            "Nile",
+            "Pompeii"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The only sea without any coastline",
+          "answer": "Sargasso Sea",
+          "choices": [
+            "Tokyo",
+            "Kanchenjunga",
+            "Sargasso Sea",
+            "France"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The oldest mountain range in India",
+          "answer": "Aravalli Range",
+          "choices": [
+            "Aravalli Range",
+            "Egypt",
+            "Russia",
+            "Tokyo"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The point where three oceans meet at the southern tip of Africa",
+          "answer": "Cape Agulhas",
+          "choices": [
+            "Cape Agulhas",
+            "Palk Strait",
+            "Project Tiger",
+            "Sooty Tern"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Classic Literature",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The author of 'Pride and Prejudice'",
+          "answer": "Jane Austen",
+          "choices": [
+            "Lewis Carroll",
+            "Rabindranath Tagore",
+            "Chandragupta Maurya",
+            "Jane Austen"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian author who wrote 'The Guide' and won the Sahitya Akademi Award",
+          "answer": "R.K. Narayan",
+          "choices": [
+            "Jane Austen",
+            "R.K. Narayan",
+            "William Shakespeare",
+            "Peter Pan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The author of 'Romeo and Juliet'",
+          "answer": "William Shakespeare",
+          "choices": [
+            "Marcel Proust",
+            "Arundhati Roy",
+            "William Shakespeare",
+            "The Metamorphosis"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The children's book about a boy who never grows up",
+          "answer": "Peter Pan",
+          "choices": [
+            "Rabindranath Tagore",
+            "Big Brother",
+            "Peter Pan",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The author of 'Alice's Adventures in Wonderland'",
+          "answer": "Lewis Carroll",
+          "choices": [
+            "Lewis Carroll",
+            "Jane Austen",
+            "R.K. Narayan",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian poet who wrote 'Gitanjali' and won the Nobel Prize",
+          "answer": "Rabindranath Tagore",
+          "choices": [
+            "West Egg",
+            "Marcel Proust",
+            "Arundhati Roy",
+            "Rabindranath Tagore"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The classic tale about a wooden puppet who wants to be a real boy",
+          "answer": "Pinocchio",
+          "choices": [
+            "Fyodor Dostoevsky",
+            "Salman Rushdie",
+            "Vikram Seth",
+            "Pinocchio"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "In '1984', this totalitarian leader watches over Oceania",
+          "answer": "Big Brother",
+          "choices": [
+            "Big Brother",
+            "Arundhati Roy",
+            "The Metamorphosis",
+            "Freddie Young"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The author of 'The Canterbury Tales'",
+          "answer": "Geoffrey Chaucer",
+          "choices": [
+            "Geoffrey Chaucer",
+            "Jane Austen",
+            "R.K. Narayan",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The novel by Harper Lee about racial injustice in Alabama",
+          "answer": "To Kill a Mockingbird",
+          "choices": [
+            "One Hundred Years of Solitude",
+            "Ulysses",
+            "Les Misérables",
+            "To Kill a Mockingbird"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Russian author who wrote 'War and Peace'",
+          "answer": "Leo Tolstoy",
+          "choices": [
+            "Rabindranath Tagore",
+            "Big Brother",
+            "Leo Tolstoy",
+            "Cricket World Cup"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The epic Indian poem that includes the Bhagavad Gita",
+          "answer": "Mahabharata",
+          "choices": [
+            "Mahabharata",
+            "Moby-Dick",
+            "Mrs. Dalloway",
+            "Jane Eyre"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The author of 'The Picture of Dorian Gray'",
+          "answer": "Oscar Wilde",
+          "choices": [
+            "Fyodor Dostoevsky",
+            "Oscar Wilde",
+            "Salman Rushdie",
+            "Vikram Seth"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The dystopian novel by Aldous Huxley about a futuristic society",
+          "answer": "Brave New World",
+          "choices": [
+            "Jane Eyre",
+            "The Iliad",
+            "Brave New World",
+            "To Kill a Mockingbird"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The tragic Shakespeare play featuring the Prince of Denmark",
+          "answer": "Hamlet",
+          "choices": [
+            "Mahabharata",
+            "Hamlet",
+            "Brave New World",
+            "One Hundred Years of Solitude"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The novel by Gabriel García Márquez about the Buendía family",
+          "answer": "One Hundred Years of Solitude",
+          "choices": [
+            "Ulysses",
+            "Les Misérables",
+            "One Hundred Years of Solitude",
+            "Moby-Dick"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The author of 'Crime and Punishment'",
+          "answer": "Fyodor Dostoevsky",
+          "choices": [
+            "Fyodor Dostoevsky",
+            "Big Brother",
+            "Geoffrey Chaucer",
+            "Federico Fellini"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian author who wrote 'Midnight's Children' and won the Booker Prize",
+          "answer": "Salman Rushdie",
+          "choices": [
+            "R.K. Narayan",
+            "William Shakespeare",
+            "Peter Pan",
+            "Salman Rushdie"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The James Joyce novel that takes place over a single day in Dublin",
+          "answer": "Ulysses",
+          "choices": [
+            "Jane Eyre",
+            "The Iliad",
+            "Ulysses",
+            "To Kill a Mockingbird"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The French novel by Victor Hugo about Jean Valjean",
+          "answer": "Les Misérables",
+          "choices": [
+            "Ulysses",
+            "Moby-Dick",
+            "Mrs. Dalloway",
+            "Les Misérables"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Sanskrit epic about Prince Rama's quest to rescue Sita",
+          "answer": "Ramayana",
+          "choices": [
+            "Avocado",
+            "Khichdi",
+            "Naan",
+            "Ramayana"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "This Herman Melville novel begins with 'Call me Ishmael'",
+          "answer": "Moby-Dick",
+          "choices": [
+            "One Hundred Years of Solitude",
+            "Ulysses",
+            "Moby-Dick",
+            "Les Misérables"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The author of 'Anna Karenina'",
+          "answer": "Leo Tolstoy",
+          "choices": [
+            "Leo Tolstoy",
+            "Arundhati Roy",
+            "The Metamorphosis",
+            "Stanley Kubrick"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian author who wrote 'A Suitable Boy', one of the longest novels in English",
+          "answer": "Vikram Seth",
+          "choices": [
+            "Rabindranath Tagore",
+            "Vikram Seth",
+            "Big Brother",
+            "Palk Strait"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Virginia Woolf novel about a woman planning a party",
+          "answer": "Mrs. Dalloway",
+          "choices": [
+            "Mrs. Dalloway",
+            "Les Misérables",
+            "Moby-Dick",
+            "Jane Eyre"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The author of 'The Divine Comedy'",
+          "answer": "Dante Alighieri",
+          "choices": [
+            "Rabindranath Tagore",
+            "Big Brother",
+            "Ravi K. Chandran",
+            "Dante Alighieri"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The novel by Charlotte Brontë about a governess at Thornfield Hall",
+          "answer": "Jane Eyre",
+          "choices": [
+            "To Kill a Mockingbird",
+            "Mahabharata",
+            "Jane Eyre",
+            "Brave New World"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Greek epic poem about the Trojan War attributed to Homer",
+          "answer": "The Iliad",
+          "choices": [
+            "Brave New World",
+            "Hamlet",
+            "The Iliad",
+            "One Hundred Years of Solitude"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "In 'The Great Gatsby', this is the name of Gatsby's mansion neighborhood",
+          "answer": "West Egg",
+          "choices": [
+            "Fyodor Dostoevsky",
+            "Salman Rushdie",
+            "Vikram Seth",
+            "West Egg"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The author of 'In Search of Lost Time', considered one of the longest novels",
+          "answer": "Marcel Proust",
+          "choices": [
+            "Lewis Carroll",
+            "Rabindranath Tagore",
+            "Federico Fellini",
+            "Marcel Proust"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian author who wrote 'The God of Small Things' and won the Booker Prize",
+          "answer": "Arundhati Roy",
+          "choices": [
+            "Big Brother",
+            "Arundhati Roy",
+            "Geoffrey Chaucer",
+            "Abhinav Bindra"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The number of plays attributed to William Shakespeare",
+          "answer": "37",
+          "choices": [
+            "37",
+            "3 to 3.5 kg",
+            "7",
+            "11"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The novel by Franz Kafka about a man who transforms into an insect",
+          "answer": "The Metamorphosis",
+          "choices": [
+            "The Metamorphosis",
+            "Jane Austen",
+            "R.K. Narayan",
+            "William Shakespeare"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Sanskrit dramatist who wrote 'Shakuntala'",
+          "answer": "Kalidasa",
+          "choices": [
+            "Rabindranath Tagore",
+            "Big Brother",
+            "Kalidasa",
+            "Viswanathan Anand"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The author of 'The Brothers Karamazov'",
+          "answer": "Fyodor Dostoevsky",
+          "choices": [
+            "Fyodor Dostoevsky",
+            "Rabindranath Tagore",
+            "Big Brother",
+            "Slow Loris"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Movie Classics",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The year the first 'Star Wars' film was released",
+          "answer": "1977",
+          "choices": [
+            "1977",
+            "1980",
+            "1975",
+            "1983"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The director of 'Jurassic Park' and 'E.T.'",
+          "answer": "Steven Spielberg",
+          "choices": [
+            "Steven Spielberg",
+            "George Lucas",
+            "James Cameron",
+            "Robert Zemeckis"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actor who played Forrest Gump",
+          "answer": "Tom Hanks",
+          "choices": [
+            "Tom Hanks",
+            "Robin Williams",
+            "Kevin Costner",
+            "Brad Pitt"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The 1994 Disney film about a young lion prince",
+          "answer": "The Lion King",
+          "choices": [
+            "The Lion King",
+            "Aladdin",
+            "Pocahontas",
+            "Mulan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The film series about a boy wizard at Hogwarts",
+          "answer": "Harry Potter",
+          "choices": [
+            "Harry Potter",
+            "The Chronicles of Narnia",
+            "Percy Jackson",
+            "Fantastic Beasts"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The director known as the 'Master of Suspense'",
+          "answer": "Alfred Hitchcock",
+          "choices": [
+            "Alfred Hitchcock",
+            "Orson Welles",
+            "Billy Wilder",
+            "Stanley Kubrick"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The 1972 crime film about the Corleone family",
+          "answer": "The Godfather",
+          "choices": [
+            "The Godfather",
+            "Goodfellas",
+            "Scarface",
+            "Once Upon a Time in America"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The actor who played Jack Dawson in 'Titanic'",
+          "answer": "Leonardo DiCaprio",
+          "choices": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Matt Damon",
+            "Johnny Depp"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 1994 film directed by Frank Darabont set in a prison",
+          "answer": "The Shawshank Redemption",
+          "choices": [
+            "The Shawshank Redemption",
+            "The Green Mile",
+            "Escape from Alcatraz",
+            "Dead Man Walking"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The actress who played Clarice Starling in 'The Silence of the Lambs'",
+          "answer": "Jodie Foster",
+          "choices": [
+            "Jodie Foster",
+            "Meryl Streep",
+            "Sigourney Weaver",
+            "Susan Sarandon"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 1942 romantic film set in Morocco during World War II",
+          "answer": "Casablanca",
+          "choices": [
+            "Casablanca",
+            "Gone with the Wind",
+            "Roman Holiday",
+            "Now, Voyager"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian director who created the Apu Trilogy",
+          "answer": "Satyajit Ray",
+          "choices": [
+            "Satyajit Ray",
+            "Ritwik Ghatak",
+            "Mrinal Sen",
+            "Shyam Benegal"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 1939 film featuring the song 'Somewhere Over the Rainbow'",
+          "answer": "The Wizard of Oz",
+          "choices": [
+            "The Wizard of Oz",
+            "Mary Poppins",
+            "Singin' in the Rain",
+            "My Fair Lady"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The actor who played Vito Corleone in 'The Godfather'",
+          "answer": "Marlon Brando",
+          "choices": [
+            "Marlon Brando",
+            "Al Pacino",
+            "Robert De Niro",
+            "James Caan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The fictional African country in 'Black Panther'",
+          "answer": "Wakanda",
+          "choices": [
+            "Wakanda",
+            "Genovia",
+            "Latveria",
+            "Zamunda"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Japanese director who created 'Seven Samurai' and 'Rashomon'",
+          "answer": "Akira Kurosawa",
+          "choices": [
+            "Akira Kurosawa",
+            "Yasujiro Ozu",
+            "Kenji Mizoguchi",
+            "Hayao Miyazaki"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The film that won the most Academy Awards in a single year",
+          "answer": "Ben-Hur",
+          "choices": [
+            "Ben-Hur",
+            "Titanic",
+            "The Lord of the Rings: The Return of the King",
+            "West Side Story"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 1960 Hitchcock film about a woman who steals money and checks into a motel",
+          "answer": "Psycho",
+          "choices": [
+            "Psycho",
+            "Rear Window",
+            "Vertigo",
+            "North by Northwest"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian film that was nominated for Best Foreign Language Film Oscar in 2001",
+          "answer": "Lagaan",
+          "choices": [
+            "Lagaan",
+            "Mother India",
+            "Salaam Bombay!",
+            "Pather Panchali"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The director of '2001: A Space Odyssey' and 'The Shining'",
+          "answer": "Stanley Kubrick",
+          "choices": [
+            "Stanley Kubrick",
+            "Ridley Scott",
+            "Francis Ford Coppola",
+            "David Fincher"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 1941 film directed by Orson Welles, often called the greatest film ever made",
+          "answer": "Citizen Kane",
+          "choices": [
+            "Citizen Kane",
+            "The Third Man",
+            "Rebecca",
+            "Sunset Boulevard"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "In 'The Matrix', this color pill reveals the truth",
+          "answer": "Red",
+          "choices": [
+            "Red",
+            "Blue",
+            "Green",
+            "Yellow"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The French New Wave director who created 'The 400 Blows'",
+          "answer": "François Truffaut",
+          "choices": [
+            "François Truffaut",
+            "Jean-Luc Godard",
+            "Claude Chabrol",
+            "Éric Rohmer"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of Academy Awards won by 'Titanic'",
+          "answer": "11",
+          "choices": [
+            "11",
+            "9",
+            "10",
+            "12"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The 1975 thriller about a man-eating shark terrorizing a beach town",
+          "answer": "Jaws",
+          "choices": [
+            "Jaws",
+            "The Deep",
+            "Piranha",
+            "Orca"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Italian director of 'La Dolce Vita' and '8½'",
+          "answer": "Federico Fellini",
+          "choices": [
+            "Federico Fellini",
+            "Luchino Visconti",
+            "Michelangelo Antonioni",
+            "Roberto Rossellini"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The first Indian film in color",
+          "answer": "Kisan Kanya",
+          "choices": [
+            "Kisan Kanya",
+            "Mother India",
+            "Mughal-e-Azam",
+            "Raja Harishchandra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The actor who won consecutive Best Actor Oscars in 1993 and 1994",
+          "answer": "Tom Hanks",
+          "choices": [
+            "Tom Hanks",
+            "Daniel Day-Lewis",
+            "Dustin Hoffman",
+            "Sean Penn"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The first film to win the Academy Award for Best Picture",
+          "answer": "Wings",
+          "choices": [
+            "Wings",
+            "Sunrise",
+            "The Broadway Melody",
+            "All Quiet on the Western Front"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Swedish director known for 'The Seventh Seal' and 'Wild Strawberries'",
+          "answer": "Ingmar Bergman",
+          "choices": [
+            "Ingmar Bergman",
+            "Carl Theodor Dreyer",
+            "Lars von Trier",
+            "Victor Sjostrom"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The year the first Academy Awards ceremony was held",
+          "answer": "1929",
+          "choices": [
+            "1929",
+            "1927",
+            "1931",
+            "1933"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian director who won the Palme d'Or at Cannes for 'Pather Panchali'",
+          "answer": "Satyajit Ray",
+          "choices": [
+            "Satyajit Ray",
+            "Mira Nair",
+            "Shyam Benegal",
+            "Adoor Gopalakrishnan"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The cinematographer who shot 'Lawrence of Arabia' and 'Doctor Zhivago'",
+          "answer": "Freddie Young",
+          "choices": [
+            "Freddie Young",
+            "Sven Nykvist",
+            "Vittorio Storaro",
+            "Gregg Toland"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Russian director of 'Battleship Potemkin'",
+          "answer": "Sergei Eisenstein",
+          "choices": [
+            "Sergei Eisenstein",
+            "Andrei Tarkovsky",
+            "Dziga Vertov",
+            "Vsevolod Pudovkin"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The actor who has received the most Academy Award nominations",
+          "answer": "Meryl Streep",
+          "choices": [
+            "Meryl Streep",
+            "Katharine Hepburn",
+            "Jack Nicholson",
+            "Daniel Day-Lewis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Technology",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The company that created the iPhone",
+          "answer": "Apple",
+          "choices": [
+            "Apple",
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The search engine founded by Larry Page and Sergey Brin",
+          "answer": "Google",
+          "choices": [
+            "Google",
+            "Twitter",
+            "Windows",
+            "YouTube"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The social media platform with a bird logo",
+          "answer": "Twitter",
+          "choices": [
+            "YouTube",
+            "WhatsApp",
+            "Twitter",
+            "Markup"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The operating system developed by Microsoft",
+          "answer": "Windows",
+          "choices": [
+            "Router",
+            "Windows",
+            "Bitcoin",
+            "LinkedIn"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The video sharing platform owned by Google",
+          "answer": "YouTube",
+          "choices": [
+            "WhatsApp",
+            "Markup",
+            "YouTube",
+            "Router"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The instant messaging app with a green logo owned by Meta",
+          "answer": "WhatsApp",
+          "choices": [
+            "Google",
+            "Twitter",
+            "Windows",
+            "WhatsApp"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The e-commerce company founded by Jeff Bezos",
+          "answer": "Amazon",
+          "choices": [
+            "Amazon",
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "HTML stands for HyperText this Language",
+          "answer": "Markup",
+          "choices": [
+            "Kotlin",
+            "Google",
+            "Markup",
+            "Twitter"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian IT company co-founded by Narayana Murthy",
+          "answer": "Infosys",
+          "choices": [
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3",
+            "Infosys"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The device used to connect computers to the internet",
+          "answer": "Router",
+          "choices": [
+            "Meta",
+            "Sycamore",
+            "UPI",
+            "Router"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The cloud storage service by Google",
+          "answer": "Google Drive",
+          "choices": [
+            "Steve Jobs",
+            "Elon Musk",
+            "Satya Nadella",
+            "Google Drive"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The cryptocurrency created by Satoshi Nakamoto",
+          "answer": "Bitcoin",
+          "choices": [
+            "UPI",
+            "Aadhaar",
+            "Bitcoin",
+            "Kotlin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The professional networking platform",
+          "answer": "LinkedIn",
+          "choices": [
+            "WhatsApp",
+            "Markup",
+            "Router",
+            "LinkedIn"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian digital payment app founded by Vijay Shekhar Sharma",
+          "answer": "Paytm",
+          "choices": [
+            "Paytm",
+            "Bitcoin",
+            "LinkedIn",
+            "Java"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The programming language named after a type of coffee",
+          "answer": "Java",
+          "choices": [
+            "Blockchain",
+            "Java",
+            "TikTok",
+            "ChatGPT"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian space agency that launched Chandrayaan missions",
+          "answer": "ISRO",
+          "choices": [
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3",
+            "ISRO"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The term for software that is freely available and modifiable",
+          "answer": "Open Source",
+          "choices": [
+            "Nausea and vomiting of pregnancy",
+            "hCG",
+            "Open Source",
+            "Placenta previa"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The founder of Tesla and SpaceX",
+          "answer": "Elon Musk",
+          "choices": [
+            "Elon Musk",
+            "Google Drive",
+            "Satya Nadella",
+            "Ravi Shankar"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The technology behind cryptocurrencies",
+          "answer": "Blockchain",
+          "choices": [
+            "UPI",
+            "Aadhaar",
+            "Kotlin",
+            "Blockchain"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian CEO of Microsoft",
+          "answer": "Satya Nadella",
+          "choices": [
+            "Deep Blue",
+            "Steve Jobs",
+            "Satya Nadella",
+            "Google Drive"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The short-form video app banned in India in 2020",
+          "answer": "TikTok",
+          "choices": [
+            "ChatGPT",
+            "Python",
+            "TikTok",
+            "Meta"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The inventor of the World Wide Web",
+          "answer": "Tim Berners-Lee",
+          "choices": [
+            "Elon Musk",
+            "Tim Berners-Lee",
+            "Satya Nadella",
+            "Sundar Pichai"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The AI chatbot developed by OpenAI",
+          "answer": "ChatGPT",
+          "choices": [
+            "Java",
+            "ChatGPT",
+            "Blockchain",
+            "TikTok"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian-origin CEO of Google and Alphabet",
+          "answer": "Sundar Pichai",
+          "choices": [
+            "Elon Musk",
+            "Sundar Pichai",
+            "Satya Nadella",
+            "Cricket World Cup"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The programming language created by Guido van Rossum",
+          "answer": "Python",
+          "choices": [
+            "Python",
+            "Router",
+            "Bitcoin",
+            "LinkedIn"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The metaverse platform announced by Mark Zuckerberg",
+          "answer": "Meta",
+          "choices": [
+            "Google",
+            "Twitter",
+            "Meta",
+            "Windows"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The quantum computer developed by Google that achieved quantum supremacy",
+          "answer": "Sycamore",
+          "choices": [
+            "Bitcoin",
+            "Sycamore",
+            "LinkedIn",
+            "Paytm"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian UPI-based payment system",
+          "answer": "UPI",
+          "choices": [
+            "Kotlin",
+            "Google",
+            "Twitter",
+            "UPI"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The year the first commercial cell phone call was made",
+          "answer": "1983",
+          "choices": [
+            "Rooting reflex",
+            "Anomaly scan",
+            "Third stage of labor",
+            "1983"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The computer that defeated chess champion Garry Kasparov in 1997",
+          "answer": "Deep Blue",
+          "choices": [
+            "Elon Musk",
+            "Deep Blue",
+            "Satya Nadella",
+            "Hrithik Roshan"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The founder of Apple who passed away in 2011",
+          "answer": "Steve Jobs",
+          "choices": [
+            "Deep Blue",
+            "Google Drive",
+            "Elon Musk",
+            "Steve Jobs"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian digital identity system with over 1 billion enrollments",
+          "answer": "Aadhaar",
+          "choices": [
+            "UPI",
+            "Aadhaar",
+            "Kotlin",
+            "Google"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The programming language used for Android app development",
+          "answer": "Kotlin",
+          "choices": [
+            "Google",
+            "Twitter",
+            "Kotlin",
+            "Windows"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The company that acquired WhatsApp for $19 billion",
+          "answer": "Facebook",
+          "choices": [
+            "Facebook",
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The first Indian company to reach $100 billion market cap",
+          "answer": "TCS",
+          "choices": [
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3",
+            "TCS"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Sports",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The number of players on a cricket team",
+          "answer": "11",
+          "choices": [
+            "24",
+            "5",
+            "7",
+            "11"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The national sport of India",
+          "answer": "Hockey",
+          "choices": [
+            "Tennis",
+            "Paris",
+            "Boxing",
+            "Hockey"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The sport in which Virat Kohli is famous",
+          "answer": "Cricket",
+          "choices": [
+            "Football",
+            "Tennis",
+            "Cricket",
+            "Paris"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The number of rings in the Olympic symbol",
+          "answer": "5",
+          "choices": [
+            "24",
+            "11",
+            "7",
+            "5"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Grand Slam tennis tournament played on grass",
+          "answer": "Wimbledon",
+          "choices": [
+            "Cricket",
+            "Wimbledon",
+            "Football",
+            "Tennis"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The sport associated with the term 'goal'",
+          "answer": "Football",
+          "choices": [
+            "Tennis",
+            "Paris",
+            "Boxing",
+            "Football"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian badminton player who won Olympic silver in 2016",
+          "answer": "PV Sindhu",
+          "choices": [
+            "PV Sindhu",
+            "Wankhede Stadium",
+            "MS Dhoni",
+            "Bajrang Punia"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The sport associated with Wimbledon",
+          "answer": "Tennis",
+          "choices": [
+            "Wimbledon",
+            "Football",
+            "Tennis",
+            "Paris"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian cricketer who captained the team to 2011 World Cup victory",
+          "answer": "MS Dhoni",
+          "choices": [
+            "Neeraj Chopra",
+            "Viswanathan Anand",
+            "MS Dhoni",
+            "Abhinav Bindra"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of players in a kabaddi team on the mat",
+          "answer": "7",
+          "choices": [
+            "2",
+            "24",
+            "7",
+            "11"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian wrestler who won bronze at Tokyo Olympics 2020",
+          "answer": "Bajrang Punia",
+          "choices": [
+            "Bajrang Punia",
+            "Viswanathan Anand",
+            "Abhinav Bindra",
+            "Dhyan Chand"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The venue of the 2024 Summer Olympics",
+          "answer": "Paris",
+          "choices": [
+            "Wimbledon",
+            "Football",
+            "Paris",
+            "Tennis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The sport in which Mary Kom is an Olympic medalist",
+          "answer": "Boxing",
+          "choices": [
+            "AB de Villiers",
+            "England",
+            "Boxing",
+            "Hockey"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The tournament where India won its first Cricket World Cup in 1983",
+          "answer": "Cricket World Cup",
+          "choices": [
+            "Dhyan Chand",
+            "Vijay Kumar",
+            "Cricket World Cup",
+            "Brian Lara"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian cricketer known as the 'God of Cricket'",
+          "answer": "Sachin Tendulkar",
+          "choices": [
+            "PV Sindhu",
+            "MS Dhoni",
+            "Bajrang Punia",
+            "Sachin Tendulkar"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The javelin thrower who won India's first Olympic gold in athletics",
+          "answer": "Neeraj Chopra",
+          "choices": [
+            "PV Sindhu",
+            "MS Dhoni",
+            "Bajrang Punia",
+            "Neeraj Chopra"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian chess grandmaster who became World Champion in 2000",
+          "answer": "Viswanathan Anand",
+          "choices": [
+            "Viswanathan Anand",
+            "Dhyan Chand",
+            "Vijay Kumar",
+            "Brian Lara"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The number of times India has won the Cricket World Cup",
+          "answer": "2",
+          "choices": [
+            "2",
+            "11",
+            "5",
+            "7"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The sport in which Sania Mirza is famous",
+          "answer": "Tennis",
+          "choices": [
+            "England",
+            "Hockey",
+            "Cricket",
+            "Tennis"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The first Indian to win an individual Olympic gold medal",
+          "answer": "Abhinav Bindra",
+          "choices": [
+            "Abhinav Bindra",
+            "MS Dhoni",
+            "Bajrang Punia",
+            "Cricket World Cup"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The cricket format with 20 overs per side",
+          "answer": "T20",
+          "choices": [
+            "Red",
+            "Bat",
+            "T20",
+            "Na"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The country that has won the most Cricket World Cups",
+          "answer": "Australia",
+          "choices": [
+            "Punjab",
+            "Australia",
+            "Hyderabad",
+            "Gujarat"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian hockey player known as the 'Wizard' who won 3 Olympic golds",
+          "answer": "Dhyan Chand",
+          "choices": [
+            "PV Sindhu",
+            "MS Dhoni",
+            "Dhyan Chand",
+            "Bajrang Punia"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The fastest century in ODI cricket history, scored in 31 balls",
+          "answer": "AB de Villiers",
+          "choices": [
+            "England",
+            "Hockey",
+            "Cricket",
+            "AB de Villiers"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The venue of the first-ever Cricket World Cup in 1975",
+          "answer": "England",
+          "choices": [
+            "Boxing",
+            "AB de Villiers",
+            "England",
+            "Hockey"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian shooter who won silver at the 2012 London Olympics",
+          "answer": "Vijay Kumar",
+          "choices": [
+            "Vijay Kumar",
+            "Abhinav Bindra",
+            "Dhyan Chand",
+            "Brian Lara"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The batsman with the highest individual score in Test cricket",
+          "answer": "Brian Lara",
+          "choices": [
+            "Cricket World Cup",
+            "Brian Lara",
+            "Sachin Tendulkar",
+            "Neeraj Chopra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of Grand Slam titles won by Novak Djokovic",
+          "answer": "24",
+          "choices": [
+            "2",
+            "11",
+            "5",
+            "24"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The football player who won the most Ballon d'Or awards",
+          "answer": "Lionel Messi",
+          "choices": [
+            "Abhinav Bindra",
+            "Lionel Messi",
+            "Dhyan Chand",
+            "Vijay Kumar"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The only Indian to win the Badminton World Championships gold medal",
+          "answer": "PV Sindhu",
+          "choices": [
+            "Bajrang Punia",
+            "Cricket World Cup",
+            "Sachin Tendulkar",
+            "PV Sindhu"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The year India won its first Cricket World Cup",
+          "answer": "1983",
+          "choices": [
+            "1983",
+            "1977",
+            "1929",
+            "1982"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian cricketer with the most international runs across all formats",
+          "answer": "Sachin Tendulkar",
+          "choices": [
+            "Sachin Tendulkar",
+            "Vijay Kumar",
+            "Brian Lara",
+            "Lionel Messi"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The boxer who won the most world heavyweight championships",
+          "answer": "Muhammad Ali",
+          "choices": [
+            "PV Sindhu",
+            "Muhammad Ali",
+            "MS Dhoni",
+            "Bajrang Punia"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian state that has produced the most Olympic hockey players",
+          "answer": "Punjab",
+          "choices": [
+            "Punjab",
+            "Australia",
+            "Strait of Gibraltar",
+            "Liechtenstein"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The stadium in Mumbai known as the 'Home of Indian Cricket'",
+          "answer": "Wankhede Stadium",
+          "choices": [
+            "Abhinav Bindra",
+            "Dhyan Chand",
+            "Vijay Kumar",
+            "Wankhede Stadium"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Music",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The King of Pop",
+          "answer": "Michael Jackson",
+          "choices": [
+            "Michael Jackson",
+            "AR Rahman",
+            "Sonu Nigam",
+            "Vikas Khanna"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The music composer known as the 'Mozart of Madras'",
+          "answer": "AR Rahman",
+          "choices": [
+            "Bhimsen Joshi",
+            "AR Rahman",
+            "Jagjit Singh",
+            "Hrithik Roshan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The singer known as the 'Queen of Pop'",
+          "answer": "Madonna",
+          "choices": [
+            "Kishore Kumar",
+            "Madonna",
+            "Dil Chahta Hai",
+            "Bankim Chandra Chatterjee"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian playback singer who sang 'Kal Ho Naa Ho'",
+          "answer": "Sonu Nigam",
+          "choices": [
+            "Sonu Nigam",
+            "Ravi Shankar",
+            "Bhimsen Joshi",
+            "Vikas Khanna"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The band that sang 'Yellow' and 'Fix You'",
+          "answer": "Coldplay",
+          "choices": [
+            "Hindustani",
+            "Sitar",
+            "Eagles",
+            "Coldplay"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The rapper known as 'Slim Shady'",
+          "answer": "Eminem",
+          "choices": [
+            "Piano",
+            "Queen",
+            "Eminem",
+            "Hindustani"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The pop star who sang 'Shape of You'",
+          "answer": "Ed Sheeran",
+          "choices": [
+            "Bhimsen Joshi",
+            "Ed Sheeran",
+            "Jagjit Singh",
+            "The Metamorphosis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of strings on a standard guitar",
+          "answer": "6",
+          "choices": [
+            "8",
+            "6",
+            "9",
+            "5"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The singer of 'Tum Hi Ho' from Aashiqui 2",
+          "answer": "Arijit Singh",
+          "choices": [
+            "AR Rahman",
+            "Arijit Singh",
+            "Sonu Nigam",
+            "Cricket World Cup"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The K-pop group that sang 'Dynamite'",
+          "answer": "BTS",
+          "choices": [
+            "Eagles",
+            "Tenor",
+            "BTS",
+            "Bharatanatyam"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The musical instrument with black and white keys",
+          "answer": "Piano",
+          "choices": [
+            "Eagles",
+            "Tenor",
+            "Bharatanatyam",
+            "Piano"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The legendary singer known as 'The Voice' in India",
+          "answer": "Kishore Kumar",
+          "choices": [
+            "Zakir Hussain",
+            "Kishore Kumar",
+            "Rabindranath Tagore",
+            "Lata Mangeshkar"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The artist who sang 'Thriller' and did the moonwalk",
+          "answer": "Michael Jackson",
+          "choices": [
+            "Bankim Chandra Chatterjee",
+            "Ravi Shankar",
+            "Bhimsen Joshi",
+            "Michael Jackson"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of notes in an octave",
+          "answer": "8",
+          "choices": [
+            "6",
+            "9",
+            "8",
+            "5"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The British band that sang 'Bohemian Rhapsody'",
+          "answer": "Queen",
+          "choices": [
+            "Eminem",
+            "BTS",
+            "Piano",
+            "Queen"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The music director duo Shankar-Ehsaan-Loy composed for this 2001 film",
+          "answer": "Dil Chahta Hai",
+          "choices": [
+            "Dil Chahta Hai",
+            "Ravi Shankar",
+            "Bhimsen Joshi",
+            "Aishwarya Rai"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The classical music form originating from North India",
+          "answer": "Hindustani",
+          "choices": [
+            "Bharatanatyam",
+            "Coldplay",
+            "Hindustani",
+            "Eminem"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The pop star who sang 'Billie Jean'",
+          "answer": "Michael Jackson",
+          "choices": [
+            "Rabindranath Tagore",
+            "Lata Mangeshkar",
+            "Michael Jackson",
+            "AR Rahman"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The traditional Indian string instrument",
+          "answer": "Sitar",
+          "choices": [
+            "Coldplay",
+            "Sitar",
+            "Eminem",
+            "BTS"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The composer of 'Vande Mataram'",
+          "answer": "Bankim Chandra Chatterjee",
+          "choices": [
+            "Sonu Nigam",
+            "Ed Sheeran",
+            "Arijit Singh",
+            "Bankim Chandra Chatterjee"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The band known for 'Hotel California'",
+          "answer": "Eagles",
+          "choices": [
+            "Coldplay",
+            "Eagles",
+            "Eminem",
+            "BTS"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The musical term for gradually getting louder",
+          "answer": "Crescendo",
+          "choices": [
+            "Placenta previa",
+            "C-section",
+            "Preterm",
+            "Crescendo"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The sitar maestro who collaborated with The Beatles",
+          "answer": "Ravi Shankar",
+          "choices": [
+            "Ravi Shankar",
+            "Antonio Vivaldi",
+            "Zakir Hussain",
+            "Rabindranath Tagore"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian classical singer awarded Bharat Ratna in 2008",
+          "answer": "Bhimsen Joshi",
+          "choices": [
+            "Sonu Nigam",
+            "Ed Sheeran",
+            "Bhimsen Joshi",
+            "The Metamorphosis"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The highest male singing voice",
+          "answer": "Tenor",
+          "choices": [
+            "Queen",
+            "Tenor",
+            "Hindustani",
+            "Sitar"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The rapper who founded Beats Electronics",
+          "answer": "Dr. Dre",
+          "choices": [
+            "Bhimsen Joshi",
+            "Jagjit Singh",
+            "Dr. Dre",
+            "Antonio Vivaldi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of symphonies composed by Beethoven",
+          "answer": "9",
+          "choices": [
+            "6",
+            "8",
+            "9",
+            "37"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ghazal singer known as the 'King of Ghazals'",
+          "answer": "Jagjit Singh",
+          "choices": [
+            "Antonio Vivaldi",
+            "Zakir Hussain",
+            "Indian Vulture",
+            "Jagjit Singh"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The composer who wrote 'The Four Seasons'",
+          "answer": "Antonio Vivaldi",
+          "choices": [
+            "Antonio Vivaldi",
+            "Ed Sheeran",
+            "Arijit Singh",
+            "Kishore Kumar"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The tabla maestro who won Grammy awards",
+          "answer": "Zakir Hussain",
+          "choices": [
+            "Rabindranath Tagore",
+            "Lata Mangeshkar",
+            "Zakir Hussain",
+            "Michael Jackson"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The composer of India's national anthem",
+          "answer": "Rabindranath Tagore",
+          "choices": [
+            "Jagjit Singh",
+            "Antonio Vivaldi",
+            "PV Sindhu",
+            "Rabindranath Tagore"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The music festival held annually in Coachella Valley",
+          "answer": "Coachella",
+          "choices": [
+            "Australia",
+            "Coachella",
+            "Himalayas",
+            "Antarctica"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian playback singer with the most recorded songs",
+          "answer": "Lata Mangeshkar",
+          "choices": [
+            "Arijit Singh",
+            "Lata Mangeshkar",
+            "Kishore Kumar",
+            "Dil Chahta Hai"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The classical dance form associated with Carnatic music",
+          "answer": "Bharatanatyam",
+          "choices": [
+            "Eminem",
+            "BTS",
+            "Bharatanatyam",
+            "Piano"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The rock band that performed at the first-ever Live Aid concert",
+          "answer": "Queen",
+          "choices": [
+            "Queen",
+            "Eagles",
+            "Tenor",
+            "Bharatanatyam"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Food & Drink",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The main ingredient in guacamole",
+          "answer": "Avocado",
+          "choices": [
+            "Avocado",
+            "Taco",
+            "Saffron",
+            "Rasgulla"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The national dish of India",
+          "answer": "Khichdi",
+          "choices": [
+            "Naan",
+            "Pizza",
+            "Chai",
+            "Khichdi"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The bread commonly eaten with curry in India",
+          "answer": "Naan",
+          "choices": [
+            "Pizza",
+            "Chai",
+            "Naan",
+            "Turmeric"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Italian dish with a round, flat base topped with cheese",
+          "answer": "Pizza",
+          "choices": [
+            "Chai",
+            "Turmeric",
+            "Barfi",
+            "Pizza"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The popular Indian tea with spices",
+          "answer": "Chai",
+          "choices": [
+            "Chai",
+            "Mojito",
+            "Wagyu",
+            "Lassi"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The fruit known as the 'King of Fruits' in India",
+          "answer": "Mango",
+          "choices": [
+            "Vikas Khanna",
+            "Shah Jahan",
+            "Mango",
+            "Taj Mahal Palace"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The yellow spice commonly used in Indian cooking",
+          "answer": "Turmeric",
+          "choices": [
+            "Turmeric",
+            "Taco",
+            "Saffron",
+            "Rasgulla"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The country where sushi originated",
+          "answer": "Japan",
+          "choices": [
+            "Japan",
+            "Hyderabad",
+            "Gujarat",
+            "Kanchenjunga"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian sweet made from milk solids and sugar",
+          "answer": "Barfi",
+          "choices": [
+            "Barfi",
+            "Tandoor",
+            "Sushi",
+            "Mojito"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The fermented South Indian pancake",
+          "answer": "Dosa",
+          "choices": [
+            "Khichdi",
+            "Dosa",
+            "Naan",
+            "Pizza"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The beverage made from roasted and ground beans",
+          "answer": "Coffee",
+          "choices": [
+            "Chai",
+            "Turmeric",
+            "Coffee",
+            "Barfi"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian flatbread cooked in a tandoor",
+          "answer": "Tandoori Roti",
+          "choices": [
+            "Bhel Puri",
+            "Aloo Paratha",
+            "Tandoori Roti",
+            "Vikas Khanna"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Mexican dish with a folded tortilla",
+          "answer": "Taco",
+          "choices": [
+            "Saffron",
+            "Rasgulla",
+            "Mozzarella",
+            "Taco"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The city famous for Hyderabadi Biryani",
+          "answer": "Hyderabad",
+          "choices": [
+            "France",
+            "Japan",
+            "Hyderabad",
+            "Gujarat"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The most expensive spice by weight",
+          "answer": "Saffron",
+          "choices": [
+            "Sushi",
+            "Mojito",
+            "Wagyu",
+            "Saffron"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Bengali sweet made from cottage cheese",
+          "answer": "Rasgulla",
+          "choices": [
+            "Coffee",
+            "Taco",
+            "Rasgulla",
+            "Saffron"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian state famous for Dhokla",
+          "answer": "Gujarat",
+          "choices": [
+            "France",
+            "Japan",
+            "Gujarat",
+            "Hyderabad"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The cheese used in traditional pizza",
+          "answer": "Mozzarella",
+          "choices": [
+            "Rasgulla",
+            "Tandoor",
+            "Sushi",
+            "Mozzarella"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The street food from Mumbai with puffed rice",
+          "answer": "Bhel Puri",
+          "choices": [
+            "Vikas Khanna",
+            "Bhel Puri",
+            "Shah Jahan",
+            "Taj Mahal Palace"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The cooking technique where food is cooked in a clay oven",
+          "answer": "Tandoor",
+          "choices": [
+            "Tandoor",
+            "Naan",
+            "Pizza",
+            "Chai"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian bread stuffed with potato filling",
+          "answer": "Aloo Paratha",
+          "choices": [
+            "Aloo Paratha",
+            "Gajar Halwa",
+            "Tandoori Roti",
+            "Lionel Messi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The French term for a dish served with ice cream",
+          "answer": "À la mode",
+          "choices": [
+            "Marinating",
+            "À la mode",
+            "Palmar grasp reflex",
+            "Lassi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The famous Indian chef who hosts MasterChef India",
+          "answer": "Vikas Khanna",
+          "choices": [
+            "Shah Jahan",
+            "Taj Mahal Palace",
+            "Gajar Halwa",
+            "Vikas Khanna"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process of soaking meat in a seasoned liquid",
+          "answer": "Marinating",
+          "choices": [
+            "À la mode",
+            "Anomaly scan",
+            "Marinating",
+            "Third stage of labor"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian state known for Rosogolla",
+          "answer": "West Bengal",
+          "choices": [
+            "Japan",
+            "Hyderabad",
+            "West Bengal",
+            "Gujarat"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Japanese dish of raw fish served with rice",
+          "answer": "Sushi",
+          "choices": [
+            "Wagyu",
+            "Lassi",
+            "Braising",
+            "Sushi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The cocktail made with rum, mint, and lime",
+          "answer": "Mojito",
+          "choices": [
+            "Pizza",
+            "Mojito",
+            "Chai",
+            "Turmeric"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian city famous for its street food and chaat",
+          "answer": "Delhi",
+          "choices": [
+            "Delhi",
+            "Hyderabad",
+            "Gujarat",
+            "Japan"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The champagne region is located in this European country",
+          "answer": "France",
+          "choices": [
+            "Delhi",
+            "France",
+            "Japan",
+            "Hyderabad"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Mughal emperor who introduced Biryani to India",
+          "answer": "Shah Jahan",
+          "choices": [
+            "Shah Jahan",
+            "Vikas Khanna",
+            "Taj Mahal Palace",
+            "Gajar Halwa"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The five-star hotel in Mumbai famous for its restaurants",
+          "answer": "Taj Mahal Palace",
+          "choices": [
+            "Taj Mahal Palace",
+            "Vikas Khanna",
+            "Shah Jahan",
+            "Gajar Halwa"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Japanese beef known for its high marbling and tenderness",
+          "answer": "Wagyu",
+          "choices": [
+            "Saffron",
+            "Rasgulla",
+            "Wagyu",
+            "Mozzarella"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian dessert made from carrots and milk",
+          "answer": "Gajar Halwa",
+          "choices": [
+            "Bhel Puri",
+            "Gajar Halwa",
+            "Aloo Paratha",
+            "Vikas Khanna"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The traditional Indian yogurt drink",
+          "answer": "Lassi",
+          "choices": [
+            "Lassi",
+            "Chai",
+            "Turmeric",
+            "Barfi"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The cooking method where food is cooked slowly in liquid",
+          "answer": "Braising",
+          "choices": [
+            "Braising",
+            "Naan",
+            "Pizza",
+            "Chai"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ancient History",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The Roman emperor during Jesus's time",
+          "answer": "Augustus",
+          "choices": [
+            "Augustus",
+            "Roman Empire",
+            "Steven Spielberg",
+            "Chandragupta Maurya"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient Indian emperor who embraced Buddhism after the Kalinga War",
+          "answer": "Ashoka",
+          "choices": [
+            "Julius Caesar",
+            "Sanjay Dutt",
+            "Ashoka",
+            "Deepika Padukone"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The river valley where ancient Egyptian civilization developed",
+          "answer": "Nile",
+          "choices": [
+            "Nile",
+            "Pompeii",
+            "Athens",
+            "Xerxes"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Greek hero who completed twelve labors",
+          "answer": "Hercules",
+          "choices": [
+            "Lionel Messi",
+            "Muhammad Ali",
+            "Wankhede Stadium",
+            "Hercules"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient wonder built as a tomb for Pharaoh Khufu",
+          "answer": "Great Pyramid of Giza",
+          "choices": [
+            "Library of Alexandria",
+            "Herodotus",
+            "Great Pyramid of Giza",
+            "Nalanda"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Macedonian king who conquered most of the known world by age 30",
+          "answer": "Alexander the Great",
+          "choices": [
+            "Roman Empire",
+            "West Egg",
+            "Alexander the Great",
+            "Marcel Proust"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The city that was buried by the eruption of Mount Vesuvius in 79 AD",
+          "answer": "Pompeii",
+          "choices": [
+            "Nile",
+            "Pompeii",
+            "Athens",
+            "Greenland"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Egyptian queen who had a relationship with Julius Caesar",
+          "answer": "Cleopatra",
+          "choices": [
+            "Roman Empire",
+            "West Egg",
+            "Cleopatra",
+            "Marcel Proust"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient Indian university that attracted scholars from across Asia",
+          "answer": "Nalanda",
+          "choices": [
+            "Hieroglyphics",
+            "Nalanda",
+            "Inca",
+            "The Great Pyramid of Giza"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Roman general who crossed the Rubicon River",
+          "answer": "Julius Caesar",
+          "choices": [
+            "Indian Rhinoceros",
+            "Peregrine Falcon",
+            "Asiatic Wild Ass",
+            "Julius Caesar"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The writing system of ancient Egypt using pictorial symbols",
+          "answer": "Hieroglyphics",
+          "choices": [
+            "Hieroglyphics",
+            "Confucianism",
+            "Latin",
+            "Arthashastra"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The founder of the Maurya Empire in ancient India",
+          "answer": "Chandragupta Maurya",
+          "choices": [
+            "West Egg",
+            "Chandragupta Maurya",
+            "Marcel Proust",
+            "Arundhati Roy"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Greek philosopher who taught Alexander the Great",
+          "answer": "Aristotle",
+          "choices": [
+            "Saltwater Crocodile",
+            "Gray Whale",
+            "Aristotle",
+            "Gir Forest"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient civilization that built Machu Picchu",
+          "answer": "Inca",
+          "choices": [
+            "Latin",
+            "Inca",
+            "Arthashastra",
+            "Tutankhamun"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient wonder of the world still standing today",
+          "answer": "The Great Pyramid of Giza",
+          "choices": [
+            "Inca",
+            "Confucianism",
+            "Latin",
+            "The Great Pyramid of Giza"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient Chinese philosophy founded by Confucius",
+          "answer": "Confucianism",
+          "choices": [
+            "Confucianism",
+            "Great Pyramid of Giza",
+            "Nalanda",
+            "Hieroglyphics"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian emperor who unified most of the Indian subcontinent around 300 BCE",
+          "answer": "Chandragupta Maurya",
+          "choices": [
+            "Roman Empire",
+            "Chandragupta Maurya",
+            "Cape Agulhas",
+            "Jane Austen"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Carthaginian general who crossed the Alps with elephants",
+          "answer": "Hannibal",
+          "choices": [
+            "Hannibal",
+            "Julius Caesar",
+            "Chandragupta Maurya",
+            "The Metamorphosis"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The language of the ancient Romans",
+          "answer": "Latin",
+          "choices": [
+            "Marathon",
+            "Latin",
+            "Library of Alexandria",
+            "Herodotus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Persian king who invaded Greece in 480 BCE",
+          "answer": "Xerxes",
+          "choices": [
+            "Roman Empire",
+            "Xerxes",
+            "Deepika Padukone",
+            "Hrithik Roshan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient Indian text on statecraft and economics by Chanakya",
+          "answer": "Arthashastra",
+          "choices": [
+            "Latin",
+            "Tutankhamun",
+            "Arthashastra",
+            "Sumerians"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The city where democracy was born",
+          "answer": "Athens",
+          "choices": [
+            "Nile",
+            "Athens",
+            "Pompeii",
+            "Hercules"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient Indian grammarian who wrote the Ashtadhyayi",
+          "answer": "Panini",
+          "choices": [
+            "Lewis Carroll",
+            "Rabindranath Tagore",
+            "Panini",
+            "Indus Script"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The year Rome fell to barbarian invasions",
+          "answer": "476 AD",
+          "choices": [
+            "1983",
+            "1977",
+            "50",
+            "476 AD"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Egyptian pharaoh whose tomb was discovered intact in 1922",
+          "answer": "Tutankhamun",
+          "choices": [
+            "Nalanda",
+            "Tutankhamun",
+            "Hieroglyphics",
+            "Inca"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient civilization that invented cuneiform writing",
+          "answer": "Sumerians",
+          "choices": [
+            "Marathon",
+            "Sumerians",
+            "Library of Alexandria",
+            "Herodotus"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The empire that built the Colosseum",
+          "answer": "Roman Empire",
+          "choices": [
+            "Julius Caesar",
+            "Roman Empire",
+            "Chandragupta Maurya",
+            "Antonio Vivaldi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The battle in 490 BCE where Athenians defeated the Persians",
+          "answer": "Marathon",
+          "choices": [
+            "Inca",
+            "The Great Pyramid of Giza",
+            "Confucianism",
+            "Marathon"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Mesopotamian king known for his law code",
+          "answer": "Hammurabi",
+          "choices": [
+            "Ohm's Law",
+            "Newton's Third Law",
+            "Avogadro's Law",
+            "Hammurabi"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indian astronomer who calculated the value of pi",
+          "answer": "Aryabhata",
+          "choices": [
+            "11",
+            "Aryabhata",
+            "5",
+            "2"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The year Julius Caesar was assassinated",
+          "answer": "44 BCE",
+          "choices": [
+            "1983",
+            "1977",
+            "64",
+            "44 BCE"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient library that housed the largest collection of scrolls",
+          "answer": "Library of Alexandria",
+          "choices": [
+            "Confucianism",
+            "Library of Alexandria",
+            "Latin",
+            "Arthashastra"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indian script found in the Indus Valley Civilization",
+          "answer": "Indus Script",
+          "choices": [
+            "Nile",
+            "Pompeii",
+            "Indus Script",
+            "Athens"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Roman emperor who divided the empire into East and West",
+          "answer": "Diocletian",
+          "choices": [
+            "Diocletian",
+            "Julius Caesar",
+            "Chandragupta Maurya",
+            "Isaac Newton"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Greek historian known as the 'Father of History'",
+          "answer": "Herodotus",
+          "choices": [
+            "Herodotus",
+            "Tutankhamun",
+            "Sumerians",
+            "Marathon"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Animals",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The fastest land animal",
+          "answer": "Cheetah",
+          "choices": [
+            "Zebra",
+            "Kangaroo",
+            "Cheetah",
+            "Penguin"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The national animal of India",
+          "answer": "Bengal Tiger",
+          "choices": [
+            "Sooty Tern",
+            "African Elephant",
+            "Bengal Tiger",
+            "West Egg"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The largest land animal",
+          "answer": "African Elephant",
+          "choices": [
+            "Bengal Tiger",
+            "African Elephant",
+            "Blue Whale",
+            "Meryl Streep"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The animal known as the 'King of the Jungle'",
+          "answer": "Lion",
+          "choices": [
+            "King Cobra",
+            "Indian Vulture",
+            "Lion",
+            "Whale Shark"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The tallest animal in the world",
+          "answer": "Giraffe",
+          "choices": [
+            "Giraffe",
+            "Zebra",
+            "Kangaroo",
+            "Penguin"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The national bird of India",
+          "answer": "Peacock",
+          "choices": [
+            "Lion-tailed Macaque",
+            "Octopus",
+            "Cheetah",
+            "Peacock"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The animal with black and white stripes",
+          "answer": "Zebra",
+          "choices": [
+            "Kangaroo",
+            "Penguin",
+            "Zebra",
+            "Dolphin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest mammal in the world",
+          "answer": "Blue Whale",
+          "choices": [
+            "Sooty Tern",
+            "Bengal Tiger",
+            "Blue Whale",
+            "African Elephant"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The one-horned rhinoceros found in Assam, India",
+          "answer": "Indian Rhinoceros",
+          "choices": [
+            "Bengal Tiger",
+            "African Elephant",
+            "Indian Rhinoceros",
+            "Elon Musk"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The fastest bird in level flight",
+          "answer": "Peregrine Falcon",
+          "choices": [
+            "Bengal Tiger",
+            "African Elephant",
+            "Peregrine Falcon",
+            "Ganges River Dolphin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Australian marsupial that hops on two legs",
+          "answer": "Kangaroo",
+          "choices": [
+            "Dolphin",
+            "Kangaroo",
+            "Chameleon",
+            "Orangutan"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The animal that lives in Antarctica and cannot fly",
+          "answer": "Penguin",
+          "choices": [
+            "Lion-tailed Macaque",
+            "Octopus",
+            "Cheetah",
+            "Penguin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The bear species found in the Himalayan region",
+          "answer": "Himalayan Brown Bear",
+          "choices": [
+            "Himalayas",
+            "Africa",
+            "Himalayan Brown Bear",
+            "Orangutan"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The marine animal known for its intelligence and playfulness",
+          "answer": "Dolphin",
+          "choices": [
+            "Giraffe",
+            "Dolphin",
+            "Peacock",
+            "Zebra"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The only mammal capable of true flight",
+          "answer": "Bat",
+          "choices": [
+            "Red",
+            "T20",
+            "Na",
+            "Bat"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The wild ass found in the Rann of Kutch, Gujarat",
+          "answer": "Asiatic Wild Ass",
+          "choices": [
+            "King Cobra",
+            "Indian Vulture",
+            "Asiatic Wild Ass",
+            "Whale Shark"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The animal that can change its color to blend with surroundings",
+          "answer": "Chameleon",
+          "choices": [
+            "A murder",
+            "Chameleon",
+            "Lion-tailed Macaque",
+            "Octopus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The largest living reptile",
+          "answer": "Saltwater Crocodile",
+          "choices": [
+            "Project Tiger",
+            "Sooty Tern",
+            "Saltwater Crocodile",
+            "Bengal Tiger"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The endangered great ape found in Borneo and Sumatra",
+          "answer": "Orangutan",
+          "choices": [
+            "Penguin",
+            "Dolphin",
+            "Chameleon",
+            "Orangutan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The snow leopard's habitat region",
+          "answer": "Himalayas",
+          "choices": [
+            "Africa",
+            "Himalayas",
+            "Gujarat",
+            "Zebra"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The animal with the longest migration of any mammal",
+          "answer": "Gray Whale",
+          "choices": [
+            "Gray Whale",
+            "Project Tiger",
+            "Sooty Tern",
+            "Bengal Tiger"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The collective noun for a group of crows",
+          "answer": "A murder",
+          "choices": [
+            "A murder",
+            "Zebra",
+            "Kangaroo",
+            "Penguin"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Asiatic lion's only natural habitat in India",
+          "answer": "Gir Forest",
+          "choices": [
+            "Gir Forest",
+            "Indian Vulture",
+            "Whale Shark",
+            "Ganges River Dolphin"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest bird of prey by wingspan",
+          "answer": "Andean Condor",
+          "choices": [
+            "King Cobra",
+            "Indian Vulture",
+            "Andean Condor",
+            "Whale Shark"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The venomous snake known as the 'King' of its species",
+          "answer": "King Cobra",
+          "choices": [
+            "Blue Whale",
+            "King Cobra",
+            "Indian Rhinoceros",
+            "Peregrine Falcon"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The only continent where giraffes live in the wild",
+          "answer": "Africa",
+          "choices": [
+            "Africa",
+            "Himalayas",
+            "Wakanda",
+            "Punjab"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The critically endangered vulture species in India",
+          "answer": "Indian Vulture",
+          "choices": [
+            "Blue Whale",
+            "Indian Vulture",
+            "Indian Rhinoceros",
+            "Peregrine Falcon"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest species of shark",
+          "answer": "Whale Shark",
+          "choices": [
+            "Whale Shark",
+            "Gray Whale",
+            "Gir Forest",
+            "Andean Condor"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The animal with the highest blood pressure",
+          "answer": "Giraffe",
+          "choices": [
+            "Octopus",
+            "Giraffe",
+            "Cheetah",
+            "Peacock"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The national aquatic animal of India",
+          "answer": "Ganges River Dolphin",
+          "choices": [
+            "King Cobra",
+            "Ganges River Dolphin",
+            "Indian Vulture",
+            "Whale Shark"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The only venomous primate in the world",
+          "answer": "Slow Loris",
+          "choices": [
+            "Slow Loris",
+            "Ganges River Dolphin",
+            "Project Tiger",
+            "Sooty Tern"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The project to conserve tigers in India launched in 1973",
+          "answer": "Project Tiger",
+          "choices": [
+            "Saltwater Crocodile",
+            "Gray Whale",
+            "Gir Forest",
+            "Project Tiger"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The largest colony of seabirds in the world is made of this species",
+          "answer": "Sooty Tern",
+          "choices": [
+            "Ganges River Dolphin",
+            "Sooty Tern",
+            "Slow Loris",
+            "Project Tiger"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The endangered monkey species endemic to the Western Ghats",
+          "answer": "Lion-tailed Macaque",
+          "choices": [
+            "Kangaroo",
+            "Penguin",
+            "Lion-tailed Macaque",
+            "Dolphin"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The animal that has three hearts",
+          "answer": "Octopus",
+          "choices": [
+            "Cheetah",
+            "Giraffe",
+            "Peacock",
+            "Octopus"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Bollywood",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The actor known as the 'King of Bollywood'",
+          "answer": "Shah Rukh Khan",
+          "choices": [
+            "Shah Rukh Khan",
+            "Salman Khan",
+            "Aamir Khan",
+            "Akshay Kumar"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actor known as 'Mr. Perfectionist' of Bollywood",
+          "answer": "Aamir Khan",
+          "choices": [
+            "Aamir Khan",
+            "Shah Rukh Khan",
+            "Ajay Devgn",
+            "Hrithik Roshan"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The 'Shehenshah' of Bollywood, famous for films like Sholay and Deewar",
+          "answer": "Amitabh Bachchan",
+          "choices": [
+            "Amitabh Bachchan",
+            "Dilip Kumar",
+            "Dharmendra",
+            "Rajesh Khanna"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actress known as the 'Dream Girl' of the 1970s",
+          "answer": "Hema Malini",
+          "choices": [
+            "Hema Malini",
+            "Rekha",
+            "Mumtaz",
+            "Zeenat Aman"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actor famous for his role as 'Munna Bhai'",
+          "answer": "Sanjay Dutt",
+          "choices": [
+            "Sanjay Dutt",
+            "Arshad Warsi",
+            "Sunil Dutt",
+            "Anil Kapoor"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actress who starred in 'Padmaavat' and 'Bajirao Mastani'",
+          "answer": "Deepika Padukone",
+          "choices": [
+            "Deepika Padukone",
+            "Priyanka Chopra",
+            "Katrina Kaif",
+            "Kareena Kapoor"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The actor known for his energetic dance moves and 'Tiger' franchise",
+          "answer": "Hrithik Roshan",
+          "choices": [
+            "Hrithik Roshan",
+            "Salman Khan",
+            "Ranveer Singh",
+            "Shahid Kapoor"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The highest-grossing Bollywood film of all time as of 2024",
+          "answer": "Pathaan",
+          "choices": [
+            "Pathaan",
+            "Dangal",
+            "Jawan",
+            "Bajrangi Bhaijaan"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 2001 film about a cricket match between villagers and British officers",
+          "answer": "Lagaan",
+          "choices": [
+            "Lagaan",
+            "Iqbal",
+            "83",
+            "Jo Jeeta Wohi Sikandar"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The film featuring the song 'Chaiyya Chaiyya' filmed on a moving train",
+          "answer": "Dil Se",
+          "choices": [
+            "Dil Se",
+            "Bombay",
+            "Roja",
+            "Guru"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 2009 film about a college student questioning the education system",
+          "answer": "3 Idiots",
+          "choices": [
+            "3 Idiots",
+            "Taare Zameen Par",
+            "Chhichhore",
+            "Udaan"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The romantic film featuring the dialogue 'Rahul, naam toh suna hoga'",
+          "answer": "Dil To Pagal Hai",
+          "choices": [
+            "Dil To Pagal Hai",
+            "Kuch Kuch Hota Hai",
+            "Kabhi Khushi Kabhie Gham",
+            "Mohabbatein"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The 2018 film based on the life of wrestler Mahavir Singh Phogat",
+          "answer": "Dangal",
+          "choices": [
+            "Dangal",
+            "Sultan",
+            "Mary Kom",
+            "M.S. Dhoni: The Untold Story"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The film where SRK says 'Bade bade deshon mein aisi choti choti baatein hoti rehti hain'",
+          "answer": "Dilwale Dulhania Le Jayenge",
+          "choices": [
+            "Dilwale Dulhania Le Jayenge",
+            "Kuch Kuch Hota Hai",
+            "Kal Ho Naa Ho",
+            "Dil Se"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Bollywood film that won India's first Oscar nomination for Best Foreign Language Film in 1957",
+          "answer": "Mother India",
+          "choices": [
+            "Mother India",
+            "Mughal-e-Azam",
+            "Do Bigha Zamin",
+            "Pyaasa"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 2002 epic film directed by Sanjay Leela Bhansali starring Aishwarya Rai and SRK",
+          "answer": "Devdas",
+          "choices": [
+            "Devdas",
+            "Hum Dil De Chuke Sanam",
+            "Jodhaa Akbar",
+            "Umrao Jaan"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The film that won India its first Academy Award in 2009",
+          "answer": "Slumdog Millionaire",
+          "choices": [
+            "Slumdog Millionaire",
+            "Lagaan",
+            "Mother India",
+            "Salaam Bombay!"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The actress who won the Miss World 1994 title before becoming a Bollywood star",
+          "answer": "Aishwarya Rai",
+          "choices": [
+            "Aishwarya Rai",
+            "Sushmita Sen",
+            "Priyanka Chopra",
+            "Lara Dutta"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The 1995 crime film directed by Ram Gopal Varma about Mumbai underworld",
+          "answer": "Satya",
+          "choices": [
+            "Satya",
+            "Company",
+            "Vaastav",
+            "Parinda"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The film featuring Kajol and SRK reuniting in Germany after years",
+          "answer": "Kabhi Alvida Naa Kehna",
+          "choices": [
+            "Kabhi Alvida Naa Kehna",
+            "My Name Is Khan",
+            "Dilwale",
+            "Kal Ho Naa Ho"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The music composer duo known for 'Kal Ho Naa Ho' and 'Kabhi Khushi Kabhie Gham'",
+          "answer": "Jatin-Lalit",
+          "choices": [
+            "Jatin-Lalit",
+            "Nadeem-Shravan",
+            "Vishal-Shekhar",
+            "Shankar-Ehsaan-Loy"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The legendary playback singer known as the 'Nightingale of India'",
+          "answer": "Lata Mangeshkar",
+          "choices": [
+            "Lata Mangeshkar",
+            "Asha Bhosle",
+            "Alka Yagnik",
+            "Kavita Krishnamurthy"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The playback singer known as the 'Voice of God' and singer of 'Kal Ho Naa Ho'",
+          "answer": "Sonu Nigam",
+          "choices": [
+            "Sonu Nigam",
+            "Udit Narayan",
+            "Shaan",
+            "Arijit Singh"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The choreographer who directed 'Dil To Pagal Hai' and 'Mohabbatein'",
+          "answer": "Yash Chopra",
+          "choices": [
+            "Yash Chopra",
+            "Farah Khan",
+            "Saroj Khan",
+            "Remo D'Souza"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The lyricist who penned 'Tujh Mein Rab Dikhta Hai' and won multiple Filmfare Awards",
+          "answer": "Gulzar",
+          "choices": [
+            "Gulzar",
+            "Javed Akhtar",
+            "Sameer",
+            "Anand Bakshi"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The actress known for her role in 'Queen' who won National Film Award",
+          "answer": "Kangana Ranaut",
+          "choices": [
+            "Kangana Ranaut",
+            "Vidya Balan",
+            "Rani Mukerji",
+            "Priyanka Chopra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The music composer of 'Slumdog Millionaire' who won two Oscars",
+          "answer": "AR Rahman",
+          "choices": [
+            "AR Rahman",
+            "Pritam",
+            "Amit Trivedi",
+            "Anu Malik"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The actor-director known for 'Taare Zameen Par' and 'Dangal'",
+          "answer": "Aamir Khan",
+          "choices": [
+            "Aamir Khan",
+            "Rakesh Roshan",
+            "Farhan Akhtar",
+            "Anurag Kashyap"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The director of the critically acclaimed film 'Lagaan'",
+          "answer": "Ashutosh Gowariker",
+          "choices": [
+            "Ashutosh Gowariker",
+            "Rajkumar Hirani",
+            "Rakeysh Omprakash Mehra",
+            "Anurag Basu"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The first Indian film to be nominated for an Oscar in the Best Foreign Language category",
+          "answer": "Mother India",
+          "choices": [
+            "Mother India",
+            "Lagaan",
+            "Salaam Bombay!",
+            "The Lunchbox"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The actress who made her debut in 'Om Shanti Om' and became a top star",
+          "answer": "Deepika Padukone",
+          "choices": [
+            "Deepika Padukone",
+            "Anushka Sharma",
+            "Katrina Kaif",
+            "Alia Bhatt"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The cinematographer known for 'Black' and 'Devdas' who won multiple awards",
+          "answer": "Ravi K. Chandran",
+          "choices": [
+            "Ravi K. Chandran",
+            "Santosh Sivan",
+            "Binod Pradhan",
+            "Anil Mehta"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The production house founded by Yash Chopra known for romantic films",
+          "answer": "Yash Raj Films",
+          "choices": [
+            "Yash Raj Films",
+            "Dharma Productions",
+            "Rajshri Productions",
+            "Red Chillies Entertainment"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The film editor known for 'Lagaan' and 'Rang De Basanti'",
+          "answer": "P. S. Bharathi",
+          "choices": [
+            "P. S. Bharathi",
+            "A. Sreekar Prasad",
+            "Namrata Rao",
+            "B. Lenin"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The director of 'Pyaasa' and 'Kaagaz Ke Phool', considered among India's greatest filmmakers",
+          "answer": "Guru Dutt",
+          "choices": [
+            "Guru Dutt",
+            "Bimal Roy",
+            "V. Shantaram",
+            "Hrishikesh Mukherjee"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tiny Human Survival Guide",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The average number of months in a human pregnancy",
+          "answer": "9",
+          "choices": [
+            "8",
+            "10",
+            "9",
+            "11"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The first vaccine given to a newborn baby",
+          "answer": "BCG",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "On their back",
+            "Meconium"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The soft spot on a baby's head",
+          "answer": "Fontanelle",
+          "choices": [
+            "Fontanelle",
+            "BCG",
+            "On their back",
+            "Meconium"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The recommended way for a baby to sleep to reduce SIDS risk",
+          "answer": "On their back",
+          "choices": [
+            "On their back",
+            "BCG",
+            "Fontanelle",
+            "Meconium"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The term for a baby's first bowel movement",
+          "answer": "Meconium",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "Meconium",
+            "On their back"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ideal exclusive feeding method for the first 6 months",
+          "answer": "Breastfeeding",
+          "choices": [
+            "9",
+            "40",
+            "Breastfeeding",
+            "3 to 3.5 kg"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The reflex where a baby turns toward touch on the cheek",
+          "answer": "Rooting reflex",
+          "choices": [
+            "Palmar grasp reflex",
+            "Rooting reflex",
+            "Stepping reflex",
+            "BCG"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The typical number of weeks in a full-term pregnancy",
+          "answer": "40",
+          "choices": [
+            "39",
+            "41",
+            "40",
+            "42"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The pregnancy scan done around 20 weeks to check development",
+          "answer": "Anomaly scan",
+          "choices": [
+            "Anomaly scan",
+            "Newborn screening",
+            "7",
+            "Amniocentesis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The test done on newborns to check for genetic disorders",
+          "answer": "Newborn screening",
+          "choices": [
+            "Anomaly scan",
+            "Newborn screening",
+            "7",
+            "Amniocentesis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The average birth weight of a full-term baby in kilograms",
+          "answer": "3 to 3.5 kg",
+          "choices": [
+            "3 to 3.5 kg",
+            "2 to 2.5 kg",
+            "4 to 4.5 kg",
+            "5 to 5.5 kg"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The age by which most babies can sit without support",
+          "answer": "6 months",
+          "choices": [
+            "6 months",
+            "5 months",
+            "7 months",
+            "8 months"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The yellow discoloration of skin common in newborns",
+          "answer": "Jaundice",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "On their back",
+            "Jaundice"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The term for the delivery of the placenta after birth",
+          "answer": "Third stage of labor",
+          "choices": [
+            "BCG",
+            "Third stage of labor",
+            "Fontanelle",
+            "On their back"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The minimum score on the Apgar test for a healthy newborn",
+          "answer": "7",
+          "choices": [
+            "Anomaly scan",
+            "Newborn screening",
+            "7",
+            "Amniocentesis"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The medical term for morning sickness during pregnancy",
+          "answer": "Nausea and vomiting of pregnancy",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "Nausea and vomiting of pregnancy",
+            "On their back"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The age by which most babies say their first word",
+          "answer": "12 months",
+          "choices": [
+            "10 months",
+            "14 months",
+            "12 months",
+            "15 months"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The hormone measured in pregnancy tests",
+          "answer": "hCG",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "hCG",
+            "On their back"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The condition where the placenta covers the cervix",
+          "answer": "Placenta previa",
+          "choices": [
+            "BCG",
+            "Placenta previa",
+            "Fontanelle",
+            "On their back"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The typical age when babies start teething",
+          "answer": "6 months",
+          "choices": [
+            "5 months",
+            "7 months",
+            "6 months",
+            "8 months"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The number of baby teeth a child has by age 3",
+          "answer": "20",
+          "choices": [
+            "19",
+            "21",
+            "22",
+            "20"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The medical term for a cesarean section delivery",
+          "answer": "C-section",
+          "choices": [
+            "BCG",
+            "C-section",
+            "Fontanelle",
+            "On their back"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The term for when a baby is born before 37 weeks",
+          "answer": "Preterm",
+          "choices": [
+            "9",
+            "Breastfeeding",
+            "40",
+            "Preterm"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The condition where a pregnant woman develops high blood pressure",
+          "answer": "Preeclampsia",
+          "choices": [
+            "BCG",
+            "Preeclampsia",
+            "Fontanelle",
+            "On their back"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The vitamin supplement recommended during pregnancy to prevent birth defects",
+          "answer": "Folic acid",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "Folic acid",
+            "On their back"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The reflex where a baby grasps objects placed in their palm",
+          "answer": "Palmar grasp reflex",
+          "choices": [
+            "Rooting reflex",
+            "Stepping reflex",
+            "Palmar grasp reflex",
+            "BCG"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The recommended age to introduce solid foods to a baby",
+          "answer": "6 months",
+          "choices": [
+            "5 months",
+            "7 months",
+            "6 months",
+            "8 months"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The medical procedure to collect amniotic fluid for testing",
+          "answer": "Amniocentesis",
+          "choices": [
+            "Amniocentesis",
+            "Anomaly scan",
+            "Newborn screening",
+            "7"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The exact number of weeks considered full term for a pregnancy",
+          "answer": "39 weeks",
+          "choices": [
+            "31 weeks",
+            "47 weeks",
+            "39 weeks",
+            "48 weeks"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The test that measures the baby's heart rate response to movement in the womb",
+          "answer": "Non-stress test",
+          "choices": [
+            "Non-stress test",
+            "Anomaly scan",
+            "Newborn screening",
+            "7"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The condition where the baby's shoulder gets stuck during delivery",
+          "answer": "Shoulder dystocia",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "On their back",
+            "Shoulder dystocia"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The number of hours of sleep a newborn typically needs per day",
+          "answer": "16 to 18",
+          "choices": [
+            "15 to 17",
+            "17 to 19",
+            "16 to 18",
+            "18 to 20"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The term for identical twins that share a placenta",
+          "answer": "Monochorionic",
+          "choices": [
+            "BCG",
+            "Fontanelle",
+            "On their back",
+            "Monochorionic"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The screening test for gestational diabetes done around 24-28 weeks",
+          "answer": "Glucose tolerance test",
+          "choices": [
+            "Anomaly scan",
+            "Glucose tolerance test",
+            "Newborn screening",
+            "7"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The reflex where a baby makes stepping motions when held upright",
+          "answer": "Stepping reflex",
+          "choices": [
+            "Rooting reflex",
+            "Palmar grasp reflex",
+            "BCG",
+            "Stepping reflex"
+          ]
+        }
+      ]
+    }
+  ]
+}

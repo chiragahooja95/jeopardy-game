@@ -1,0 +1,18 @@
+{
+  "name": "@jeopardy/shared",
+  "version": "1.0.0",
+  "description": "Shared types, protocols, and utilities for Jeopardy game",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "type-check": "tsc --noEmit -p tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

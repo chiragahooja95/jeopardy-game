@@ -1,0 +1,18 @@
+node_modules/
+dist/
+*.log
+
+# Build and cache
+.DS_Store
+.vite/
+coverage/
+
+# Local env
+.env
+.env.*
+!.env.example
+
+# Runtime data
+apps/server/data/*.db
+apps/server/data/*.db-shm
+apps/server/data/*.db-wal

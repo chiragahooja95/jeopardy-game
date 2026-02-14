@@ -1,0 +1,3906 @@
+{
+  "name": "Science & Nature",
+  "description": "Questions about biology, chemistry, physics, and the natural world",
+  "categories": [
+    {
+      "name": "The Human Body",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The largest organ in the human body",
+          "answer": "Skin",
+          "choices": [
+            "Larynx",
+            "Iris",
+            "Cone cells",
+            "Skin"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The body system that includes the heart and blood vessels",
+          "answer": "Circulatory system",
+          "choices": [
+            "Masseter (jaw muscle)",
+            "Dermis",
+            "Skeletal",
+            "Circulatory system"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The sense organ responsible for hearing",
+          "answer": "Ear",
+          "choices": [
+            "Hemoglobin",
+            "Aorta",
+            "Ear",
+            "Hypothalamus"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The colored part of the eye",
+          "answer": "Iris",
+          "choices": [
+            "Iris",
+            "Hypothalamus",
+            "Pleura",
+            "Cone cells"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The muscle that pumps blood through your body",
+          "answer": "Heart",
+          "choices": [
+            "Femur",
+            "Cerebral cortex",
+            "Stapes",
+            "Heart"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The organ that filters waste from the blood to make urine",
+          "answer": "Kidney",
+          "choices": [
+            "Aorta",
+            "Hypothalamus",
+            "Pleura",
+            "Kidney"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The hard outer covering that protects your teeth",
+          "answer": "Enamel",
+          "choices": [
+            "Heart",
+            "Enamel",
+            "Esophagus",
+            "Masseter (jaw muscle)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of bones in an adult human body",
+          "answer": "206",
+          "choices": [
+            "12",
+            "7",
+            "118",
+            "206"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The type of blood cells that fight infection",
+          "answer": "White blood cells",
+          "choices": [
+            "Cone cells",
+            "Larynx",
+            "White blood cells",
+            "Skin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest internal organ in the human body",
+          "answer": "Liver",
+          "choices": [
+            "Liver",
+            "Lens",
+            "Mitral valve",
+            "Hemoglobin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of chambers in the human heart",
+          "answer": "Four",
+          "choices": [
+            "206",
+            "12",
+            "24",
+            "Four"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The tube that connects the mouth to the stomach",
+          "answer": "Esophagus",
+          "choices": [
+            "Clavicle",
+            "Femur",
+            "Esophagus",
+            "Cerebral cortex"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The gland that produces saliva in the mouth",
+          "answer": "Salivary glands",
+          "choices": [
+            "Iris",
+            "Kidney",
+            "Salivary glands",
+            "White blood cells"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The strongest muscle in the human body based on its size",
+          "answer": "Masseter (jaw muscle)",
+          "choices": [
+            "Clavicle",
+            "Femur",
+            "Masseter (jaw muscle)",
+            "Cerebral cortex"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The part of the brain responsible for balance and coordination",
+          "answer": "Cerebellum",
+          "choices": [
+            "Mitral valve",
+            "Cerebellum",
+            "Hemoglobin",
+            "Aorta"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The layer of skin that contains nerve endings and blood vessels",
+          "answer": "Dermis",
+          "choices": [
+            "Stapes",
+            "Multiple sclerosis",
+            "Nephrons",
+            "Dermis"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The hormone produced by the pancreas that regulates blood sugar",
+          "answer": "Insulin",
+          "choices": [
+            "Liver",
+            "Insulin",
+            "Salivary glands",
+            "Cerebellum"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The three types of muscles in the human body include cardiac, smooth, and this",
+          "answer": "Skeletal",
+          "choices": [
+            "Skeletal",
+            "Multiple sclerosis",
+            "Nephrons",
+            "Action potential"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientific name for the collarbone",
+          "answer": "Clavicle",
+          "choices": [
+            "Heart",
+            "Enamel",
+            "Esophagus",
+            "Clavicle"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The part of the eye that focuses light onto the retina",
+          "answer": "Lens",
+          "choices": [
+            "Liver",
+            "Lens",
+            "Salivary glands",
+            "Cerebellum"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The valve between the left atrium and left ventricle of the heart",
+          "answer": "Mitral valve",
+          "choices": [
+            "Kidney",
+            "White blood cells",
+            "Liver",
+            "Mitral valve"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The protein that carries oxygen in red blood cells",
+          "answer": "Hemoglobin",
+          "choices": [
+            "Lens",
+            "Hemoglobin",
+            "Mitral valve",
+            "Aorta"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest artery in the human body",
+          "answer": "Aorta",
+          "choices": [
+            "Iris",
+            "Aorta",
+            "Kidney",
+            "Insulin"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The part of the brain that controls body temperature and hunger",
+          "answer": "Hypothalamus",
+          "choices": [
+            "Mitral valve",
+            "Hemoglobin",
+            "Hypothalamus",
+            "Aorta"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The membrane that surrounds and protects the lungs",
+          "answer": "Pleura",
+          "choices": [
+            "Lens",
+            "Pleura",
+            "Mitral valve",
+            "Hemoglobin"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The scientific name for the thigh bone, the longest bone in the body",
+          "answer": "Femur",
+          "choices": [
+            "Dermis",
+            "Femur",
+            "Skeletal",
+            "Clavicle"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The outer layer of the brain responsible for higher thinking",
+          "answer": "Cerebral cortex",
+          "choices": [
+            "Clavicle",
+            "Cerebral cortex",
+            "Femur",
+            "Stapes"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of pairs of cranial nerves in humans",
+          "answer": "12",
+          "choices": [
+            "12",
+            "206",
+            "11",
+            "13"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The smallest bone in the human body, located in the ear",
+          "answer": "Stapes",
+          "choices": [
+            "Stapes",
+            "Circulatory system",
+            "Heart",
+            "Enamel"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The cells in the retina responsible for detecting color",
+          "answer": "Cone cells",
+          "choices": [
+            "Cone cells",
+            "Skin",
+            "Iris",
+            "Eutrophication"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The autoimmune disease where the body attacks the myelin sheath of nerves",
+          "answer": "Multiple sclerosis",
+          "choices": [
+            "Clavicle",
+            "Femur",
+            "Cerebral cortex",
+            "Multiple sclerosis"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The functional units of the kidney that filter blood",
+          "answer": "Nephrons",
+          "choices": [
+            "Action potential",
+            "Hyoid bone",
+            "Nephrons",
+            "Circulatory system"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The name of the electrical impulse that travels along a neuron",
+          "answer": "Action potential",
+          "choices": [
+            "Action potential",
+            "Masseter (jaw muscle)",
+            "Dermis",
+            "Skeletal"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The medical term for the voice box",
+          "answer": "Larynx",
+          "choices": [
+            "Mitral valve",
+            "Hemoglobin",
+            "Larynx",
+            "Aorta"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The only bone in the body not connected to another bone",
+          "answer": "Hyoid bone",
+          "choices": [
+            "Femur",
+            "Cerebral cortex",
+            "Hyoid bone",
+            "Stapes"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Chemistry",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The chemical symbol for gold",
+          "answer": "Au",
+          "choices": [
+            "H2O",
+            "Au",
+            "Na",
+            "Gas"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The chemical formula for water",
+          "answer": "H2O",
+          "choices": [
+            "H2O",
+            "Au",
+            "Na",
+            "O"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The gas that makes up most of Earth's atmosphere",
+          "answer": "Nitrogen",
+          "choices": [
+            "Azimuthal (or angular momentum)",
+            "Fluorine",
+            "Nitrogen",
+            "Salt (or table salt)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The chemical symbol for sodium",
+          "answer": "Na",
+          "choices": [
+            "Na",
+            "Au",
+            "H2O",
+            "K"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The process of a solid turning directly into a gas",
+          "answer": "Sublimation",
+          "choices": [
+            "Evaporation (or vaporization)",
+            "Condensation",
+            "Sublimation",
+            "Exothermic"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The common name for NaCl",
+          "answer": "Salt (or table salt)",
+          "choices": [
+            "Acetic acid",
+            "Hydrogen bonding",
+            "Salt (or table salt)",
+            "Azimuthal (or angular momentum)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The state of matter with no fixed shape or volume",
+          "answer": "Gas",
+          "choices": [
+            "Himalayas",
+            "Rajagopala Chidambaram (contributed to nuclear chemistry)",
+            "Azimuthal (or angular momentum)",
+            "Gas"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The pH level of pure water",
+          "answer": "7",
+          "choices": [
+            "118",
+            "206",
+            "7",
+            "6"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of elements in the periodic table (approximate)",
+          "answer": "118",
+          "choices": [
+            "7",
+            "117",
+            "119",
+            "118"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The lightest element on the periodic table",
+          "answer": "Hydrogen",
+          "choices": [
+            "Hydrogen",
+            "Nitrogen",
+            "Salt (or table salt)",
+            "Electrons"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The particles in an atom that have a negative charge",
+          "answer": "Electrons",
+          "choices": [
+            "Salt (or table salt)",
+            "Electrons",
+            "Hydrogen",
+            "Argon"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The process of a liquid turning into a gas",
+          "answer": "Evaporation (or vaporization)",
+          "choices": [
+            "Iron",
+            "Allotropy",
+            "Evaporation (or vaporization)",
+            "Sublimation"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The most abundant element in the universe",
+          "answer": "Hydrogen",
+          "choices": [
+            "Electrons",
+            "Argon",
+            "Hydrogen",
+            "Covalent bond"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The noble gas commonly used in light bulbs",
+          "answer": "Argon",
+          "choices": [
+            "Hydrogen",
+            "Electrons",
+            "Argon",
+            "Covalent bond"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The most abundant element in the Earth's atmosphere",
+          "answer": "Nitrogen",
+          "choices": [
+            "Fluorine",
+            "Salt (or table salt)",
+            "Hydrogen",
+            "Nitrogen"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The type of bond formed when atoms share electrons",
+          "answer": "Covalent bond",
+          "choices": [
+            "Acetic acid",
+            "Hydrogen bonding",
+            "Covalent bond",
+            "Azimuthal (or angular momentum)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The element with atomic number 6, essential to all life",
+          "answer": "Carbon",
+          "choices": [
+            "7",
+            "118",
+            "Carbon",
+            "36"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian chemist who developed the Bose-Einstein condensate theory",
+          "answer": "Satyendra Nath Bose",
+          "choices": [
+            "Pauli Exclusion Principle",
+            "Avogadro's Law",
+            "Satyendra Nath Bose",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The process by which a gas turns into a liquid",
+          "answer": "Condensation",
+          "choices": [
+            "Sublimation",
+            "Evaporation (or vaporization)",
+            "Condensation",
+            "Exothermic"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The elements in Group 18 of the periodic table",
+          "answer": "Noble gases",
+          "choices": [
+            "Acetic acid",
+            "Hydrogen bonding",
+            "Noble gases",
+            "Azimuthal (or angular momentum)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The common acid found in vinegar",
+          "answer": "Acetic acid",
+          "choices": [
+            "Fluorine",
+            "Nitrogen",
+            "Salt (or table salt)",
+            "Acetic acid"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The scientist who developed the periodic table",
+          "answer": "Dmitri Mendeleev",
+          "choices": [
+            "APJ Abdul Kalam",
+            "Dmitri Mendeleev",
+            "Alexander Graham Bell",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The type of reaction where energy is released",
+          "answer": "Exothermic",
+          "choices": [
+            "Exothermic",
+            "Condensation",
+            "Iron",
+            "Allotropy"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The element named after the Indian physicist Homi Bhabha's mentor",
+          "answer": "Bohrium",
+          "choices": [
+            "Dmitri Mendeleev",
+            "Pauli Exclusion Principle",
+            "Bohrium",
+            "Satyendra Nath Bose"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of protons in the nucleus defines this atomic property",
+          "answer": "Atomic number",
+          "choices": [
+            "Atomic number",
+            "7",
+            "206",
+            "118"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The principle stating that no two electrons can have identical quantum numbers",
+          "answer": "Pauli Exclusion Principle",
+          "choices": [
+            "Avogadro's Law",
+            "Newton's Third Law",
+            "Ohm's Law",
+            "Pauli Exclusion Principle"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The strongest type of intermolecular force",
+          "answer": "Hydrogen bonding",
+          "choices": [
+            "Hydrogen bonding",
+            "Argon",
+            "Covalent bond",
+            "Noble gases"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The number of carbon atoms in a benzene ring",
+          "answer": "Six",
+          "choices": [
+            "118",
+            "Six",
+            "12",
+            "7"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The number of atoms in one mole of a substance",
+          "answer": "Avogadro's number",
+          "choices": [
+            "Avogadro's number",
+            "7",
+            "12",
+            "118"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian scientist who discovered the element francium's isotope",
+          "answer": "Rajagopala Chidambaram (contributed to nuclear chemistry)",
+          "choices": [
+            "Dmitri Mendeleev",
+            "World Wide Web",
+            "Pauli Exclusion Principle",
+            "Rajagopala Chidambaram (contributed to nuclear chemistry)"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The quantum number that describes the shape of an orbital",
+          "answer": "Azimuthal (or angular momentum)",
+          "choices": [
+            "Hydrogen",
+            "Electrons",
+            "Azimuthal (or angular momentum)",
+            "Argon"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The catalyst used in the Haber process for ammonia synthesis",
+          "answer": "Iron",
+          "choices": [
+            "Evaporation (or vaporization)",
+            "Condensation",
+            "Iron",
+            "Exothermic"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The law stating that equal volumes of gases at the same temperature and pressure contain equal numbers of molecules",
+          "answer": "Avogadro's Law",
+          "choices": [
+            "Avogadro's Law",
+            "Pauli Exclusion Principle",
+            "Raman effect (or Raman scattering)",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The element with the highest electronegativity",
+          "answer": "Fluorine",
+          "choices": [
+            "Acetic acid",
+            "Fluorine",
+            "Hydrogen bonding",
+            "Azimuthal (or angular momentum)"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The phenomenon where a substance can exist in multiple structural forms",
+          "answer": "Allotropy",
+          "choices": [
+            "Condensation",
+            "Exothermic",
+            "Allotropy",
+            "Iron"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Space & Astronomy",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The planet closest to the Sun",
+          "answer": "Mercury",
+          "choices": [
+            "Mercury",
+            "Venus",
+            "Pluto",
+            "Uranus"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The largest planet in our solar system",
+          "answer": "Jupiter",
+          "choices": [
+            "Saturn",
+            "Venus",
+            "Pluto",
+            "Jupiter"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The natural satellite that orbits Earth",
+          "answer": "The Moon",
+          "choices": [
+            "The Sun",
+            "Neil Armstrong",
+            "The Moon",
+            "Rakesh Sharma"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The number of planets in our solar system",
+          "answer": "Eight",
+          "choices": [
+            "Eight",
+            "118",
+            "10",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The planet known as the Red Planet",
+          "answer": "Mars",
+          "choices": [
+            "Uranus",
+            "Aphelion",
+            "Mars",
+            "NavIC (or IRNSS)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The star at the center of our solar system",
+          "answer": "The Sun",
+          "choices": [
+            "The Sun",
+            "Subrahmanyan Chandrasekhar",
+            "The Moon",
+            "The Milky Way"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The force that keeps planets in orbit around the Sun",
+          "answer": "Gravity",
+          "choices": [
+            "Event horizon",
+            "Perseverance",
+            "Gravity",
+            "Cosmic Microwave Background (CMB)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The galaxy that contains our solar system",
+          "answer": "The Milky Way",
+          "choices": [
+            "Jupiter",
+            "Mars",
+            "Saturn",
+            "The Milky Way"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The planet with the most visible rings",
+          "answer": "Saturn",
+          "choices": [
+            "Venus",
+            "Pluto",
+            "Saturn",
+            "Uranus"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The time it takes Earth to complete one orbit around the Sun",
+          "answer": "One year (or 365 days)",
+          "choices": [
+            "13.8 billion years",
+            "One year (or 365 days)",
+            "Event horizon",
+            "Perseverance"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest moon of Saturn",
+          "answer": "Titan",
+          "choices": [
+            "Event horizon",
+            "Perseverance",
+            "Titan",
+            "Cosmic Microwave Background (CMB)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian space agency that successfully sent a mission to Mars",
+          "answer": "ISRO (Indian Space Research Organisation)",
+          "choices": [
+            "Yash Raj Films",
+            "Gravity 2",
+            "Gravity 3",
+            "ISRO (Indian Space Research Organisation)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The hottest planet in our solar system",
+          "answer": "Venus",
+          "choices": [
+            "Venus",
+            "Aphelion",
+            "Mercury",
+            "Pluto"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The bright streak of light produced when a meteoroid enters Earth's atmosphere",
+          "answer": "Meteor (or shooting star)",
+          "choices": [
+            "Meteor (or shooting star)",
+            "Cosmic Microwave Background (CMB)",
+            "Voyager 1",
+            "Dark matter"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The first human to walk on the Moon",
+          "answer": "Neil Armstrong",
+          "choices": [
+            "Subrahmanyan Chandrasekhar",
+            "The Moon",
+            "Neil Armstrong",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian astronaut who was the first Indian in space",
+          "answer": "Rakesh Sharma",
+          "choices": [
+            "Rakesh Sharma",
+            "Subrahmanyan Chandrasekhar",
+            "The Moon",
+            "Gurdev Khush"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The dwarf planet formerly classified as the ninth planet",
+          "answer": "Pluto",
+          "choices": [
+            "Aphelion",
+            "Mercury",
+            "Pluto",
+            "Mangalyaan (or Mars Orbiter Mission)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The name of India's first Mars orbiter mission",
+          "answer": "Mangalyaan (or Mars Orbiter Mission)",
+          "choices": [
+            "Event horizon",
+            "Perseverance",
+            "Mangalyaan (or Mars Orbiter Mission)",
+            "Cosmic Microwave Background (CMB)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The constellation that contains the North Star",
+          "answer": "Ursa Minor (or Little Dipper)",
+          "choices": [
+            "Ursa Minor (or Little Dipper)",
+            "Cosmic Microwave Background (CMB)",
+            "Voyager 1",
+            "Dark matter"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The closest star to Earth after the Sun",
+          "answer": "Proxima Centauri",
+          "choices": [
+            "Proxima Centauri",
+            "Subrahmanyan Chandrasekhar",
+            "The Moon",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The planet that rotates on its side",
+          "answer": "Uranus",
+          "choices": [
+            "Aphelion",
+            "Uranus",
+            "Chandrasekhar limit",
+            "Cosmic Microwave Background (CMB)"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The approximate age of the universe in billions of years",
+          "answer": "13.8 billion years",
+          "choices": [
+            "Event horizon",
+            "Perseverance",
+            "13.8 billion years",
+            "Cosmic Microwave Background (CMB)"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The boundary around a black hole beyond which nothing can escape",
+          "answer": "Event horizon",
+          "choices": [
+            "Titan",
+            "Meteor (or shooting star)",
+            "Event horizon",
+            "Mangalyaan (or Mars Orbiter Mission)"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian astrophysicist who calculated the maximum mass of a white dwarf star",
+          "answer": "Subrahmanyan Chandrasekhar",
+          "choices": [
+            "The Moon",
+            "The Sun",
+            "Isaac Newton",
+            "Subrahmanyan Chandrasekhar"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest volcano in the solar system, located on Mars",
+          "answer": "Olympus Mons",
+          "choices": [
+            "Mercury",
+            "Jupiter",
+            "Olympus Mons",
+            "Mars"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The galaxy closest to the Milky Way",
+          "answer": "Andromeda Galaxy",
+          "choices": [
+            "Pluto",
+            "Uranus",
+            "Andromeda Galaxy",
+            "Chandrasekhar limit"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The name of the rover that landed on Mars in 2021",
+          "answer": "Perseverance",
+          "choices": [
+            "NavIC (or IRNSS)",
+            "Gravity",
+            "One year (or 365 days)",
+            "Perseverance"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The term for a star that suddenly increases in brightness then fades",
+          "answer": "Supernova",
+          "choices": [
+            "Supernova",
+            "Event horizon",
+            "Hemoglobin",
+            "Aorta"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The phenomenon that prevents light from escaping a black hole",
+          "answer": "Event horizon",
+          "choices": [
+            "Supernova",
+            "Extinct",
+            "Event horizon",
+            "Greenhouse effect"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The limit beyond which a star will collapse into a black hole, named after an Indian scientist",
+          "answer": "Chandrasekhar limit",
+          "choices": [
+            "Rakesh Sharma",
+            "Proxima Centauri",
+            "Subrahmanyan Chandrasekhar",
+            "Chandrasekhar limit"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The cosmic background radiation left over from the Big Bang",
+          "answer": "Cosmic Microwave Background (CMB)",
+          "choices": [
+            "Dark matter",
+            "NavIC (or IRNSS)",
+            "Cosmic Microwave Background (CMB)",
+            "Gravity"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The point in a planet's orbit when it is farthest from the Sun",
+          "answer": "Aphelion",
+          "choices": [
+            "Mercury",
+            "Jupiter",
+            "Pluto",
+            "Aphelion"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The spacecraft that became the first to leave our solar system",
+          "answer": "Voyager 1",
+          "choices": [
+            "Voyager 1",
+            "Perseverance",
+            "Cosmic Microwave Background (CMB)",
+            "Dark matter"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The theoretical massive particles that make up most of the universe's matter",
+          "answer": "Dark matter",
+          "choices": [
+            "One year (or 365 days)",
+            "Dark matter",
+            "Titan",
+            "Meteor (or shooting star)"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The name of the Indian satellite navigation system",
+          "answer": "NavIC (or IRNSS)",
+          "choices": [
+            "One year (or 365 days)",
+            "NavIC (or IRNSS)",
+            "Titan",
+            "Meteor (or shooting star)"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Physics",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The force that pulls objects toward Earth",
+          "answer": "Gravity",
+          "choices": [
+            "Gravity",
+            "Potential energy",
+            "Refraction",
+            "Inertia"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The unit used to measure force",
+          "answer": "Newton",
+          "choices": [
+            "Newton",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ability of an object to do work",
+          "answer": "Energy",
+          "choices": [
+            "Friction",
+            "Energy",
+            "Direct current (DC)",
+            "Reflection"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The type of energy stored in a stretched spring",
+          "answer": "Potential energy",
+          "choices": [
+            "Photon",
+            "Potential energy",
+            "Gamma rays",
+            "Large Hadron Collider (LHC)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The bending of light as it passes from one medium to another",
+          "answer": "Refraction",
+          "choices": [
+            "Inertia",
+            "Friction",
+            "Direct current (DC)",
+            "Refraction"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The SI unit of electric current",
+          "answer": "Ampere",
+          "choices": [
+            "Newton",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The property of matter that resists changes in motion",
+          "answer": "Inertia",
+          "choices": [
+            "Inertia",
+            "Refraction",
+            "Friction",
+            "Direct current (DC)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The speed of light in meters per second (approximate)",
+          "answer": "300 million",
+          "choices": [
+            "300 million",
+            "206",
+            "10",
+            "Gravity 3"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The law stating that for every action there is an equal and opposite reaction",
+          "answer": "Newton's Third Law",
+          "choices": [
+            "Planck's constant",
+            "Raman effect (or Raman scattering)",
+            "Newton's Third Law",
+            "E=mc²"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The force that opposes motion between surfaces in contact",
+          "answer": "Friction",
+          "choices": [
+            "Photon",
+            "Gamma rays",
+            "Friction",
+            "Large Hadron Collider (LHC)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The scientist who formulated the three laws of motion",
+          "answer": "Isaac Newton",
+          "choices": [
+            "Isaac Newton",
+            "Satyendra Nath Bose",
+            "CV Raman",
+            "Heisenberg Uncertainty Principle"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The unit of measurement for power",
+          "answer": "Watt",
+          "choices": [
+            "Newton",
+            "Ampere",
+            "Watt",
+            "Ohm"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The type of current that flows in only one direction",
+          "answer": "Direct current (DC)",
+          "choices": [
+            "Direct current (DC)",
+            "Potential energy",
+            "Refraction",
+            "Inertia"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The bouncing back of light from a surface",
+          "answer": "Reflection",
+          "choices": [
+            "Energy",
+            "Potential energy",
+            "Refraction",
+            "Reflection"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "Einstein's famous equation relating energy and mass",
+          "answer": "E=mc²",
+          "choices": [
+            "Ohm's Law",
+            "Heisenberg Uncertainty Principle",
+            "E=mc²",
+            "Saha ionization equation"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian physicist known for the Bose-Einstein statistics",
+          "answer": "Satyendra Nath Bose",
+          "choices": [
+            "Satyendra Nath Bose",
+            "Isaac Newton",
+            "CV Raman",
+            "APJ Abdul Kalam"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The acceleration due to gravity on Earth (approximate)",
+          "answer": "9.8 m/s²",
+          "choices": [
+            "Inertia",
+            "9.8 m/s²",
+            "Friction",
+            "Direct current (DC)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The principle that states energy cannot be created or destroyed",
+          "answer": "Conservation of energy",
+          "choices": [
+            "Conservation of energy",
+            "Newton's Third Law",
+            "E=mc²",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The device that transforms mechanical energy into electrical energy",
+          "answer": "Generator",
+          "choices": [
+            "Generator",
+            "Thermometer",
+            "Generator (or dynamo)",
+            "Barometer"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The temperature at which all molecular motion stops",
+          "answer": "Absolute zero",
+          "choices": [
+            "Absolute zero",
+            "12",
+            "7",
+            "42"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The rate of change of velocity",
+          "answer": "Acceleration",
+          "choices": [
+            "Acceleration",
+            "Potential energy",
+            "Refraction",
+            "Inertia"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The unit of measurement for electrical resistance",
+          "answer": "Ohm",
+          "choices": [
+            "Newton",
+            "Ohm",
+            "Ampere",
+            "Watt"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian physicist who explained the scattering of light by molecules",
+          "answer": "CV Raman",
+          "choices": [
+            "CV Raman",
+            "Isaac Newton",
+            "Satyendra Nath Bose",
+            "Analytical Engine"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The particle of light with zero rest mass",
+          "answer": "Photon",
+          "choices": [
+            "Gamma rays",
+            "Large Hadron Collider (LHC)",
+            "Superposition",
+            "Photon"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The phenomenon where the frequency of a wave changes due to motion",
+          "answer": "Doppler effect",
+          "choices": [
+            "Doppler effect",
+            "Gravitational lensing",
+            "Kidney",
+            "White blood cells"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The law stating that the current through a conductor is proportional to voltage",
+          "answer": "Ohm's Law",
+          "choices": [
+            "Planck's constant",
+            "Raman effect (or Raman scattering)",
+            "Ohm's Law",
+            "Newton's Third Law"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The type of electromagnetic radiation with the shortest wavelength",
+          "answer": "Gamma rays",
+          "choices": [
+            "Potential energy",
+            "Gamma rays",
+            "Refraction",
+            "Inertia"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The principle that you cannot simultaneously know both position and momentum precisely",
+          "answer": "Heisenberg Uncertainty Principle",
+          "choices": [
+            "Ohm's Law",
+            "Saha ionization equation",
+            "Newton's Third Law",
+            "Heisenberg Uncertainty Principle"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The phenomenon where light bends around massive objects",
+          "answer": "Gravitational lensing",
+          "choices": [
+            "Doppler effect",
+            "Gravitational lensing",
+            "Hypoglycemia",
+            "Pancreas"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The particle accelerator at CERN that discovered the Higgs boson",
+          "answer": "Large Hadron Collider (LHC)",
+          "choices": [
+            "Large Hadron Collider (LHC)",
+            "9.8 m/s²",
+            "Acceleration",
+            "Photon"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian astrophysicist Meghnad Saha developed this equation for ionization",
+          "answer": "Saha ionization equation",
+          "choices": [
+            "Ohm's Law",
+            "Heisenberg Uncertainty Principle",
+            "Newton's Third Law",
+            "Saha ionization equation"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The quantum mechanical property that allows particles to exist in multiple states",
+          "answer": "Superposition",
+          "choices": [
+            "Potential energy",
+            "Refraction",
+            "Inertia",
+            "Superposition"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The force-carrying particles in quantum field theory",
+          "answer": "Bosons",
+          "choices": [
+            "Ohm's Law",
+            "Heisenberg Uncertainty Principle",
+            "Saha ionization equation",
+            "Bosons"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The constant that relates the energy of a photon to its frequency",
+          "answer": "Planck's constant",
+          "choices": [
+            "E=mc²",
+            "Planck's constant",
+            "Ohm's Law",
+            "Pauli Exclusion Principle"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The effect where light scattered by particles has a wavelength shift",
+          "answer": "Raman effect (or Raman scattering)",
+          "choices": [
+            "Planck's constant",
+            "Newton's Third Law",
+            "Raman effect (or Raman scattering)",
+            "Ohm's Law"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Biology",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The process by which plants make food using sunlight",
+          "answer": "Photosynthesis",
+          "choices": [
+            "Mitochondria",
+            "Chloroplast",
+            "Photosynthesis",
+            "Helicase"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The green pigment in plants that absorbs light",
+          "answer": "Chlorophyll",
+          "choices": [
+            "Cell",
+            "Chlorophyll",
+            "Decomposer",
+            "Immune system"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The largest land animal",
+          "answer": "African elephant",
+          "choices": [
+            "Artery",
+            "Bats",
+            "Mycology",
+            "African elephant"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The organ that pumps blood throughout the body",
+          "answer": "Heart",
+          "choices": [
+            "Reproduction",
+            "Heart",
+            "Skin",
+            "46 (or 23 pairs)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "Animals that eat only plants",
+          "answer": "Herbivores",
+          "choices": [
+            "Ecology",
+            "Herbivores",
+            "Chlorophyll",
+            "African elephant"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The process by which organisms produce offspring",
+          "answer": "Reproduction",
+          "choices": [
+            "Reproduction",
+            "Skin",
+            "46 (or 23 pairs)",
+            "Mitosis"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The kingdom that includes mushrooms and yeast",
+          "answer": "Fungi",
+          "choices": [
+            "Mutualism",
+            "Ecology",
+            "Chlorophyll",
+            "Fungi"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The basic unit of life",
+          "answer": "Cell",
+          "choices": [
+            "Decomposer",
+            "Cell",
+            "Immune system",
+            "Artery"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The type of organism that breaks down dead material",
+          "answer": "Decomposer",
+          "choices": [
+            "Artery",
+            "Decomposer",
+            "Bats",
+            "Mycology"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The system in the body that fights disease",
+          "answer": "Immune system",
+          "choices": [
+            "Ecology",
+            "Chlorophyll",
+            "African elephant",
+            "Immune system"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest organ in the human body",
+          "answer": "Skin",
+          "choices": [
+            "Mitochondria",
+            "Chloroplast",
+            "Helicase",
+            "Skin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The number of chromosomes in a human cell",
+          "answer": "46 (or 23 pairs)",
+          "choices": [
+            "Meiosis",
+            "Mitochondria",
+            "Chloroplast",
+            "46 (or 23 pairs)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The process by which cells divide to produce two identical cells",
+          "answer": "Mitosis",
+          "choices": [
+            "Mitosis",
+            "Photosynthesis",
+            "Heart",
+            "Reproduction"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest living structure on Earth, located off Australia",
+          "answer": "Great Barrier Reef",
+          "choices": [
+            "MS Swaminathan",
+            "Gurdev Khush",
+            "Kamal Ranadive",
+            "Great Barrier Reef"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientist who proposed the theory of evolution by natural selection",
+          "answer": "Charles Darwin",
+          "choices": [
+            "Pauli Exclusion Principle",
+            "Charles Darwin",
+            "Ohm's Law",
+            "Newton's Third Law"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian scientist known as the father of the Green Revolution in India",
+          "answer": "MS Swaminathan",
+          "choices": [
+            "Great Barrier Reef",
+            "MS Swaminathan",
+            "Gurdev Khush",
+            "Kamal Ranadive"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The organelle that contains the cell's genetic material",
+          "answer": "Nucleus",
+          "choices": [
+            "Reproduction",
+            "Nucleus",
+            "Skin",
+            "46 (or 23 pairs)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The type of blood vessel that carries blood away from the heart",
+          "answer": "Artery",
+          "choices": [
+            "Artery",
+            "Herbivores",
+            "Fungi",
+            "Cell"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The process by which organisms maintain a stable internal environment",
+          "answer": "Homeostasis",
+          "choices": [
+            "Photosynthesis",
+            "Heart",
+            "Homeostasis",
+            "Reproduction"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The only mammals that can truly fly",
+          "answer": "Bats",
+          "choices": [
+            "Chlorophyll",
+            "Bats",
+            "African elephant",
+            "Herbivores"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientific study of fungi",
+          "answer": "Mycology",
+          "choices": [
+            "Arthropoda",
+            "RNA",
+            "Mycology",
+            "PCR (Polymerase Chain Reaction)"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The molecule that carries genetic information",
+          "answer": "DNA",
+          "choices": [
+            "Cell",
+            "Decomposer",
+            "DNA",
+            "Immune system"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian biologist who discovered the jaguar gene in rice",
+          "answer": "Gurdev Khush",
+          "choices": [
+            "Gurdev Khush",
+            "Great Barrier Reef",
+            "MS Swaminathan",
+            "Kamal Ranadive"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process by which cells produce energy without oxygen",
+          "answer": "Anaerobic respiration (or fermentation)",
+          "choices": [
+            "Anaerobic respiration (or fermentation)",
+            "Mitochondria",
+            "Chloroplast",
+            "Helicase"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest phylum in the animal kingdom",
+          "answer": "Arthropoda",
+          "choices": [
+            "Artery",
+            "Bats",
+            "Mycology",
+            "Arthropoda"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The term for animals that can live both on land and in water",
+          "answer": "Amphibians",
+          "choices": [
+            "46 (or 23 pairs)",
+            "Mitosis",
+            "Nucleus",
+            "Amphibians"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The molecule that translates genetic information into proteins",
+          "answer": "RNA",
+          "choices": [
+            "Artery",
+            "Bats",
+            "Mycology",
+            "RNA"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process of cell division that produces sex cells",
+          "answer": "Meiosis",
+          "choices": [
+            "Nucleus",
+            "Homeostasis",
+            "Anaerobic respiration (or fermentation)",
+            "Meiosis"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The powerhouse of the cell",
+          "answer": "Mitochondria",
+          "choices": [
+            "Mitosis",
+            "Mitochondria",
+            "Nucleus",
+            "Homeostasis"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian biologist known for her work on chromosome structure and cancer",
+          "answer": "Kamal Ranadive",
+          "choices": [
+            "Great Barrier Reef",
+            "MS Swaminathan",
+            "Kamal Ranadive",
+            "Gurdev Khush"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The technique used to amplify DNA sequences",
+          "answer": "PCR (Polymerase Chain Reaction)",
+          "choices": [
+            "Immune system",
+            "Artery",
+            "PCR (Polymerase Chain Reaction)",
+            "Bats"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The organelle in plant cells where photosynthesis occurs",
+          "answer": "Chloroplast",
+          "choices": [
+            "Chloroplast",
+            "Heart",
+            "Reproduction",
+            "Skin"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The symbiotic relationship where both organisms benefit",
+          "answer": "Mutualism",
+          "choices": [
+            "Mutualism",
+            "DNA",
+            "Arthropoda",
+            "RNA"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The field of biology that studies the interactions between organisms and their environment",
+          "answer": "Ecology",
+          "choices": [
+            "Ecology",
+            "Bats",
+            "Mycology",
+            "DNA"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The enzyme that unzips DNA during replication",
+          "answer": "Helicase",
+          "choices": [
+            "Helicase",
+            "Heart",
+            "Reproduction",
+            "Skin"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Earth Science",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The layer of gases surrounding Earth",
+          "answer": "Atmosphere",
+          "choices": [
+            "Metamorphic rock",
+            "Atmosphere",
+            "Troposphere",
+            "Seismology"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The center of Earth, made mostly of iron and nickel",
+          "answer": "Core",
+          "choices": [
+            "Magma",
+            "Core",
+            "Crust",
+            "Moon"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The continuous movement of water on Earth",
+          "answer": "Water cycle",
+          "choices": [
+            "Core",
+            "Magma",
+            "Water cycle",
+            "Crust"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The molten rock beneath Earth's surface",
+          "answer": "Magma",
+          "choices": [
+            "Magma",
+            "Troposphere",
+            "Seismology",
+            "Monsoon winds"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The layer of Earth where we live",
+          "answer": "Crust",
+          "choices": [
+            "Atmosphere",
+            "Core",
+            "Crust",
+            "Water cycle"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The natural satellite that orbits Earth",
+          "answer": "Moon",
+          "choices": [
+            "Seismology",
+            "Monsoon winds",
+            "Moon",
+            "Mantle"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The type of rock formed from cooled lava",
+          "answer": "Igneous rock",
+          "choices": [
+            "Igneous rock",
+            "Crust",
+            "Moon",
+            "Erosion"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The scale used to measure earthquake magnitude",
+          "answer": "Richter scale",
+          "choices": [
+            "Barometer",
+            "Generator",
+            "Thermometer",
+            "Richter scale"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest ocean on Earth",
+          "answer": "Pacific Ocean",
+          "choices": [
+            "Pacific Ocean",
+            "Abyssal zone",
+            "Subduction zone",
+            "Mars"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The wearing away of Earth's surface by wind, water, or ice",
+          "answer": "Erosion",
+          "choices": [
+            "Metamorphic rock",
+            "Troposphere",
+            "Seismology",
+            "Erosion"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The tallest mountain in the world",
+          "answer": "Mount Everest",
+          "choices": [
+            "Mount Everest",
+            "Antarctic Desert (or Sahara if excluding polar)",
+            "Abyssal zone",
+            "Mercury"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The type of rock formed from compressed sediments",
+          "answer": "Sedimentary rock",
+          "choices": [
+            "Sedimentary rock",
+            "Crust",
+            "Moon",
+            "Igneous rock"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The instrument used to measure atmospheric pressure",
+          "answer": "Barometer",
+          "choices": [
+            "Generator",
+            "Thermometer",
+            "Seismograph",
+            "Barometer"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The imaginary line that divides Earth into northern and southern hemispheres",
+          "answer": "Equator",
+          "choices": [
+            "Metamorphic rock",
+            "Troposphere",
+            "Seismology",
+            "Equator"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The point on Earth's surface directly above an earthquake's focus",
+          "answer": "Epicenter",
+          "choices": [
+            "Cretaceous period",
+            "Epicenter",
+            "Atmosphere",
+            "Core"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian plate's collision with the Eurasian plate formed this mountain range",
+          "answer": "Himalayas",
+          "choices": [
+            "Himalayas",
+            "Antarctic Desert (or Sahara if excluding polar)",
+            "Abyssal zone",
+            "Condensation"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The boundary between two tectonic plates",
+          "answer": "Fault line",
+          "choices": [
+            "Cretaceous period",
+            "Fault line",
+            "Atmosphere",
+            "Core"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The longest river in the world",
+          "answer": "Nile River",
+          "choices": [
+            "Abyssal zone",
+            "Subduction zone",
+            "Nile River",
+            "Uranus"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The type of rock formed when existing rocks are changed by heat and pressure",
+          "answer": "Metamorphic rock",
+          "choices": [
+            "Magma",
+            "Crust",
+            "Metamorphic rock",
+            "Moon"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The layer of Earth's atmosphere where weather occurs",
+          "answer": "Troposphere",
+          "choices": [
+            "Moon",
+            "Troposphere",
+            "Igneous rock",
+            "Erosion"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientific study of earthquakes",
+          "answer": "Seismology",
+          "choices": [
+            "Seismology",
+            "Atmosphere",
+            "Core",
+            "Water cycle"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process by which water vapor turns into liquid water",
+          "answer": "Condensation",
+          "choices": [
+            "Weathering",
+            "Seafloor spreading",
+            "Salivary glands",
+            "Condensation"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian monsoon season is caused by this seasonal wind pattern",
+          "answer": "Monsoon winds",
+          "choices": [
+            "Seismology",
+            "Mantle",
+            "Pangaea",
+            "Monsoon winds"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The largest desert in the world",
+          "answer": "Antarctic Desert (or Sahara if excluding polar)",
+          "choices": [
+            "Himalayas",
+            "Saturn",
+            "Antarctic Desert (or Sahara if excluding polar)",
+            "Venus"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The theory explaining the movement of Earth's plates",
+          "answer": "Plate tectonics",
+          "choices": [
+            "Plate tectonics",
+            "Heisenberg Uncertainty Principle",
+            "Saha ionization equation",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The zone in the ocean where sunlight cannot penetrate",
+          "answer": "Abyssal zone",
+          "choices": [
+            "Himalayas",
+            "Saturn",
+            "Abyssal zone",
+            "Seafloor spreading"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The layer of Earth between the crust and the core",
+          "answer": "Mantle",
+          "choices": [
+            "Mantle",
+            "Sedimentary rock",
+            "Equator",
+            "Epicenter"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process by which rocks are broken down into smaller pieces",
+          "answer": "Weathering",
+          "choices": [
+            "Weathering",
+            "Condensation",
+            "Seafloor spreading",
+            "Rhinovirus"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The supercontinent that existed 200 million years ago",
+          "answer": "Pangaea",
+          "choices": [
+            "Pangaea",
+            "Mantle",
+            "Stratosphere",
+            "Cretaceous period"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian scientist who pioneered seismology studies in India",
+          "answer": "Hari Narain",
+          "choices": [
+            "Mariana Trench",
+            "Jonas Salk",
+            "Hari Narain",
+            "Isaac Newton"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The boundary where ocean crust sinks beneath continental crust",
+          "answer": "Subduction zone",
+          "choices": [
+            "Subduction zone",
+            "Himalayas",
+            "Antarctic Desert (or Sahara if excluding polar)",
+            "Richter scale"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The layer of Earth's atmosphere that contains the ozone layer",
+          "answer": "Stratosphere",
+          "choices": [
+            "Water cycle",
+            "Magma",
+            "Crust",
+            "Stratosphere"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The geological time period when dinosaurs went extinct",
+          "answer": "Cretaceous period",
+          "choices": [
+            "Atmosphere",
+            "Cretaceous period",
+            "Core",
+            "Water cycle"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The deepest point in the world's oceans",
+          "answer": "Mariana Trench",
+          "choices": [
+            "Mariana Trench",
+            "Hari Narain",
+            "Alexander Graham Bell",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The process by which ocean floor is created at mid-ocean ridges",
+          "answer": "Seafloor spreading",
+          "choices": [
+            "Condensation",
+            "Weathering",
+            "Seafloor spreading",
+            "Reproduction"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Scientists",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The Indian scientist known as the 'Missile Man of India'",
+          "answer": "APJ Abdul Kalam",
+          "choices": [
+            "Rajendra Singh",
+            "Alexander Graham Bell",
+            "Isaac Newton",
+            "APJ Abdul Kalam"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The scientist who invented the telephone",
+          "answer": "Alexander Graham Bell",
+          "choices": [
+            "Satyendra Nath Bose",
+            "Alexander Graham Bell",
+            "Francis Crick",
+            "Vikram Sarabhai"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The scientist famous for his laws of motion and gravity",
+          "answer": "Isaac Newton",
+          "choices": [
+            "Rajendra Singh",
+            "APJ Abdul Kalam",
+            "Isaac Newton",
+            "Mariana Trench"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The naturalist who proposed the theory of evolution",
+          "answer": "Charles Darwin",
+          "choices": [
+            "Charles Darwin",
+            "Pauli Exclusion Principle",
+            "Avogadro's Law",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The inventor of the light bulb",
+          "answer": "Thomas Edison",
+          "choices": [
+            "Rajendra Singh",
+            "APJ Abdul Kalam",
+            "Alexander Graham Bell",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The scientist who developed the first successful polio vaccine",
+          "answer": "Jonas Salk",
+          "choices": [
+            "Rajendra Singh",
+            "APJ Abdul Kalam",
+            "Alexander Graham Bell",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The Indian mathematician known for the number zero",
+          "answer": "Aryabhata",
+          "choices": [
+            "Isaac Newton",
+            "Thomas Edison",
+            "Aryabhata",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The woman who discovered radium and polonium",
+          "answer": "Marie Curie",
+          "choices": [
+            "Marie Curie",
+            "APJ Abdul Kalam",
+            "Alexander Graham Bell",
+            "Isaac Newton"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian astronomer and mathematician who calculated pi accurately",
+          "answer": "Aryabhata",
+          "choices": [
+            "Thomas Edison",
+            "Jonas Salk",
+            "Marie Curie",
+            "Aryabhata"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The scientist who discovered penicillin",
+          "answer": "Alexander Fleming",
+          "choices": [
+            "Alexander Graham Bell",
+            "Alexander Fleming",
+            "Isaac Newton",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The father of modern chemistry who created the periodic table",
+          "answer": "Dmitri Mendeleev",
+          "choices": [
+            "Dmitri Mendeleev",
+            "Jonas Salk",
+            "Marie Curie",
+            "Isaac Newton"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian botanist known as the father of Indian botany",
+          "answer": "Jagadish Chandra Bose",
+          "choices": [
+            "Alfred Russel Wallace",
+            "Johannes Kepler",
+            "Jagadish Chandra Bose",
+            "Chipko Movement"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The scientist known for his contributions to alternating current",
+          "answer": "Nikola Tesla",
+          "choices": [
+            "Kamal Ranadive",
+            "Gregor Mendel",
+            "Marie Curie",
+            "Nikola Tesla"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The British naturalist who co-discovered natural selection with Darwin",
+          "answer": "Alfred Russel Wallace",
+          "choices": [
+            "Satyendra Nath Bose",
+            "Alfred Russel Wallace",
+            "Francis Crick",
+            "Vikram Sarabhai"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The father of modern physics who developed the theory of relativity",
+          "answer": "Albert Einstein",
+          "choices": [
+            "Albert Einstein",
+            "Saha ionization equation",
+            "Planck's constant",
+            "Raman effect (or Raman scattering)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian mathematician Shakuntala Devi was known as the human what?",
+          "answer": "Computer",
+          "choices": [
+            "Rajendra Singh",
+            "Computer",
+            "Sunderlal Bahuguna",
+            "Gir National Park"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientist who developed the laws of planetary motion",
+          "answer": "Johannes Kepler",
+          "choices": [
+            "Rajendra Singh",
+            "APJ Abdul Kalam",
+            "Johannes Kepler",
+            "Alfred Russel Wallace"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian physicist who worked on the Bose-Einstein condensate",
+          "answer": "Satyendra Nath Bose",
+          "choices": [
+            "Nikola Tesla",
+            "Alfred Russel Wallace",
+            "Satyendra Nath Bose",
+            "Rakesh Sharma"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The scientist who discovered the structure of DNA with Watson",
+          "answer": "Francis Crick",
+          "choices": [
+            "Isaac Newton",
+            "Thomas Edison",
+            "Francis Crick",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian space scientist known as the father of the Indian space program",
+          "answer": "Vikram Sarabhai",
+          "choices": [
+            "Isaac Newton",
+            "Thomas Edison",
+            "Vikram Sarabhai",
+            "Jonas Salk"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The astronomer who proposed the heliocentric model of the solar system",
+          "answer": "Nicolaus Copernicus",
+          "choices": [
+            "Kamal Ranadive",
+            "Gregor Mendel",
+            "Thomas Edison",
+            "Nicolaus Copernicus"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian physicist whose work on light scattering earned him the Nobel Prize",
+          "answer": "CV Raman",
+          "choices": [
+            "Rajendra Singh",
+            "APJ Abdul Kalam",
+            "Alexander Graham Bell",
+            "CV Raman"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian astrophysicist who calculated the maximum mass of white dwarf stars",
+          "answer": "Subrahmanyan Chandrasekhar",
+          "choices": [
+            "Thomas Edison",
+            "Jonas Salk",
+            "Max Planck",
+            "Subrahmanyan Chandrasekhar"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The scientist who developed the theory of quantum mechanics",
+          "answer": "Max Planck",
+          "choices": [
+            "Planck's constant",
+            "Raman effect (or Raman scattering)",
+            "Max Planck",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian scientist known for her research on chromosome structure",
+          "answer": "Kamal Ranadive",
+          "choices": [
+            "Marie Curie",
+            "Alexander Fleming",
+            "Kamal Ranadive",
+            "Dmitri Mendeleev"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The father of modern genetics who studied pea plants",
+          "answer": "Gregor Mendel",
+          "choices": [
+            "Alexander Graham Bell",
+            "Gregor Mendel",
+            "Isaac Newton",
+            "Thomas Edison"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian mathematician who developed infinite series for pi",
+          "answer": "Madhava of Sangamagrama",
+          "choices": [
+            "Subrahmanyan Chandrasekhar",
+            "Kamal Ranadive",
+            "Gregor Mendel",
+            "Madhava of Sangamagrama"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The scientist who proposed the uncertainty principle",
+          "answer": "Werner Heisenberg",
+          "choices": [
+            "Ohm's Law",
+            "Newton's Third Law",
+            "Werner Heisenberg",
+            "Avogadro's Law"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The mathematician from India who made extraordinary contributions to number theory",
+          "answer": "Srinivasa Ramanujan",
+          "choices": [
+            "Ohm's Law",
+            "Heisenberg Uncertainty Principle",
+            "Newton's Third Law",
+            "Srinivasa Ramanujan"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian scientist Homi Bhabha is known as the father of India's what program?",
+          "answer": "Nuclear program",
+          "choices": [
+            "Marie Curie",
+            "Nuclear program",
+            "Alexander Fleming",
+            "Rakesh Sharma"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian mathematician who contributed to the game theory and the Nash equilibrium",
+          "answer": "Lloyd Shapley (worked with Indian concepts)",
+          "choices": [
+            "Avogadro's Law",
+            "Lloyd Shapley (worked with Indian concepts)",
+            "Newton's Third Law",
+            "E=mc²"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian astrophysicist Meghnad Saha developed this equation for stellar spectroscopy",
+          "answer": "Saha ionization equation",
+          "choices": [
+            "Ohm's Law",
+            "Heisenberg Uncertainty Principle",
+            "Newton's Third Law",
+            "Saha ionization equation"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The scientist who won two Nobel Prizes in different sciences",
+          "answer": "Marie Curie",
+          "choices": [
+            "Marie Curie",
+            "Jonas Salk",
+            "Alexander Fleming",
+            "Jadav Payeng"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian scientist known for the discovery of the Raman effect in 1928",
+          "answer": "CV Raman",
+          "choices": [
+            "CV Raman",
+            "Heisenberg Uncertainty Principle",
+            "Saha ionization equation",
+            "Ohm's Law"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian environmentalist known as the 'Waterman of India'",
+          "answer": "Rajendra Singh",
+          "choices": [
+            "Rajendra Singh",
+            "Johannes Kepler",
+            "Satyendra Nath Bose",
+            "Dilip Mahalanabis"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Medical Science",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The medical term for high blood pressure",
+          "answer": "Hypertension",
+          "choices": [
+            "Hypertension",
+            "Pancreas",
+            "Hepatitis",
+            "Platelets"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The medical professional who specializes in teeth",
+          "answer": "Dentist",
+          "choices": [
+            "Dilip Mahalanabis",
+            "Hari Narain",
+            "Dentist",
+            "Mariana Trench"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The substance given to prevent diseases",
+          "answer": "Vaccine",
+          "choices": [
+            "Dopamine",
+            "Vaccine",
+            "CRISPR",
+            "Penicillin"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The medical term for a broken bone",
+          "answer": "Fracture",
+          "choices": [
+            "Fracture",
+            "Thyroid gland",
+            "Apoptosis",
+            "Hypertension"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The instrument doctors use to listen to your heart",
+          "answer": "Stethoscope",
+          "choices": [
+            "Stethoscope",
+            "Virology",
+            "Antibiotic",
+            "Radiography (or X-ray)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The body's natural defense against disease",
+          "answer": "Immune system",
+          "choices": [
+            "Immune system",
+            "Virology",
+            "Antibiotic",
+            "Radiography (or X-ray)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The medical term for the common cold virus type",
+          "answer": "Rhinovirus",
+          "choices": [
+            "Diabetes",
+            "Rhinovirus",
+            "Myocardial infarction",
+            "Hemoglobin"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The study of viruses",
+          "answer": "Virology",
+          "choices": [
+            "Vaccine",
+            "Stethoscope",
+            "Virology",
+            "Immune system"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The type of medicine that kills bacteria",
+          "answer": "Antibiotic",
+          "choices": [
+            "Dopamine",
+            "CRISPR",
+            "Penicillin",
+            "Antibiotic"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The medical imaging technique that uses X-rays",
+          "answer": "Radiography (or X-ray)",
+          "choices": [
+            "Virology",
+            "Antibiotic",
+            "Cardiology",
+            "Radiography (or X-ray)"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The four main blood types are A, B, AB, and this",
+          "answer": "O",
+          "choices": [
+            "O",
+            "Au",
+            "H2O",
+            "Na"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The medical term for low blood sugar",
+          "answer": "Hypoglycemia",
+          "choices": [
+            "Platelets",
+            "Diabetes",
+            "Hypoglycemia",
+            "Myocardial infarction"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The organ that filters toxins from the blood",
+          "answer": "Liver",
+          "choices": [
+            "Hemoglobin",
+            "Liver",
+            "Transplant",
+            "Osteoporosis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The medical specialty dealing with the heart",
+          "answer": "Cardiology",
+          "choices": [
+            "Blood-brain barrier",
+            "Cardiovascular system",
+            "Cardiology",
+            "Thalassemia"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The organ that produces insulin",
+          "answer": "Pancreas",
+          "choices": [
+            "Liver",
+            "Hepatitis",
+            "Pancreas",
+            "Platelets"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian surgeon who pioneered plastic surgery techniques",
+          "answer": "Sushruta",
+          "choices": [
+            "Dilip Mahalanabis",
+            "Marie Curie",
+            "Isaac Newton",
+            "Sushruta"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The medical term for inflammation of the liver",
+          "answer": "Hepatitis",
+          "choices": [
+            "Hepatitis",
+            "Platelets",
+            "Diabetes",
+            "Myocardial infarction"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The imaging technique that uses magnetic fields",
+          "answer": "MRI (Magnetic Resonance Imaging)",
+          "choices": [
+            "Antibiotic",
+            "Radiography (or X-ray)",
+            "MRI (Magnetic Resonance Imaging)",
+            "Cardiology"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The cells in blood that help with clotting",
+          "answer": "Platelets",
+          "choices": [
+            "Thyroid gland",
+            "Apoptosis",
+            "Platelets",
+            "Hypertension"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The condition where the body cannot produce enough insulin",
+          "answer": "Diabetes",
+          "choices": [
+            "Transplant",
+            "Osteoporosis",
+            "Diabetes",
+            "Thyroid gland"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The medical term for heart attack",
+          "answer": "Myocardial infarction",
+          "choices": [
+            "Hemoglobin",
+            "Myocardial infarction",
+            "Transplant",
+            "Osteoporosis"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The vaccine that eradicated smallpox globally",
+          "answer": "Smallpox vaccine",
+          "choices": [
+            "Stethoscope",
+            "Immune system",
+            "Virology",
+            "Smallpox vaccine"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian physician who developed oral rehydration therapy",
+          "answer": "Dilip Mahalanabis",
+          "choices": [
+            "Isaac Newton",
+            "Dilip Mahalanabis",
+            "Albert Einstein",
+            "Marie Curie"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The protein in blood that carries oxygen to tissues",
+          "answer": "Hemoglobin",
+          "choices": [
+            "Osteoporosis",
+            "Hemoglobin",
+            "Thyroid gland",
+            "Apoptosis"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The medical procedure to replace a damaged organ with a healthy one",
+          "answer": "Transplant",
+          "choices": [
+            "Rhinovirus",
+            "Hypoglycemia",
+            "Transplant",
+            "Liver"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The condition where bones become weak and brittle",
+          "answer": "Osteoporosis",
+          "choices": [
+            "Osteoporosis",
+            "Rhinovirus",
+            "Hypoglycemia",
+            "Liver"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The gland that regulates metabolism through hormone production",
+          "answer": "Thyroid gland",
+          "choices": [
+            "Liver",
+            "Pancreas",
+            "Thyroid gland",
+            "Hepatitis"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The barrier that protects the brain from harmful substances in the blood",
+          "answer": "Blood-brain barrier",
+          "choices": [
+            "Dopamine",
+            "CRISPR",
+            "Penicillin",
+            "Blood-brain barrier"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The discovery of this blood circulation system is credited to William Harvey",
+          "answer": "Cardiovascular system",
+          "choices": [
+            "Blood-brain barrier",
+            "Cardiovascular system",
+            "Thalassemia",
+            "Dopamine"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian cardiologist who performed the first heart transplant in India",
+          "answer": "Dr. Venugopal",
+          "choices": [
+            "Dr. Venugopal",
+            "Dilip Mahalanabis",
+            "Nicolaus Copernicus",
+            "Gregor Mendel"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The genetic disorder causing abnormal hemoglobin, common in Mediterranean and Indian populations",
+          "answer": "Thalassemia",
+          "choices": [
+            "Smallpox vaccine",
+            "Blood-brain barrier",
+            "Thalassemia",
+            "Cardiovascular system"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The neurotransmitter deficiency associated with Parkinson's disease",
+          "answer": "Dopamine",
+          "choices": [
+            "CRISPR",
+            "Penicillin",
+            "Dopamine",
+            "Vaccine"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The technique that uses gene editing to modify DNA sequences",
+          "answer": "CRISPR",
+          "choices": [
+            "Blood-brain barrier",
+            "Cardiovascular system",
+            "Thalassemia",
+            "CRISPR"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The medical term for programmed cell death",
+          "answer": "Apoptosis",
+          "choices": [
+            "Transplant",
+            "Osteoporosis",
+            "Thyroid gland",
+            "Apoptosis"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The first antibiotic discovered from mold",
+          "answer": "Penicillin",
+          "choices": [
+            "Thalassemia",
+            "Dopamine",
+            "CRISPR",
+            "Penicillin"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Inventions",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The inventor of the telephone",
+          "answer": "Alexander Graham Bell",
+          "choices": [
+            "Analytical Engine",
+            "Alexander Graham Bell",
+            "Vimana Shastra",
+            "Johannes Gutenberg"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The invention that allows you to see objects far away",
+          "answer": "Telescope",
+          "choices": [
+            "Pulley",
+            "Telescope",
+            "Bicycle",
+            "Radio"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The device that captures photographs",
+          "answer": "Camera",
+          "choices": [
+            "Thermometer",
+            "Camera",
+            "Generator (or dynamo)",
+            "Barometer"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The ancient invention used to tell time using the sun",
+          "answer": "Sundial",
+          "choices": [
+            "Gunpowder",
+            "Sundial",
+            "Spinning jenny (or power loom)",
+            "Chess (or Chaturanga)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The simple machine with a wheel and rope for lifting",
+          "answer": "Pulley",
+          "choices": [
+            "Pulley",
+            "Telescope",
+            "Sundial",
+            "Bicycle"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The invention that revolutionized transportation with two wheels",
+          "answer": "Bicycle",
+          "choices": [
+            "Zero (as a number)",
+            "Bicycle",
+            "Gasoline-powered automobile",
+            "Telescope"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The device used to measure temperature",
+          "answer": "Thermometer",
+          "choices": [
+            "Generator (or dynamo)",
+            "Generator",
+            "Barometer",
+            "Thermometer"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The year the first airplane flight took place",
+          "answer": "1903",
+          "choices": [
+            "1946",
+            "1903",
+            "2015",
+            "1902"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The brothers who invented the airplane",
+          "answer": "Wright brothers",
+          "choices": [
+            "Wright brothers",
+            "Alexander Graham Bell",
+            "Thomas Edison",
+            "Satyendra Nath Bose"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The invention that allows voice and music to be broadcast wirelessly",
+          "answer": "Radio",
+          "choices": [
+            "Telescope",
+            "Sundial",
+            "Radio",
+            "Pulley"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian mathematician who invented the concept of zero",
+          "answer": "Aryabhata (or Brahmagupta)",
+          "choices": [
+            "Aryabhata (or Brahmagupta)",
+            "Thomas Edison",
+            "Jagadish Chandra Bose",
+            "Dilip Mahalanabis"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The device invented to make calculations easier, predecessor to the computer",
+          "answer": "Calculator (or abacus)",
+          "choices": [
+            "Hypodermic syringe (or insulin injection)",
+            "Calculator (or abacus)",
+            "Electronics (or computers)",
+            "Fiber optics"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The invention by Louis Pasteur that kills bacteria in milk",
+          "answer": "Pasteurization",
+          "choices": [
+            "Sundial",
+            "Pulley",
+            "Pasteurization",
+            "Bicycle"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The ancient invention from China used for fireworks",
+          "answer": "Gunpowder",
+          "choices": [
+            "Bicycle",
+            "Radio",
+            "Calculator (or abacus)",
+            "Gunpowder"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The inventor of the light bulb",
+          "answer": "Thomas Edison",
+          "choices": [
+            "Thomas Edison",
+            "Jagadish Chandra Bose",
+            "World Wide Web",
+            "Isaac Newton"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian inventor who demonstrated wireless communication before Marconi",
+          "answer": "Jagadish Chandra Bose",
+          "choices": [
+            "Jagadish Chandra Bose",
+            "Johannes Gutenberg",
+            "Ajay Bhatt",
+            "Alexander Graham Bell"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The invention that transformed textile manufacturing during the Industrial Revolution",
+          "answer": "Spinning jenny (or power loom)",
+          "choices": [
+            "Compass",
+            "Hypodermic syringe (or insulin injection)",
+            "Electronics (or computers)",
+            "Spinning jenny (or power loom)"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The device that converts mechanical energy into electrical energy",
+          "answer": "Generator (or dynamo)",
+          "choices": [
+            "Generator (or dynamo)",
+            "Thermometer",
+            "Barometer",
+            "Seismograph"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The ancient Indian invention for playing strategy games",
+          "answer": "Chess (or Chaturanga)",
+          "choices": [
+            "Chess (or Chaturanga)",
+            "Zero (as a number)",
+            "Gasoline-powered automobile",
+            "Telescope"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The invention by Tim Berners-Lee that revolutionized information sharing",
+          "answer": "World Wide Web",
+          "choices": [
+            "Analytical Engine",
+            "Vimana Shastra",
+            "Johannes Gutenberg",
+            "World Wide Web"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Scottish inventor who improved the steam engine",
+          "answer": "James Watt",
+          "choices": [
+            "Indus Valley Civilization",
+            "Analytical Engine",
+            "James Watt",
+            "Vimana Shastra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient Chinese invention used for navigation",
+          "answer": "Compass",
+          "choices": [
+            "Chess (or Chaturanga)",
+            "Compass",
+            "Hypodermic syringe (or insulin injection)",
+            "Electronics (or computers)"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian invention of the flush toilet system dates back to this ancient civilization",
+          "answer": "Indus Valley Civilization",
+          "choices": [
+            "World Wide Web",
+            "James Watt",
+            "Analytical Engine",
+            "Indus Valley Civilization"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The invention by Charles Babbage considered the first computer",
+          "answer": "Analytical Engine",
+          "choices": [
+            "Thomas Edison",
+            "Johannes Gutenberg",
+            "Ajay Bhatt",
+            "Analytical Engine"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The device that uses electromagnetic waves to detect objects",
+          "answer": "Radar",
+          "choices": [
+            "Radar",
+            "Thermometer",
+            "Generator (or dynamo)",
+            "Barometer"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The ancient Indian text that describes the construction of flying machines",
+          "answer": "Vimana Shastra",
+          "choices": [
+            "Thomas Edison",
+            "Jagadish Chandra Bose",
+            "World Wide Web",
+            "Vimana Shastra"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The invention that allows insulin to be administered to diabetics",
+          "answer": "Hypodermic syringe (or insulin injection)",
+          "choices": [
+            "Telescope",
+            "Sundial",
+            "Hypodermic syringe (or insulin injection)",
+            "Pulley"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The transistor, invented in 1947, revolutionized this technology",
+          "answer": "Electronics (or computers)",
+          "choices": [
+            "Calculator (or abacus)",
+            "Pasteurization",
+            "Electronics (or computers)",
+            "Gunpowder"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The inventor of the printing press",
+          "answer": "Johannes Gutenberg",
+          "choices": [
+            "Thomas Edison",
+            "Jagadish Chandra Bose",
+            "World Wide Web",
+            "Johannes Gutenberg"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian scientist who invented the crescograph to measure plant growth",
+          "answer": "Jagadish Chandra Bose",
+          "choices": [
+            "World Wide Web",
+            "James Watt",
+            "Jagadish Chandra Bose",
+            "Indus Valley Civilization"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The invention of the first electronic computer, ENIAC, occurred in this year",
+          "answer": "1946",
+          "choices": [
+            "1946",
+            "1903",
+            "2015",
+            "1945"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The technology behind fiber optic cables invented by Narinder Kapany",
+          "answer": "Fiber optics",
+          "choices": [
+            "Spinning jenny (or power loom)",
+            "Fiber optics",
+            "Chess (or Chaturanga)",
+            "Compass"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The ancient Indian decimal place-value system including this concept",
+          "answer": "Zero (as a number)",
+          "choices": [
+            "Zero (as a number)",
+            "Telescope",
+            "Sundial",
+            "Pulley"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The invention by Karl Benz in 1885 that started the automobile industry",
+          "answer": "Gasoline-powered automobile",
+          "choices": [
+            "Fiber optics",
+            "Zero (as a number)",
+            "Gasoline-powered automobile",
+            "Telescope"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The USB technology was co-invented by this Indian-American engineer",
+          "answer": "Ajay Bhatt",
+          "choices": [
+            "World Wide Web",
+            "Ajay Bhatt",
+            "James Watt",
+            "Indus Valley Civilization"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Environment",
+      "questions": [
+        {
+          "value": 200,
+          "question": "The gas that plants absorb from the atmosphere",
+          "answer": "Carbon dioxide",
+          "choices": [
+            "Carbon dioxide",
+            "Hydroelectric power",
+            "Biodiversity",
+            "Crop rotation"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The process of reusing materials to reduce waste",
+          "answer": "Recycling",
+          "choices": [
+            "Soil degradation (or erosion)",
+            "Deforestation",
+            "Recycling",
+            "Extinct"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The natural resource that covers 71% of Earth's surface",
+          "answer": "Water",
+          "choices": [
+            "Forest",
+            "Water",
+            "Global warming",
+            "Solar energy (or solar power)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The primary source of energy for most life on Earth",
+          "answer": "Sun (or sunlight)",
+          "choices": [
+            "Nitrogen",
+            "Endangered species",
+            "Forest",
+            "Sun (or sunlight)"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The gas that makes up most of the air we breathe",
+          "answer": "Nitrogen",
+          "choices": [
+            "Biomass energy",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Water"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "Animals that are at risk of becoming extinct",
+          "answer": "Endangered species",
+          "choices": [
+            "Endangered species",
+            "Sun (or sunlight)",
+            "Nitrogen",
+            "Forest"
+          ]
+        },
+        {
+          "value": 200,
+          "question": "The natural habitat where trees grow densely together",
+          "answer": "Forest",
+          "choices": [
+            "Sun (or sunlight)",
+            "Forest",
+            "Nitrogen",
+            "Endangered species"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The largest rainforest in the world",
+          "answer": "Amazon Rainforest",
+          "choices": [
+            "Chipko Movement",
+            "Sunderlal Bahuguna",
+            "Amazon Rainforest",
+            "Gir National Park"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The Indian environmental movement to protect trees, meaning 'hug trees'",
+          "answer": "Chipko Movement",
+          "choices": [
+            "Montreal Protocol",
+            "Chipko Movement",
+            "Western Ghats",
+            "Rajendra Singh"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The process by which soil loses its fertility",
+          "answer": "Soil degradation (or erosion)",
+          "choices": [
+            "Soil degradation (or erosion)",
+            "Deforestation",
+            "Extinct",
+            "Greenhouse effect"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The gradual increase in Earth's average temperature",
+          "answer": "Global warming",
+          "choices": [
+            "Solar energy (or solar power)",
+            "Ozone layer",
+            "Global warming",
+            "Coral reefs"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The energy from the sun converted into electricity",
+          "answer": "Solar energy (or solar power)",
+          "choices": [
+            "Ozone layer",
+            "Coral reefs",
+            "Solar energy (or solar power)",
+            "Hydroelectric power"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The layer of Earth that protects us from UV radiation",
+          "answer": "Ozone layer",
+          "choices": [
+            "Water",
+            "Sun (or sunlight)",
+            "Nitrogen",
+            "Ozone layer"
+          ]
+        },
+        {
+          "value": 400,
+          "question": "The colorful underwater ecosystems made of tiny organisms",
+          "answer": "Coral reefs",
+          "choices": [
+            "Crop rotation",
+            "Biomass energy",
+            "Coral reefs",
+            "Carbon dioxide"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The hole in this atmospheric layer is caused by CFCs",
+          "answer": "Ozone layer",
+          "choices": [
+            "Ozone layer",
+            "Solar energy (or solar power)",
+            "Coral reefs",
+            "Hydroelectric power"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian environmentalist known for the Chipko movement",
+          "answer": "Sunderlal Bahuguna",
+          "choices": [
+            "Jadav Payeng",
+            "Montreal Protocol",
+            "Western Ghats",
+            "Sunderlal Bahuguna"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The type of energy generated from flowing water",
+          "answer": "Hydroelectric power",
+          "choices": [
+            "Ozone layer",
+            "Coral reefs",
+            "Biodiversity",
+            "Hydroelectric power"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The variety of life in a particular habitat or ecosystem",
+          "answer": "Biodiversity",
+          "choices": [
+            "Sun (or sunlight)",
+            "Nitrogen",
+            "Biodiversity",
+            "Endangered species"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The Indian wildlife sanctuary famous for Asiatic lions",
+          "answer": "Gir National Park",
+          "choices": [
+            "Gir National Park",
+            "Amazon Rainforest",
+            "Chipko Movement",
+            "Sunderlal Bahuguna"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The greenhouse gas produced by burning fossil fuels",
+          "answer": "Carbon dioxide",
+          "choices": [
+            "Ozone layer",
+            "Coral reefs",
+            "Hydroelectric power",
+            "Carbon dioxide"
+          ]
+        },
+        {
+          "value": 600,
+          "question": "The process of converting waste into reusable material",
+          "answer": "Recycling",
+          "choices": [
+            "Recycling",
+            "Deforestation",
+            "Extinct",
+            "Greenhouse effect"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The process by which forests are permanently removed",
+          "answer": "Deforestation",
+          "choices": [
+            "Extinct",
+            "Greenhouse effect",
+            "Eutrophication",
+            "Deforestation"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian conservationist who started Project Tiger",
+          "answer": "Kailash Sankhala",
+          "choices": [
+            "Rajendra Singh",
+            "Amazon Rainforest",
+            "Kailash Sankhala",
+            "Chipko Movement"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The term for species that no longer exist anywhere on Earth",
+          "answer": "Extinct",
+          "choices": [
+            "Greenhouse effect",
+            "Eutrophication",
+            "Extinct",
+            "Recycling"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The sustainable farming practice that rotates different crops",
+          "answer": "Crop rotation",
+          "choices": [
+            "Global warming",
+            "Solar energy (or solar power)",
+            "Crop rotation",
+            "Ozone layer"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The Indian river considered one of the most polluted in the world",
+          "answer": "Ganges (or Ganga)",
+          "choices": [
+            "Aphelion",
+            "Soil degradation (or erosion)",
+            "Ganges (or Ganga)",
+            "Global warming"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The energy produced from organic matter like plants and waste",
+          "answer": "Biomass energy",
+          "choices": [
+            "Coral reefs",
+            "Biomass energy",
+            "Hydroelectric power",
+            "Biodiversity"
+          ]
+        },
+        {
+          "value": 800,
+          "question": "The phenomenon where increased CO2 traps heat in the atmosphere",
+          "answer": "Greenhouse effect",
+          "choices": [
+            "Extinct",
+            "Eutrophication",
+            "Greenhouse effect",
+            "Recycling"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The international agreement to combat climate change signed in 2015",
+          "answer": "Paris Agreement",
+          "choices": [
+            "Amazon Rainforest",
+            "Chipko Movement",
+            "Sunderlal Bahuguna",
+            "Paris Agreement"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian forest officer who transformed a barren area into a forest reserve",
+          "answer": "Jadav Payeng",
+          "choices": [
+            "Montreal Protocol",
+            "Western Ghats",
+            "Rajendra Singh",
+            "Jadav Payeng"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The international treaty to protect the ozone layer signed in 1987",
+          "answer": "Montreal Protocol",
+          "choices": [
+            "Montreal Protocol",
+            "Jadav Payeng",
+            "Western Ghats",
+            "Rajendra Singh"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian biodiversity hotspot in the southern peninsula",
+          "answer": "Western Ghats",
+          "choices": [
+            "Western Ghats",
+            "Sunderlal Bahuguna",
+            "Gir National Park",
+            "Kailash Sankhala"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The sustainable development goals were adopted by the UN in this year",
+          "answer": "2015",
+          "choices": [
+            "1903",
+            "1946",
+            "2014",
+            "2015"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The process where nutrients are removed from water bodies causing algae blooms",
+          "answer": "Eutrophication",
+          "choices": [
+            "Eutrophication",
+            "Extinct",
+            "Greenhouse effect",
+            "Recycling"
+          ]
+        },
+        {
+          "value": 1000,
+          "question": "The Indian environmental activist known as the 'Waterman of India'",
+          "answer": "Rajendra Singh",
+          "choices": [
+            "Kailash Sankhala",
+            "Paris Agreement",
+            "Jadav Payeng",
+            "Rajendra Singh"
+          ]
+        }
+      ]
+    }
+  ]
+}

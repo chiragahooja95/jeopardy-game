@@ -1,0 +1,26 @@
+{
+  "name": "jeopardy-game",
+  "version": "1.0.0",
+  "description": "Multiplayer Jeopardy quiz game with React, TypeScript, and Socket.IO",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm run dev -w apps/server\" \"npm run dev -w apps/client\"",
+    "dev:server": "npm run dev -w apps/server",
+    "dev:client": "npm run dev -w apps/client",
+    "build": "npm run build -w packages/shared && npm run build -w apps/server && npm run build -w apps/client",
+    "start": "npm run start -w apps/server",
+    "type-check": "tsc --noEmit -p apps/client && tsc --noEmit -p apps/server && tsc --noEmit -p packages/shared",
+    "test": "npm run test -w apps/server"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "typescript": "^5.3.3"
+  },
+  "keywords": ["jeopardy", "quiz", "multiplayer", "game"],
+  "author": "",
+  "license": "MIT"
+}
