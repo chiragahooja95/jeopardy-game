@@ -23,14 +23,14 @@ Render will run:
 - Build: `npm ci && npm run build`
 - Start: `npm run start`
 - Health: `/health`
+- Plan: `free`
 
-## 3. Persistent data
+## 3. Data persistence on free plan
 
-`render.yaml` mounts a persistent disk at:
+The free web service does not include a persistent disk, so SQLite data is ephemeral.
+This means player stats/history can reset after redeploys/restarts.
 
-`/opt/render/project/src/apps/server/data`
-
-Your SQLite DB (`jeopardy.db`) lives there, so player stats survive restarts.
+If you need persistent stats, switch to a paid plan with a disk or move DB to a managed database.
 
 ## 4. Verify after deploy
 

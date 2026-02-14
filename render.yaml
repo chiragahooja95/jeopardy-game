@@ -2,6 +2,7 @@ services:
   - type: web
     name: jeopardy-game
     env: node
+    plan: free
     buildCommand: npm ci && npm run build
     startCommand: npm run start
     healthCheckPath: /health
@@ -9,7 +10,3 @@ services:
     envVars:
       - key: NODE_VERSION
         value: 20
-    disk:
-      name: jeopardy-data
-      mountPath: /opt/render/project/src/apps/server/data
-      sizeGB: 1
