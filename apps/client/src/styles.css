@@ -132,6 +132,13 @@ select {
   color: #b8d9ff;
 }
 
+.menu-screen .row > label {
+  align-items: center;
+  display: inline-flex;
+  gap: 0.7rem;
+  white-space: nowrap;
+}
+
 .menu-screen input,
 .menu-screen select {
   background: linear-gradient(160deg, rgba(10, 27, 80, 0.9), rgba(7, 20, 60, 0.92));
@@ -1141,6 +1148,11 @@ button:disabled {
 
   .menu-screen .panel {
     padding: 0.82rem;
+  }
+
+  .menu-screen .row > label {
+    justify-content: space-between;
+    width: 100%;
   }
 
   .menu-screen .play-actions {
