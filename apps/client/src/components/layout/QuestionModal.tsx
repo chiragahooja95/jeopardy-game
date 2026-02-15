@@ -20,6 +20,7 @@ interface QuestionModalProps {
   canAnswer: boolean;
   isDailyDoublePlayer: boolean;
   answerFeedback: AnswerFeedback | null;
+  revealCorrectAnswer: string | null;
   onBuzz: () => void;
   onSubmitAnswer: (answer: string) => void;
   onSubmitWager: (wager: number) => void;
@@ -36,6 +37,7 @@ export const QuestionModal = ({
   canAnswer,
   isDailyDoublePlayer,
   answerFeedback,
+  revealCorrectAnswer,
   onBuzz,
   onSubmitAnswer,
   onSubmitWager
@@ -43,8 +45,12 @@ export const QuestionModal = ({
   const [answerDraft, setAnswerDraft] = useState("");
   const [wagerDraft, setWagerDraft] = useState(dailyDoubleMinWager);
   const hasOptions = Boolean(question?.options && question.options.length > 0);
+  const isAnswerReveal = Boolean(revealCorrectAnswer);
 
   const title = useMemo(() => {
+    if (isAnswerReveal) {
+      return "Correct Answer";
+    }
     switch (gamePhase) {
       case "reading":
         return "Reading";
@@ -57,12 +63,15 @@ export const QuestionModal = ({
       default:
         return "Question";
     }
-  }, [gamePhase]);
+  }, [gamePhase, isAnswerReveal]);
 
   const isDailyDoubleWagerPending = gamePhase === "daily_double" && dailyDoubleWager === null;
   const canSubmitChoice =
     canAnswer || (gamePhase === "daily_double" && isDailyDoublePlayer && !isDailyDoubleWagerPending);
   const showChoices = hasOptions && !isDailyDoubleWagerPending;
+  const normalize = (value: string) => value.trim().toLowerCase();
+  const isCorrectChoice = (option: string) =>
+    isAnswerReveal && revealCorrectAnswer ? normalize(option) === normalize(revealCorrectAnswer) : false;
 
   useEffect(() => {
     setWagerDraft((previous) => {
@@ -100,7 +109,9 @@ export const QuestionModal = ({
           <Timer phaseEndsAt={phaseEndsAt} />
         </header>
         <p className="clue">
-          {isDailyDoubleWagerPending
+          {isAnswerReveal
+            ? "Correct choice highlighted below."
+            : isDailyDoubleWagerPending
             ? isDailyDoublePlayer
               ? "Set your wager to reveal the Daily Double clue."
               : "Waiting for Daily Double wager..."
@@ -114,13 +125,13 @@ export const QuestionModal = ({
           </div>
         )}
         <div className="question-modal-interact">
-          {gamePhase === "buzzer_active" && (
+          {gamePhase === "buzzer_active" && !isAnswerReveal && (
             <div className="question-modal-actions">
               <BuzzerButton disabled={!canBuzz} onBuzz={onBuzz} />
             </div>
           )}
 
-          {gamePhase === "daily_double" && isDailyDoublePlayer && (
+          {gamePhase === "daily_double" && isDailyDoublePlayer && !isAnswerReveal && (
             <div className="question-modal-actions wager-panel">
               <p className="meta">
                 Wager Range: {dailyDoubleMinWager} - {dailyDoubleMaxWager}
@@ -157,11 +168,13 @@ export const QuestionModal = ({
             <div className="choice-grid question-modal-actions">
               {question?.options?.map((option) => (
                 <button
-                  className={`choice-btn ${canSubmitChoice ? "" : "choice-btn-disabled"}`}
+                  className={`choice-btn ${isCorrectChoice(option) ? "choice-btn-correct" : ""} ${
+                    canSubmitChoice ? "" : "choice-btn-disabled"
+                  }`}
                   key={option}
-                  disabled={!canSubmitChoice}
+                  disabled={isAnswerReveal || !canSubmitChoice}
                   onClick={() => {
-                    if (canSubmitChoice) {
+                    if (canSubmitChoice && !isAnswerReveal) {
                       onSubmitAnswer(option);
                     }
                   }}
@@ -173,7 +186,8 @@ export const QuestionModal = ({
           )}
 
           {(canAnswer || (gamePhase === "daily_double" && isDailyDoublePlayer && !isDailyDoubleWagerPending)) &&
-            !hasOptions && (
+            !hasOptions &&
+            !isAnswerReveal && (
             <>
               <div className="row question-modal-actions">
                 <input

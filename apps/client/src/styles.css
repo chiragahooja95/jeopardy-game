@@ -517,6 +517,15 @@ button:disabled {
   white-space: normal;
 }
 
+.choice-btn-correct {
+  animation: answer-correct-pop 0.45s ease;
+  border-color: rgba(110, 247, 181, 0.7);
+  box-shadow:
+    0 0 0 1px rgba(67, 223, 149, 0.55),
+    0 0 18px rgba(57, 238, 154, 0.35);
+  filter: saturate(1.2) brightness(1.08);
+}
+
 .choice-btn-disabled {
   cursor: default;
   filter: grayscale(0.22);

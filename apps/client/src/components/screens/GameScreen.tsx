@@ -2,6 +2,7 @@ import {
   SERVER_EVENTS,
   type GamePhase,
   type AnswerResultPayload,
+  type PublicQuestion,
   type PlayerDisconnectedPayload,
   type PlayerReconnectedPayload,
   type PlayerBuzzedPayload,
@@ -31,6 +32,13 @@ interface AttemptReveal {
   correctAnswer: string;
   attempts: QuestionAttempt[];
 }
+
+interface CorrectChoiceReveal {
+  question: PublicQuestion;
+  correctAnswer: string;
+}
+
+const CORRECT_CHOICE_REVEAL_MS = 1600;
 
 export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const {
@@ -67,8 +75,11 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const lastTickSecondRef = useRef<number | null>(null);
   const feedbackTimeoutRef = useRef<number | null>(null);
   const attemptRevealTimeoutRef = useRef<number | null>(null);
+  const correctChoiceRevealTimeoutRef = useRef<number | null>(null);
+  const activeQuestionRef = useRef<PublicQuestion | null>(null);
   const [answerFeedback, setAnswerFeedback] = useState<AnswerFeedback | null>(null);
   const [attemptReveal, setAttemptReveal] = useState<AttemptReveal | null>(null);
+  const [correctChoiceReveal, setCorrectChoiceReveal] = useState<CorrectChoiceReveal | null>(null);
 
   const getSfxContext = () => {
     const Ctx =
@@ -157,6 +168,10 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   };
 
   useEffect(() => {
+    activeQuestionRef.current = room?.gameState.selectedQuestion ?? null;
+  }, [room?.gameState.selectedQuestion]);
+
+  useEffect(() => {
     const onPlayerBuzzed = ({ playerName }: PlayerBuzzedPayload) => {
       playSfx("buzz");
     };
@@ -180,6 +195,19 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
 
     const onQuestionComplete = ({ questionId, correctAnswer, attempts }: QuestionCompletePayload) => {
       void questionId;
+      const activeQuestion = activeQuestionRef.current;
+      if (activeQuestion && activeQuestion.options && activeQuestion.options.length > 0) {
+        setCorrectChoiceReveal({
+          question: activeQuestion,
+          correctAnswer
+        });
+        if (correctChoiceRevealTimeoutRef.current) {
+          window.clearTimeout(correctChoiceRevealTimeoutRef.current);
+        }
+        correctChoiceRevealTimeoutRef.current = window.setTimeout(() => {
+          setCorrectChoiceReveal(null);
+        }, CORRECT_CHOICE_REVEAL_MS);
+      }
 
       const allIncorrect = attempts.length > 0 && attempts.every((attempt) => !attempt.correct);
       if (!allIncorrect) {
@@ -312,6 +340,9 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       }
       if (attemptRevealTimeoutRef.current) {
         window.clearTimeout(attemptRevealTimeoutRef.current);
+      }
+      if (correctChoiceRevealTimeoutRef.current) {
+        window.clearTimeout(correctChoiceRevealTimeoutRef.current);
       }
       if (sfxContextRef.current) {
         sfxContextRef.current.close().catch(() => undefined);
@@ -466,16 +497,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         <p className="phase-hint">{actionHint}</p>
       </section>
 
-      {answerFeedback && (
-        <section className={`panel quick-feedback ${answerFeedback.correct ? "quick-feedback-correct" : "quick-feedback-wrong"}`}>
-          <p>
-            <strong>{answerFeedback.playerName}</strong>{" "}
-            {answerFeedback.correct ? "is correct" : "is incorrect"} (
-            {answerFeedback.pointsAwarded > 0 ? `+${answerFeedback.pointsAwarded}` : answerFeedback.pointsAwarded})
-          </p>
-        </section>
-      )}
-
       {attemptReveal && (
         <section className="panel attempt-reveal">
           <h3>Everyone Missed This Clue</h3>
@@ -509,7 +530,11 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       </div>
 
       <QuestionModal
-        question={room.status === "playing" ? room.gameState.selectedQuestion : null}
+        question={
+          room.status === "playing"
+            ? room.gameState.selectedQuestion ?? correctChoiceReveal?.question ?? null
+            : null
+        }
         gamePhase={room.gameState.phase}
         phaseEndsAt={room.gameState.phaseEndsAt}
         dailyDoubleWager={room.gameState.dailyDoubleWager}
@@ -519,6 +544,7 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         canAnswer={canAnswer}
         isDailyDoublePlayer={isDailyDoublePlayer}
         answerFeedback={answerFeedback}
+        revealCorrectAnswer={correctChoiceReveal?.correctAnswer ?? null}
         onBuzz={buzzIn}
         onSubmitAnswer={submitAnswer}
         onSubmitWager={submitWager}
