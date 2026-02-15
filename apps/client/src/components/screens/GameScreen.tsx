@@ -180,10 +180,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
 
     const onQuestionComplete = ({ questionId, correctAnswer, attempts }: QuestionCompletePayload) => {
       void questionId;
-      if (feedbackTimeoutRef.current) {
-        window.clearTimeout(feedbackTimeoutRef.current);
-      }
-      setAnswerFeedback(null);
 
       const allIncorrect = attempts.length > 0 && attempts.every((attempt) => !attempt.correct);
       if (!allIncorrect) {
@@ -469,6 +465,16 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         </div>
         <p className="phase-hint">{actionHint}</p>
       </section>
+
+      {answerFeedback && (
+        <section className={`panel quick-feedback ${answerFeedback.correct ? "quick-feedback-correct" : "quick-feedback-wrong"}`}>
+          <p>
+            <strong>{answerFeedback.playerName}</strong>{" "}
+            {answerFeedback.correct ? "is correct" : "is incorrect"} (
+            {answerFeedback.pointsAwarded > 0 ? `+${answerFeedback.pointsAwarded}` : answerFeedback.pointsAwarded})
+          </p>
+        </section>
+      )}
 
       {attemptReveal && (
         <section className="panel attempt-reveal">

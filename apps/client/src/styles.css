@@ -624,6 +624,27 @@ button:disabled {
   padding: 0.7rem 0.85rem;
 }
 
+.quick-feedback {
+  margin-top: 0.35rem;
+  padding: 0.62rem 0.85rem;
+}
+
+.quick-feedback p {
+  margin: 0;
+}
+
+.quick-feedback-correct {
+  animation: answer-correct-pop 0.42s ease;
+  border-color: rgba(111, 247, 181, 0.55);
+  box-shadow: 0 0 18px rgba(44, 236, 142, 0.24);
+}
+
+.quick-feedback-wrong {
+  animation: answer-wrong-shake 0.32s ease;
+  border-color: rgba(255, 155, 155, 0.5);
+  box-shadow: 0 0 14px rgba(248, 99, 99, 0.2);
+}
+
 .attempt-reveal h3 {
   color: #ffd86b;
   margin: 0 0 0.3rem;
