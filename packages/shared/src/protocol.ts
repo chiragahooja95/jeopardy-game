@@ -197,6 +197,7 @@ export interface DailyDoublePayload {
 }
 
 export interface QuestionCompletePayload {
+  question: PublicQuestion;
   questionId: string;
   correctAnswer: string;
   attempts: QuestionAttempt[];

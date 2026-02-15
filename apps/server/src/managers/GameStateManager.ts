@@ -3,10 +3,12 @@ import {
   getDailyDoubleWagerLimits,
   getGameTiming,
   fuzzyAnswerMatch,
+  toPublicQuestion,
   validateDailyDoubleWager,
   type AnswerResult,
   type GameResult,
   type Player,
+  type PublicQuestion,
   type Question,
   type QuestionAttempt,
   type Room
@@ -24,6 +26,7 @@ export interface SubmitAnswerResult {
   result: AnswerResult;
   nextTurnPlayerId: string;
   questionCompleted: boolean;
+  completedQuestion: PublicQuestion | null;
   completedQuestionId: string | null;
   completedCorrectAnswer: string | null;
   completedAttempts: QuestionAttempt[] | null;
@@ -291,6 +294,7 @@ export class GameStateManager {
         result,
         nextTurnPlayerId: room.gameState.currentTurnPlayerId,
         questionCompleted: true,
+        completedQuestion: completion.question,
         completedQuestionId: completion.questionId,
         completedCorrectAnswer: completion.correctAnswer,
         completedAttempts: completion.attempts
@@ -305,6 +309,7 @@ export class GameStateManager {
       result,
       nextTurnPlayerId: room.gameState.currentTurnPlayerId,
       questionCompleted: false,
+      completedQuestion: null,
       completedQuestionId: null,
       completedCorrectAnswer: null,
       completedAttempts: null
@@ -312,6 +317,7 @@ export class GameStateManager {
   }
 
   completeQuestionNoAnswer(room: Room): {
+    question: PublicQuestion;
     questionId: string;
     correctAnswer: string;
     attempts: QuestionAttempt[];
@@ -323,6 +329,7 @@ export class GameStateManager {
 
     const questionId = question.id;
     const correctAnswer = question.answer;
+    const publicQuestion = toPublicQuestion(question);
     const attempts = [...room.gameState.questionAttempts];
 
     room.gameState.answeredQuestions.add(question.id);
@@ -334,7 +341,7 @@ export class GameStateManager {
     room.gameState.dailyDoubleWager = null;
     room.gameState.questionAttempts = [];
 
-    return { questionId, correctAnswer, attempts };
+    return { question: publicQuestion, questionId, correctAnswer, attempts };
   }
 
   isGameComplete(room: Room): boolean {
@@ -371,13 +378,20 @@ export class GameStateManager {
   private completeCurrentQuestion(
     room: Room,
     nextTurnPlayerId: string
-  ): { questionId: string; correctAnswer: string; attempts: QuestionAttempt[] } {
+  ): {
+    question: PublicQuestion;
+    questionId: string;
+    correctAnswer: string;
+    attempts: QuestionAttempt[];
+  } {
     if (!room.gameState.selectedQuestion) {
       throw new Error("No active question.");
     }
 
-    const questionId = room.gameState.selectedQuestion.id;
-    const correctAnswer = room.gameState.selectedQuestion.answer;
+    const selectedQuestion = room.gameState.selectedQuestion;
+    const questionId = selectedQuestion.id;
+    const correctAnswer = selectedQuestion.answer;
+    const publicQuestion = toPublicQuestion(selectedQuestion);
     const attempts = [...room.gameState.questionAttempts];
     room.gameState.answeredQuestions.add(questionId);
     room.gameState.selectedQuestion = null;
@@ -388,7 +402,7 @@ export class GameStateManager {
     room.gameState.dailyDoublePlayerId = null;
     room.gameState.dailyDoubleWager = null;
     room.gameState.questionAttempts = [];
-    return { questionId, correctAnswer, attempts };
+    return { question: publicQuestion, questionId, correctAnswer, attempts };
   }
 
   private buildBoard(room: Room): Question[][] {

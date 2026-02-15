@@ -1,4 +1,4 @@
-import type { GamePhase, PublicQuestion } from "@jeopardy/shared";
+import type { GamePhase, PublicQuestion, QuestionAttempt } from "@jeopardy/shared";
 import { useEffect, useMemo, useState } from "react";
 import { BuzzerButton } from "../game/BuzzerButton";
 import { Timer } from "../game/Timer";
@@ -21,6 +21,8 @@ interface QuestionModalProps {
   isDailyDoublePlayer: boolean;
   answerFeedback: AnswerFeedback | null;
   revealCorrectAnswer: string | null;
+  attemptedChoices: QuestionAttempt[];
+  myPlayerId: string | null;
   onBuzz: () => void;
   onSubmitAnswer: (answer: string) => void;
   onSubmitWager: (wager: number) => void;
@@ -38,6 +40,8 @@ export const QuestionModal = ({
   isDailyDoublePlayer,
   answerFeedback,
   revealCorrectAnswer,
+  attemptedChoices,
+  myPlayerId,
   onBuzz,
   onSubmitAnswer,
   onSubmitWager
@@ -69,6 +73,11 @@ export const QuestionModal = ({
   const canSubmitChoice =
     canAnswer || (gamePhase === "daily_double" && isDailyDoublePlayer && !isDailyDoubleWagerPending);
   const showChoices = hasOptions && !isDailyDoubleWagerPending;
+  const playerHasAttempted = Boolean(
+    myPlayerId && attemptedChoices.some((attempt) => attempt.playerId === myPlayerId)
+  );
+  const showAttemptedChoices =
+    gamePhase === "buzzer_active" && !isAnswerReveal && playerHasAttempted && attemptedChoices.length > 0;
   const normalize = (value: string) => value.trim().toLowerCase();
   const isCorrectChoice = (option: string) =>
     isAnswerReveal && revealCorrectAnswer ? normalize(option) === normalize(revealCorrectAnswer) : false;
@@ -88,7 +97,7 @@ export const QuestionModal = ({
     }
   }, [isDailyDoubleWagerPending, dailyDoubleMinWager]);
 
-  if (!question || gamePhase === "selection") {
+  if (!question || (gamePhase === "selection" && !isAnswerReveal)) {
     return null;
   }
 
@@ -125,6 +134,17 @@ export const QuestionModal = ({
           </div>
         )}
         <div className="question-modal-interact">
+          {showAttemptedChoices && (
+            <div className="question-modal-actions attempt-list">
+              <p className="meta">Attempts so far:</p>
+              {attemptedChoices.map((attempt, index) => (
+                <p key={`${attempt.playerId}-${index}`}>
+                  <strong>{attempt.playerName}:</strong> {attempt.answer.length > 0 ? attempt.answer : "No answer"}
+                </p>
+              ))}
+            </div>
+          )}
+
           {gamePhase === "buzzer_active" && !isAnswerReveal && (
             <div className="question-modal-actions">
               <BuzzerButton disabled={!canBuzz} onBuzz={onBuzz} />

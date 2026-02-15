@@ -256,8 +256,14 @@ export const registerGameHandlers = (
         nextTurnPlayerId: result.nextTurnPlayerId
       });
 
-      if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
+      if (
+        result.questionCompleted &&
+        result.completedQuestion &&
+        result.completedQuestionId &&
+        result.completedCorrectAnswer
+      ) {
         deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
+          question: result.completedQuestion,
           questionId: result.completedQuestionId,
           correctAnswer: result.completedCorrectAnswer,
           attempts: result.completedAttempts ?? []
@@ -691,8 +697,14 @@ export const registerGameHandlers = (
         deps.io.to(room.code).emit(SERVER_EVENTS.ANSWER_RESULT, answerPayload);
       }
 
-      if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
+      if (
+        result.questionCompleted &&
+        result.completedQuestion &&
+        result.completedQuestionId &&
+        result.completedCorrectAnswer
+      ) {
         deps.io.to(room.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
+          question: result.completedQuestion,
           questionId: result.completedQuestionId,
           correctAnswer: result.completedCorrectAnswer,
           attempts: result.completedAttempts ?? []

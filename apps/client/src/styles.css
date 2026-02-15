@@ -552,6 +552,17 @@ button:disabled {
   color: #ffe1e1;
 }
 
+.attempt-list {
+  background: rgba(6, 15, 48, 0.55);
+  border: 1px solid rgba(109, 175, 255, 0.32);
+  border-radius: 10px;
+  padding: 0.55rem 0.7rem;
+}
+
+.attempt-list p {
+  margin: 0.22rem 0;
+}
+
 .gameplay-screen {
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr) auto;

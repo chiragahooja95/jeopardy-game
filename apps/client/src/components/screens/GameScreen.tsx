@@ -76,7 +76,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const feedbackTimeoutRef = useRef<number | null>(null);
   const attemptRevealTimeoutRef = useRef<number | null>(null);
   const correctChoiceRevealTimeoutRef = useRef<number | null>(null);
-  const activeQuestionRef = useRef<PublicQuestion | null>(null);
   const [answerFeedback, setAnswerFeedback] = useState<AnswerFeedback | null>(null);
   const [attemptReveal, setAttemptReveal] = useState<AttemptReveal | null>(null);
   const [correctChoiceReveal, setCorrectChoiceReveal] = useState<CorrectChoiceReveal | null>(null);
@@ -168,10 +167,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   };
 
   useEffect(() => {
-    activeQuestionRef.current = room?.gameState.selectedQuestion ?? null;
-  }, [room?.gameState.selectedQuestion]);
-
-  useEffect(() => {
     const onPlayerBuzzed = ({ playerName }: PlayerBuzzedPayload) => {
       playSfx("buzz");
     };
@@ -193,12 +188,11 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       }, 1800);
     };
 
-    const onQuestionComplete = ({ questionId, correctAnswer, attempts }: QuestionCompletePayload) => {
+    const onQuestionComplete = ({ questionId, question, correctAnswer, attempts }: QuestionCompletePayload) => {
       void questionId;
-      const activeQuestion = activeQuestionRef.current;
-      if (activeQuestion && activeQuestion.options && activeQuestion.options.length > 0) {
+      if (question.options && question.options.length > 0) {
         setCorrectChoiceReveal({
-          question: activeQuestion,
+          question,
           correctAnswer
         });
         if (correctChoiceRevealTimeoutRef.current) {
@@ -545,6 +539,8 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         isDailyDoublePlayer={isDailyDoublePlayer}
         answerFeedback={answerFeedback}
         revealCorrectAnswer={correctChoiceReveal?.correctAnswer ?? null}
+        attemptedChoices={room.gameState.questionAttempts}
+        myPlayerId={playerId}
         onBuzz={buzzIn}
         onSubmitAnswer={submitAnswer}
         onSubmitWager={submitWager}
