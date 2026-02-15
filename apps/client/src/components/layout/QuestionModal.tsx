@@ -1,5 +1,5 @@
 import type { GamePhase, PublicQuestion, QuestionAttempt } from "@jeopardy/shared";
-import { useEffect, useMemo, useState } from "react";
+import { type CSSProperties, useEffect, useMemo, useState } from "react";
 import { BuzzerButton } from "../game/BuzzerButton";
 import { Timer } from "../game/Timer";
 
@@ -22,6 +22,8 @@ interface QuestionModalProps {
   answerFeedback: AnswerFeedback | null;
   revealCorrectAnswer: string | null;
   attemptedChoices: QuestionAttempt[];
+  revealAttempts: QuestionAttempt[];
+  playerColors: Record<string, string>;
   myPlayerId: string | null;
   onBuzz: () => void;
   onSubmitAnswer: (answer: string) => void;
@@ -41,6 +43,8 @@ export const QuestionModal = ({
   answerFeedback,
   revealCorrectAnswer,
   attemptedChoices,
+  revealAttempts,
+  playerColors,
   myPlayerId,
   onBuzz,
   onSubmitAnswer,
@@ -73,14 +77,42 @@ export const QuestionModal = ({
   const canSubmitChoice =
     canAnswer || (gamePhase === "daily_double" && isDailyDoublePlayer && !isDailyDoubleWagerPending);
   const showChoices = hasOptions && !isDailyDoubleWagerPending;
+  const visibleAttempts = isAnswerReveal ? revealAttempts : attemptedChoices;
   const playerHasAttempted = Boolean(
-    myPlayerId && attemptedChoices.some((attempt) => attempt.playerId === myPlayerId)
+    myPlayerId && visibleAttempts.some((attempt) => attempt.playerId === myPlayerId)
   );
-  const showAttemptedChoices =
-    gamePhase === "buzzer_active" && !isAnswerReveal && playerHasAttempted && attemptedChoices.length > 0;
+  const showAttemptedHighlights =
+    isAnswerReveal || (gamePhase === "buzzer_active" && !isAnswerReveal && playerHasAttempted);
   const normalize = (value: string) => value.trim().toLowerCase();
   const isCorrectChoice = (option: string) =>
     isAnswerReveal && revealCorrectAnswer ? normalize(option) === normalize(revealCorrectAnswer) : false;
+  const attemptsByOption = useMemo(() => {
+    const grouped = new Map<string, QuestionAttempt[]>();
+    for (const attempt of visibleAttempts) {
+      const key = normalize(attempt.answer);
+      if (!key) {
+        continue;
+      }
+      const existing = grouped.get(key) ?? [];
+      existing.push(attempt);
+      grouped.set(key, existing);
+    }
+    return grouped;
+  }, [visibleAttempts]);
+
+  const buildAttemptOverlay = (attempts: QuestionAttempt[]): string | null => {
+    if (attempts.length === 0) {
+      return null;
+    }
+
+    const segments = attempts.map((attempt, index) => {
+      const start = Math.round((index / attempts.length) * 100);
+      const end = Math.round(((index + 1) / attempts.length) * 100);
+      const color = playerColors[attempt.playerId] ?? "#9ca3af";
+      return `${color} ${start}% ${end}%`;
+    });
+    return `linear-gradient(90deg, ${segments.join(", ")})`;
+  };
 
   useEffect(() => {
     setWagerDraft((previous) => {
@@ -134,24 +166,13 @@ export const QuestionModal = ({
           </div>
         )}
         <div className="question-modal-interact">
-          {showAttemptedChoices && (
-            <div className="question-modal-actions attempt-list">
-              <p className="meta">Attempts so far:</p>
-              {attemptedChoices.map((attempt, index) => (
-                <p key={`${attempt.playerId}-${index}`}>
-                  <strong>{attempt.playerName}:</strong> {attempt.answer.length > 0 ? attempt.answer : "No answer"}
-                </p>
-              ))}
-            </div>
-          )}
-
           {gamePhase === "buzzer_active" && !isAnswerReveal && (
             <div className="question-modal-actions">
               <BuzzerButton disabled={!canBuzz} onBuzz={onBuzz} />
             </div>
           )}
 
-          {gamePhase === "daily_double" && isDailyDoublePlayer && !isAnswerReveal && (
+          {gamePhase === "daily_double" && isDailyDoublePlayer && isDailyDoubleWagerPending && !isAnswerReveal && (
             <div className="question-modal-actions wager-panel">
               <p className="meta">
                 Wager Range: {dailyDoubleMinWager} - {dailyDoubleMaxWager}
@@ -174,6 +195,7 @@ export const QuestionModal = ({
                 </button>
               </div>
               <button
+                type="button"
                 onClick={() => {
                   onSubmitWager(wagerDraft);
                 }}
@@ -186,22 +208,39 @@ export const QuestionModal = ({
 
           {showChoices && (
             <div className="choice-grid question-modal-actions">
-              {question?.options?.map((option) => (
-                <button
-                  className={`choice-btn ${isCorrectChoice(option) ? "choice-btn-correct" : ""} ${
-                    canSubmitChoice ? "" : "choice-btn-disabled"
-                  }`}
-                  key={option}
-                  disabled={isAnswerReveal || !canSubmitChoice}
-                  onClick={() => {
-                    if (canSubmitChoice && !isAnswerReveal) {
-                      onSubmitAnswer(option);
-                    }
-                  }}
-                >
-                  {option}
-                </button>
-              ))}
+              {question?.options?.map((option) => {
+                const attemptsForOption = showAttemptedHighlights
+                  ? attemptsByOption.get(normalize(option)) ?? []
+                  : [];
+                const attemptOverlay = buildAttemptOverlay(attemptsForOption);
+                const buttonStyle = (
+                  attemptOverlay
+                    ? ({
+                        "--attempt-overlay": attemptOverlay
+                      } as CSSProperties)
+                    : undefined
+                );
+                const isChoiceInteractive = canSubmitChoice && !isAnswerReveal;
+
+                return (
+                  <button
+                    type="button"
+                    className={`choice-btn ${isCorrectChoice(option) ? "choice-btn-correct" : ""} ${
+                      attemptsForOption.length > 0 ? "choice-btn-attempted" : ""
+                    } ${isChoiceInteractive ? "" : "choice-btn-readonly"}`}
+                    key={option}
+                    style={buttonStyle}
+                    aria-disabled={!isChoiceInteractive}
+                    onClick={() => {
+                      if (isChoiceInteractive) {
+                        onSubmitAnswer(option);
+                      }
+                    }}
+                  >
+                    <span className="choice-label">{option}</span>
+                  </button>
+                );
+              })}
             </div>
           )}
 
@@ -216,6 +255,7 @@ export const QuestionModal = ({
                   placeholder="Type answer"
                 />
                 <button
+                  type="button"
                   onClick={() => {
                     onSubmitAnswer(answerDraft);
                     setAnswerDraft("");

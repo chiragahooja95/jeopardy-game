@@ -202,6 +202,7 @@ export interface FinalJeopardyQuestion {
   category: string;
   question: string;
   answer: string;
+  aliases?: string[];
 }
 
 export interface FinalJeopardyReveal {

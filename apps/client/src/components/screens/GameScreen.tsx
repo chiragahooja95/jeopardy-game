@@ -28,17 +28,13 @@ interface AnswerFeedback {
   pointsAwarded: number;
 }
 
-interface AttemptReveal {
+interface CorrectChoiceReveal {
+  question: PublicQuestion;
   correctAnswer: string;
   attempts: QuestionAttempt[];
 }
 
-interface CorrectChoiceReveal {
-  question: PublicQuestion;
-  correctAnswer: string;
-}
-
-const CORRECT_CHOICE_REVEAL_MS = 1600;
+const CORRECT_CHOICE_REVEAL_MS = 2400;
 
 export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const {
@@ -74,11 +70,17 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const previousPhaseRef = useRef<GamePhase | null>(null);
   const lastTickSecondRef = useRef<number | null>(null);
   const feedbackTimeoutRef = useRef<number | null>(null);
-  const attemptRevealTimeoutRef = useRef<number | null>(null);
   const correctChoiceRevealTimeoutRef = useRef<number | null>(null);
   const [answerFeedback, setAnswerFeedback] = useState<AnswerFeedback | null>(null);
-  const [attemptReveal, setAttemptReveal] = useState<AttemptReveal | null>(null);
   const [correctChoiceReveal, setCorrectChoiceReveal] = useState<CorrectChoiceReveal | null>(null);
+  const playerColorMap = useMemo(() => {
+    const palette = ["#ef4444", "#0ea5e9", "#22c55e", "#f59e0b", "#a855f7", "#14b8a6"] as const;
+    const map: Record<string, string> = {};
+    for (const [index, player] of (room?.players ?? []).entries()) {
+      map[player.id] = palette[index % palette.length];
+    }
+    return map;
+  }, [room?.players]);
 
   const getSfxContext = () => {
     const Ctx =
@@ -193,7 +195,8 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       if (question.options && question.options.length > 0) {
         setCorrectChoiceReveal({
           question,
-          correctAnswer
+          correctAnswer,
+          attempts
         });
         if (correctChoiceRevealTimeoutRef.current) {
           window.clearTimeout(correctChoiceRevealTimeoutRef.current);
@@ -202,20 +205,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
           setCorrectChoiceReveal(null);
         }, CORRECT_CHOICE_REVEAL_MS);
       }
-
-      const allIncorrect = attempts.length > 0 && attempts.every((attempt) => !attempt.correct);
-      if (!allIncorrect) {
-        setAttemptReveal(null);
-        return;
-      }
-
-      setAttemptReveal({ correctAnswer, attempts });
-      if (attemptRevealTimeoutRef.current) {
-        window.clearTimeout(attemptRevealTimeoutRef.current);
-      }
-      attemptRevealTimeoutRef.current = window.setTimeout(() => {
-        setAttemptReveal(null);
-      }, 4200);
     };
 
     const onPlayerDisconnected = ({ playerId, reconnectDeadline }: PlayerDisconnectedPayload) => {
@@ -277,43 +266,67 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
 
     const context = new Ctx();
     const gain = context.createGain();
-    gain.gain.value = 0.02;
+    gain.gain.value = 0.014;
     gain.connect(context.destination);
+
+    const leadGain = context.createGain();
+    leadGain.gain.value = 0.38;
+    leadGain.connect(gain);
+
+    const bassGain = context.createGain();
+    bassGain.gain.value = 0.44;
+    bassGain.connect(gain);
+
+    const shimmerGain = context.createGain();
+    shimmerGain.gain.value = 0.2;
+    shimmerGain.connect(gain);
 
     const lead = context.createOscillator();
     lead.type = "square";
-    lead.frequency.value = 329.63;
-    lead.connect(gain);
+    lead.frequency.value = 246.94;
+    lead.connect(leadGain);
     lead.start();
 
     const bass = context.createOscillator();
     bass.type = "triangle";
     bass.frequency.value = 82.41;
-    bass.connect(gain);
+    bass.connect(bassGain);
     bass.start();
 
     const shimmer = context.createOscillator();
     shimmer.type = "sine";
-    shimmer.frequency.value = 659.25;
-    shimmer.connect(gain);
+    shimmer.frequency.value = 493.88;
+    shimmer.detune.value = 7;
+    shimmer.connect(shimmerGain);
     shimmer.start();
 
     const progression = [
-      { lead: 329.63, bass: 82.41, shimmer: 659.25 },
-      { lead: 392.0, bass: 98.0, shimmer: 784.0 },
-      { lead: 440.0, bass: 110.0, shimmer: 880.0 },
-      { lead: 392.0, bass: 98.0, shimmer: 784.0 },
-      { lead: 349.23, bass: 87.31, shimmer: 698.46 },
-      { lead: 293.66, bass: 73.42, shimmer: 587.33 }
-    ];
-    let idx = 0;
+      { bass: 82.41, notes: [164.81, 246.94, 196.0, 329.63] },
+      { bass: 98.0, notes: [196.0, 293.66, 246.94, 392.0] },
+      { bass: 110.0, notes: [220.0, 329.63, 261.63, 440.0] },
+      { bass: 73.42, notes: [146.83, 220.0, 293.66, 369.99] }
+    ] as const;
+    const arpPattern = [0, 2, 1, 3, 2, 1, 0, 1] as const;
+
+    let step = 0;
     const timer = window.setInterval(() => {
-      const step = progression[idx % progression.length];
-      lead.frequency.setTargetAtTime(step.lead, context.currentTime, 0.08);
-      bass.frequency.setTargetAtTime(step.bass, context.currentTime, 0.16);
-      shimmer.frequency.setTargetAtTime(step.shimmer, context.currentTime, 0.12);
-      idx += 1;
-    }, 560);
+      const currentBar = Math.floor(step / arpPattern.length) % progression.length;
+      const currentChord = progression[currentBar];
+      const patternStep = step % arpPattern.length;
+      const leadNote = currentChord.notes[arpPattern[patternStep]];
+      const now = context.currentTime;
+
+      lead.frequency.setTargetAtTime(leadNote, now, 0.025);
+      shimmer.frequency.setTargetAtTime(leadNote * 2, now, 0.04);
+
+      if (patternStep % 2 === 0) {
+        bass.frequency.setTargetAtTime(currentChord.bass, now, 0.05);
+      }
+
+      const pulse = patternStep % 4 === 0 ? 0.018 : patternStep % 2 === 0 ? 0.015 : 0.012;
+      gain.gain.setTargetAtTime(pulse, now, 0.06);
+      step += 1;
+    }, 180);
 
     audioRef.current = { context, lead, bass, shimmer, gain, timer };
 
@@ -331,9 +344,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
     return () => {
       if (feedbackTimeoutRef.current) {
         window.clearTimeout(feedbackTimeoutRef.current);
-      }
-      if (attemptRevealTimeoutRef.current) {
-        window.clearTimeout(attemptRevealTimeoutRef.current);
       }
       if (correctChoiceRevealTimeoutRef.current) {
         window.clearTimeout(correctChoiceRevealTimeoutRef.current);
@@ -491,20 +501,6 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         <p className="phase-hint">{actionHint}</p>
       </section>
 
-      {attemptReveal && (
-        <section className="panel attempt-reveal">
-          <h3>Everyone Missed This Clue</h3>
-          <p className="meta">Correct answer: {attemptReveal.correctAnswer}</p>
-          <div className="attempt-reveal-list">
-            {attemptReveal.attempts.map((attempt, index) => (
-              <p key={`${attempt.playerId}-${index}`}>
-                <strong>{attempt.playerName}:</strong> {attempt.answer.length > 0 ? attempt.answer : "No answer"}
-              </p>
-            ))}
-          </div>
-        </section>
-      )}
-
       <div className="gameplay-grid">
         <Scoreboard
           players={room.players}
@@ -540,6 +536,8 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         answerFeedback={answerFeedback}
         revealCorrectAnswer={correctChoiceReveal?.correctAnswer ?? null}
         attemptedChoices={room.gameState.questionAttempts}
+        revealAttempts={correctChoiceReveal?.attempts ?? []}
+        playerColors={playerColorMap}
         myPlayerId={playerId}
         onBuzz={buzzIn}
         onSubmitAnswer={submitAnswer}

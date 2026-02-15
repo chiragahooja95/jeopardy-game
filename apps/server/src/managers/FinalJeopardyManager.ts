@@ -13,22 +13,26 @@ const FINAL_JEOPARDY_QUESTIONS: FinalJeopardyQuestion[] = [
   {
     category: "Science",
     question: "This element has the atomic number 1.",
-    answer: "Hydrogen"
+    answer: "Hydrogen",
+    aliases: ["H"]
   },
   {
     category: "History",
     question: "This empire was ruled by Julius Caesar before becoming an empire.",
-    answer: "Roman Republic"
+    answer: "Roman Republic",
+    aliases: ["The Roman Republic", "Rome"]
   },
   {
     category: "Geography",
     question: "This is the longest river in Africa.",
-    answer: "Nile"
+    answer: "Nile",
+    aliases: ["The Nile", "Nile River"]
   },
   {
     category: "Literature",
     question: "This playwright wrote Hamlet.",
-    answer: "Shakespeare"
+    answer: "Shakespeare",
+    aliases: ["William Shakespeare"]
   }
 ];
 
@@ -156,7 +160,10 @@ export class FinalJeopardyManager {
     for (const player of room.players.values()) {
       const wager = state.wagers.get(player.id) ?? 0;
       const answer = state.answers.get(player.id) ?? "";
-      const correct = fuzzyAnswerMatch(answer, state.question.answer);
+      const correct = fuzzyAnswerMatch(answer, state.question.answer, {
+        aliases: state.question.aliases,
+        lenient: true
+      });
 
       player.score += correct ? wager : -wager;
       finalCorrectByUser.set(player.userId, correct ? 1 : 0);

@@ -3,7 +3,7 @@ import type {
   FinalJeopardyRevealPayload,
   FinalJeopardyWagerPhasePayload
 } from "@jeopardy/shared";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { Timer } from "../game/Timer";
 
 interface FinalJeopardyScreenProps {
@@ -25,7 +25,7 @@ export const FinalJeopardyScreen = ({
   onSubmitWager,
   onSubmitAnswer
 }: FinalJeopardyScreenProps) => {
-  const [wagerDraft, setWagerDraft] = useState("");
+  const [wagerDraft, setWagerDraft] = useState<number | null>(null);
   const [answerDraft, setAnswerDraft] = useState("");
 
   const myWagerLimit = useMemo(() => {
@@ -36,7 +36,21 @@ export const FinalJeopardyScreen = ({
     return wagerPhase.limits.find((limit) => limit.playerId === myPlayerId) ?? null;
   }, [myPlayerId, wagerPhase]);
 
-  const initialWager = myWagerLimit ? String(myWagerLimit.maxWager) : "";
+  useEffect(() => {
+    if (!myWagerLimit) {
+      setWagerDraft(null);
+      return;
+    }
+
+    setWagerDraft((previous) => {
+      if (previous === null || Number.isNaN(previous)) {
+        return myWagerLimit.maxWager;
+      }
+      return Math.min(myWagerLimit.maxWager, Math.max(myWagerLimit.minWager, previous));
+    });
+  }, [myWagerLimit?.minWager, myWagerLimit?.maxWager]);
+
+  const selectedWager = myWagerLimit ? (wagerDraft ?? myWagerLimit.maxWager) : 0;
 
   return (
     <section className="panel">
@@ -57,21 +71,31 @@ export const FinalJeopardyScreen = ({
         <>
           <p className="subtitle">Category: {wagerPhase?.category ?? "-"}</p>
           {myWagerLimit ? (
-            <div className="row">
-              <input
-                type="number"
-                min={myWagerLimit.minWager}
-                max={myWagerLimit.maxWager}
-                step={100}
-                value={wagerDraft || initialWager}
-                onChange={(event) => setWagerDraft(event.target.value)}
-              />
+            <div className="wager-panel">
+              <p className="meta">
+                Allowed wager: {myWagerLimit.minWager} to {myWagerLimit.maxWager} (score: {myWagerLimit.currentScore})
+              </p>
+              <div className="wager-stepper">
+                <button
+                  type="button"
+                  onClick={() => setWagerDraft((value) => Math.max(myWagerLimit.minWager, (value ?? selectedWager) - 100))}
+                  disabled={selectedWager <= myWagerLimit.minWager}
+                >
+                  -
+                </button>
+                <div className="wager-value">{selectedWager}</div>
+                <button
+                  type="button"
+                  onClick={() => setWagerDraft((value) => Math.min(myWagerLimit.maxWager, (value ?? selectedWager) + 100))}
+                  disabled={selectedWager >= myWagerLimit.maxWager}
+                >
+                  +
+                </button>
+              </div>
               <button
+                type="button"
                 onClick={() => {
-                  const parsed = Number(wagerDraft || initialWager);
-                  if (Number.isInteger(parsed)) {
-                    onSubmitWager(parsed);
-                  }
+                  onSubmitWager(selectedWager);
                 }}
               >
                 Submit Wager
@@ -80,11 +104,6 @@ export const FinalJeopardyScreen = ({
           ) : (
             <p>Waiting for wager limits...</p>
           )}
-          {myWagerLimit ? (
-            <p className="status">
-              Allowed wager: {myWagerLimit.minWager} to {myWagerLimit.maxWager} (score: {myWagerLimit.currentScore})
-            </p>
-          ) : null}
         </>
       )}
 
@@ -99,6 +118,7 @@ export const FinalJeopardyScreen = ({
               placeholder="Type your final answer"
             />
             <button
+              type="button"
               onClick={() => {
                 onSubmitAnswer(answerDraft);
                 setAnswerDraft("");
