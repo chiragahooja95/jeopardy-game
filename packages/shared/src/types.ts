@@ -161,7 +161,7 @@ export interface SerializedRoom {
 
 export interface AnswerResult {
   correct: boolean;
-  correctAnswer: string;
+  correctAnswer: string | null;
   playerAnswer: string;
   pointsAwarded: number;
   newScore: number;

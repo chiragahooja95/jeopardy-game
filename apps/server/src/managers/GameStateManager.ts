@@ -122,18 +122,17 @@ export class GameStateManager {
     return room.gameState.phaseEndsAt;
   }
 
-  activateDailyDouble(room: Room, playerId: string): { phaseEndsAt: number; min: number; max: number } {
+  activateDailyDouble(room: Room, playerId: string): { phaseEndsAt: number | null; min: number; max: number } {
     const question = room.gameState.selectedQuestion;
     if (!question || !question.dailyDouble) {
       throw new Error("Selected question is not a Daily Double.");
     }
 
-    const timing = getGameTiming(room.config.timerSpeed);
     const score = room.players.get(playerId)?.score ?? 0;
     const limits = getDailyDoubleWagerLimits(score, question.value);
 
     room.gameState.phase = "daily_double";
-    room.gameState.phaseEndsAt = Date.now() + timing.dailyDoubleAnswer;
+    room.gameState.phaseEndsAt = null;
     room.gameState.dailyDoublePlayerId = playerId;
 
     return { phaseEndsAt: room.gameState.phaseEndsAt, min: limits.min, max: limits.max };
@@ -151,6 +150,10 @@ export class GameStateManager {
       throw new Error("Only the selecting player can submit Daily Double wager.");
     }
 
+    if (room.gameState.dailyDoubleWager !== null) {
+      throw new Error("Daily Double wager has already been submitted.");
+    }
+
     const player = room.players.get(playerId);
     if (!player) {
       throw new Error("Player not found.");
@@ -161,6 +164,22 @@ export class GameStateManager {
     }
 
     room.gameState.dailyDoubleWager = wager;
+  }
+
+  startDailyDoubleAnswerWindow(room: Room): number {
+    if (room.gameState.phase !== "daily_double") {
+      throw new Error("Not in Daily Double phase.");
+    }
+    if (room.gameState.dailyDoublePlayerId === null) {
+      throw new Error("No Daily Double player found.");
+    }
+    if (room.gameState.dailyDoubleWager === null) {
+      throw new Error("Daily Double wager must be submitted first.");
+    }
+
+    const timing = getGameTiming(room.config.timerSpeed);
+    room.gameState.phaseEndsAt = Date.now() + timing.dailyDoubleAnswer;
+    return room.gameState.phaseEndsAt;
   }
 
   ensureDailyDoubleWager(room: Room, playerId: string): number {
@@ -245,7 +264,7 @@ export class GameStateManager {
 
     const result: AnswerResult = {
       correct,
-      correctAnswer: question.answer,
+      correctAnswer: correct || isDailyDouble ? question.answer : null,
       playerAnswer: answer,
       pointsAwarded: signedPoints,
       newScore: player.score

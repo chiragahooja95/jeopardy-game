@@ -20,6 +20,12 @@ interface GameScreenProps {
   onLeave: () => void;
 }
 
+interface AnswerFeedback {
+  playerName: string;
+  correct: boolean;
+  pointsAwarded: number;
+}
+
 export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const {
     room,
@@ -53,6 +59,8 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const sfxContextRef = useRef<AudioContext | null>(null);
   const previousPhaseRef = useRef<GamePhase | null>(null);
   const lastTickSecondRef = useRef<number | null>(null);
+  const feedbackTimeoutRef = useRef<number | null>(null);
+  const [answerFeedback, setAnswerFeedback] = useState<AnswerFeedback | null>(null);
 
   const getSfxContext = () => {
     const Ctx =
@@ -145,8 +153,21 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       playSfx("buzz");
     };
 
-    const onAnswer = ({ result }: AnswerResultPayload) => {
+    const onAnswer = ({ playerId: answeringPlayerId, result }: AnswerResultPayload) => {
       playSfx(result.correct ? "correct" : "wrong");
+      const answeringPlayerName =
+        room?.players.find((player) => player.id === answeringPlayerId)?.name ?? "Player";
+      setAnswerFeedback({
+        playerName: answeringPlayerName,
+        correct: result.correct,
+        pointsAwarded: result.pointsAwarded
+      });
+      if (feedbackTimeoutRef.current) {
+        window.clearTimeout(feedbackTimeoutRef.current);
+      }
+      feedbackTimeoutRef.current = window.setTimeout(() => {
+        setAnswerFeedback(null);
+      }, 1800);
     };
 
     const onQuestionComplete = ({ questionId }: QuestionCompletePayload) => {
@@ -177,7 +198,7 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       socket.off(SERVER_EVENTS.PLAYER_DISCONNECTED, onPlayerDisconnected);
       socket.off(SERVER_EVENTS.PLAYER_RECONNECTED, onPlayerReconnected);
     };
-  }, [socket, sfxEnabled]);
+  }, [socket, sfxEnabled, room?.players]);
 
   const me = useMemo(() => room?.players.find((player) => player.id === playerId) ?? null, [room, playerId]);
 
@@ -264,6 +285,9 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
 
   useEffect(() => {
     return () => {
+      if (feedbackTimeoutRef.current) {
+        window.clearTimeout(feedbackTimeoutRef.current);
+      }
       if (sfxContextRef.current) {
         sfxContextRef.current.close().catch(() => undefined);
         sfxContextRef.current = null;
@@ -445,6 +469,7 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         canBuzz={canBuzz}
         canAnswer={canAnswer}
         isDailyDoublePlayer={isDailyDoublePlayer}
+        answerFeedback={answerFeedback}
         onBuzz={buzzIn}
         onSubmitAnswer={submitAnswer}
         onSubmitWager={submitWager}

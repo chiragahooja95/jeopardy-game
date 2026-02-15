@@ -192,7 +192,7 @@ export interface DailyDoublePayload {
   question: PublicQuestion;
   minWager: number;
   maxWager: number;
-  phaseEndsAt: number;
+  phaseEndsAt: number | null;
 }
 
 export interface QuestionCompletePayload {

@@ -231,6 +231,48 @@ export const registerGameHandlers = (
   const { emitRoomState } = registerStateEmitter(deps);
   const { finishStandardGame, finalizeFinalJeopardy, startFinalAnswerPhase, maybeCompleteGame } =
     registerGameFinisher(deps, emitRoomState);
+
+  const handleDailyDoubleTimeout = (roomCode: string) => {
+    const timedRoom = deps.roomManager.getRoomByCode(roomCode);
+    if (!timedRoom || timedRoom.gameState.phase !== "daily_double") {
+      return;
+    }
+
+    const dailyPlayerId = timedRoom.gameState.dailyDoublePlayerId;
+    if (!dailyPlayerId) {
+      const completion = deps.gameStateManager.completeQuestionNoAnswer(timedRoom);
+      deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, completion);
+      emitRoomState(timedRoom.code);
+      maybeCompleteGame(timedRoom.code);
+      return;
+    }
+
+    try {
+      const result = deps.gameStateManager.submitAnswer(timedRoom, dailyPlayerId, "");
+
+      deps.io.to(timedRoom.code).emit(SERVER_EVENTS.ANSWER_RESULT, {
+        playerId: dailyPlayerId,
+        result: result.result,
+        nextTurnPlayerId: result.nextTurnPlayerId
+      });
+
+      if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
+        deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
+          questionId: result.completedQuestionId,
+          correctAnswer: result.completedCorrectAnswer
+        });
+      }
+
+      emitRoomState(timedRoom.code);
+      maybeCompleteGame(timedRoom.code);
+    } catch {
+      const completion = deps.gameStateManager.completeQuestionNoAnswer(timedRoom);
+      deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, completion);
+      emitRoomState(timedRoom.code);
+      maybeCompleteGame(timedRoom.code);
+    }
+  };
+
   const maybeCompleteQuestionIfNoEligibleBuzzers = (roomCode: string): boolean => {
     const room = deps.roomManager.getRoomByCode(roomCode);
     if (!room || room.gameState.phase !== "buzzer_active") {
@@ -459,47 +501,6 @@ export const registerGameHandlers = (
             });
 
             emitRoomState(activeRoom.code);
-
-            scheduleRoomTimer(activeRoom.code, daily.phaseEndsAt - Date.now(), () => {
-              const timedRoom = deps.roomManager.getRoomByCode(activeRoom.code);
-              if (!timedRoom || timedRoom.gameState.phase !== "daily_double") {
-                return;
-              }
-
-              const dailyPlayerId = timedRoom.gameState.dailyDoublePlayerId;
-              if (!dailyPlayerId) {
-                const completion = deps.gameStateManager.completeQuestionNoAnswer(timedRoom);
-                deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, completion);
-                emitRoomState(timedRoom.code);
-                maybeCompleteGame(timedRoom.code);
-                return;
-              }
-
-              try {
-                const result = deps.gameStateManager.submitAnswer(timedRoom, dailyPlayerId, "");
-
-                deps.io.to(timedRoom.code).emit(SERVER_EVENTS.ANSWER_RESULT, {
-                  playerId: dailyPlayerId,
-                  result: result.result,
-                  nextTurnPlayerId: result.nextTurnPlayerId
-                });
-
-                if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
-                  deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
-                    questionId: result.completedQuestionId,
-                    correctAnswer: result.completedCorrectAnswer
-                  });
-                }
-
-                emitRoomState(timedRoom.code);
-                maybeCompleteGame(timedRoom.code);
-              } catch {
-                const completion = deps.gameStateManager.completeQuestionNoAnswer(timedRoom);
-                deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, completion);
-                emitRoomState(timedRoom.code);
-                maybeCompleteGame(timedRoom.code);
-              }
-            });
           } catch {
             // no-op; invalid state transition
           }
@@ -638,7 +639,24 @@ export const registerGameHandlers = (
 
     try {
       deps.gameStateManager.submitDailyDoubleWager(room, socket.id, payload.wager);
+      const phaseEndsAt = deps.gameStateManager.startDailyDoubleAnswerWindow(room);
+
+      if (room.gameState.selectedQuestion) {
+        const dailyPlayer = room.players.get(socket.id);
+        const questionValue = room.gameState.selectedQuestion.value;
+        const maxWager = Math.max(dailyPlayer?.score ?? 0, questionValue, 200);
+        deps.io.to(room.code).emit(SERVER_EVENTS.DAILY_DOUBLE, {
+          question: toPublicQuestion(room.gameState.selectedQuestion),
+          minWager: 200,
+          maxWager,
+          phaseEndsAt
+        });
+      }
+
       emitRoomState(room.code);
+      scheduleRoomTimer(room.code, phaseEndsAt - Date.now(), () => {
+        handleDailyDoubleTimeout(room.code);
+      });
     } catch (error) {
       const message = error instanceof Error ? error.message : "Invalid wager.";
       emitError(socket, message);
