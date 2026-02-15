@@ -259,7 +259,8 @@ export const registerGameHandlers = (
       if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
         deps.io.to(timedRoom.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
           questionId: result.completedQuestionId,
-          correctAnswer: result.completedCorrectAnswer
+          correctAnswer: result.completedCorrectAnswer,
+          attempts: result.completedAttempts ?? []
         });
       }
 
@@ -589,11 +590,17 @@ export const registerGameHandlers = (
         }
 
         const timeoutResult = deps.gameStateManager.submitAnswer(timedRoom, timedOutPlayerId, "");
-        deps.io.to(timedRoom.code).emit(SERVER_EVENTS.ANSWER_RESULT, {
+        const timeoutPayload = {
           playerId: timedOutPlayerId,
           result: timeoutResult.result,
           nextTurnPlayerId: timeoutResult.nextTurnPlayerId
-        });
+        };
+
+        if (!timeoutResult.result.correct && !timeoutResult.questionCompleted) {
+          deps.io.to(timedOutPlayerId).emit(SERVER_EVENTS.ANSWER_RESULT, timeoutPayload);
+        } else {
+          deps.io.to(timedRoom.code).emit(SERVER_EVENTS.ANSWER_RESULT, timeoutPayload);
+        }
 
         deps.buzzerManager.unlockBuzzer(timedRoom.code);
         const nextPhaseEndsAt =
@@ -672,17 +679,23 @@ export const registerGameHandlers = (
     try {
       const phaseBefore = room.gameState.phase;
       const result = deps.gameStateManager.submitAnswer(room, socket.id, payload.answer);
-
-      deps.io.to(room.code).emit(SERVER_EVENTS.ANSWER_RESULT, {
+      const answerPayload = {
         playerId: socket.id,
         result: result.result,
         nextTurnPlayerId: result.nextTurnPlayerId
-      });
+      };
+
+      if (phaseBefore === "answering" && !result.result.correct && !result.questionCompleted) {
+        socket.emit(SERVER_EVENTS.ANSWER_RESULT, answerPayload);
+      } else {
+        deps.io.to(room.code).emit(SERVER_EVENTS.ANSWER_RESULT, answerPayload);
+      }
 
       if (result.questionCompleted && result.completedQuestionId && result.completedCorrectAnswer) {
         deps.io.to(room.code).emit(SERVER_EVENTS.QUESTION_COMPLETE, {
           questionId: result.completedQuestionId,
-          correctAnswer: result.completedCorrectAnswer
+          correctAnswer: result.completedCorrectAnswer,
+          attempts: result.completedAttempts ?? []
         });
 
         emitRoomState(room.code);

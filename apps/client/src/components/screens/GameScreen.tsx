@@ -5,6 +5,7 @@ import {
   type PlayerDisconnectedPayload,
   type PlayerReconnectedPayload,
   type PlayerBuzzedPayload,
+  type QuestionAttempt,
   type QuestionCompletePayload
 } from "@jeopardy/shared";
 import { useEffect, useMemo, useRef, useState } from "react";
@@ -24,6 +25,11 @@ interface AnswerFeedback {
   playerName: string;
   correct: boolean;
   pointsAwarded: number;
+}
+
+interface AttemptReveal {
+  correctAnswer: string;
+  attempts: QuestionAttempt[];
 }
 
 export const GameScreen = ({ onLeave }: GameScreenProps) => {
@@ -60,7 +66,9 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
   const previousPhaseRef = useRef<GamePhase | null>(null);
   const lastTickSecondRef = useRef<number | null>(null);
   const feedbackTimeoutRef = useRef<number | null>(null);
+  const attemptRevealTimeoutRef = useRef<number | null>(null);
   const [answerFeedback, setAnswerFeedback] = useState<AnswerFeedback | null>(null);
+  const [attemptReveal, setAttemptReveal] = useState<AttemptReveal | null>(null);
 
   const getSfxContext = () => {
     const Ctx =
@@ -170,8 +178,26 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
       }, 1800);
     };
 
-    const onQuestionComplete = ({ questionId }: QuestionCompletePayload) => {
+    const onQuestionComplete = ({ questionId, correctAnswer, attempts }: QuestionCompletePayload) => {
       void questionId;
+      if (feedbackTimeoutRef.current) {
+        window.clearTimeout(feedbackTimeoutRef.current);
+      }
+      setAnswerFeedback(null);
+
+      const allIncorrect = attempts.length > 0 && attempts.every((attempt) => !attempt.correct);
+      if (!allIncorrect) {
+        setAttemptReveal(null);
+        return;
+      }
+
+      setAttemptReveal({ correctAnswer, attempts });
+      if (attemptRevealTimeoutRef.current) {
+        window.clearTimeout(attemptRevealTimeoutRef.current);
+      }
+      attemptRevealTimeoutRef.current = window.setTimeout(() => {
+        setAttemptReveal(null);
+      }, 4200);
     };
 
     const onPlayerDisconnected = ({ playerId, reconnectDeadline }: PlayerDisconnectedPayload) => {
@@ -287,6 +313,9 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
     return () => {
       if (feedbackTimeoutRef.current) {
         window.clearTimeout(feedbackTimeoutRef.current);
+      }
+      if (attemptRevealTimeoutRef.current) {
+        window.clearTimeout(attemptRevealTimeoutRef.current);
       }
       if (sfxContextRef.current) {
         sfxContextRef.current.close().catch(() => undefined);
@@ -440,6 +469,20 @@ export const GameScreen = ({ onLeave }: GameScreenProps) => {
         </div>
         <p className="phase-hint">{actionHint}</p>
       </section>
+
+      {attemptReveal && (
+        <section className="panel attempt-reveal">
+          <h3>Everyone Missed This Clue</h3>
+          <p className="meta">Correct answer: {attemptReveal.correctAnswer}</p>
+          <div className="attempt-reveal-list">
+            {attemptReveal.attempts.map((attempt, index) => (
+              <p key={`${attempt.playerId}-${index}`}>
+                <strong>{attempt.playerName}:</strong> {attempt.answer.length > 0 ? attempt.answer : "No answer"}
+              </p>
+            ))}
+          </div>
+        </section>
+      )}
 
       <div className="gameplay-grid">
         <Scoreboard

@@ -6,6 +6,7 @@ import type {
   GetUserStatsPayload,
   Player,
   PublicQuestion,
+  QuestionAttempt,
   RoomConfig,
   SerializedRoom,
   ServerErrorPayload,
@@ -198,6 +199,7 @@ export interface DailyDoublePayload {
 export interface QuestionCompletePayload {
   questionId: string;
   correctAnswer: string;
+  attempts: QuestionAttempt[];
 }
 
 export interface FinalJeopardyStartPayload {

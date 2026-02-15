@@ -371,7 +371,7 @@ button:disabled {
   margin: 0;
   max-height: min(82dvh, 760px);
   max-width: min(900px, 96vw);
-  overflow: auto;
+  overflow: hidden;
   width: 100%;
   display: grid;
   grid-template-rows: auto auto minmax(0, 1fr);
@@ -465,7 +465,11 @@ button:disabled {
 .question-modal-interact {
   min-height: 0;
   overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-bottom: calc(env(safe-area-inset-bottom, 0px) + 1rem);
   padding-right: 0.15rem;
+  touch-action: pan-y;
+  -webkit-overflow-scrolling: touch;
 }
 
 .clue {
@@ -613,6 +617,20 @@ button:disabled {
     0 0 16px rgba(68, 134, 255, 0.2);
   margin-top: 0;
   padding: 0.75rem 0.9rem;
+}
+
+.attempt-reveal {
+  margin-top: 0.35rem;
+  padding: 0.7rem 0.85rem;
+}
+
+.attempt-reveal h3 {
+  color: #ffd86b;
+  margin: 0 0 0.3rem;
+}
+
+.attempt-reveal-list p {
+  margin: 0.2rem 0;
 }
 
 .phase-hint {
@@ -912,6 +930,7 @@ button:disabled {
   }
 
   .question-modal-overlay {
+    align-items: flex-start;
     padding: 8px;
   }
 

@@ -98,7 +98,8 @@ export class RoomManager {
         answeredQuestions: new Set(),
         buzzedPlayerId: null,
         dailyDoubleWager: null,
-        dailyDoublePlayerId: null
+        dailyDoublePlayerId: null,
+        questionAttempts: []
       },
       status: "lobby",
       createdAt: now,
@@ -338,7 +339,8 @@ export class RoomManager {
         answeredQuestions: [...room.gameState.answeredQuestions],
         buzzedPlayerId: room.gameState.buzzedPlayerId,
         dailyDoubleWager: room.gameState.dailyDoubleWager,
-        dailyDoublePlayerId: room.gameState.dailyDoublePlayerId
+        dailyDoublePlayerId: room.gameState.dailyDoublePlayerId,
+        questionAttempts: room.gameState.questionAttempts
       },
       status: room.status,
       createdAt: room.createdAt,

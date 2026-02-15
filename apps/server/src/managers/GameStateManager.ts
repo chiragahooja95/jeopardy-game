@@ -8,6 +8,7 @@ import {
   type GameResult,
   type Player,
   type Question,
+  type QuestionAttempt,
   type Room
 } from "@jeopardy/shared";
 import { QuestionPackManager } from "./QuestionPackManager.js";
@@ -25,6 +26,7 @@ export interface SubmitAnswerResult {
   questionCompleted: boolean;
   completedQuestionId: string | null;
   completedCorrectAnswer: string | null;
+  completedAttempts: QuestionAttempt[] | null;
 }
 
 export class GameStateManager {
@@ -53,6 +55,7 @@ export class GameStateManager {
     room.gameState.buzzedPlayerId = null;
     room.gameState.dailyDoublePlayerId = null;
     room.gameState.dailyDoubleWager = null;
+    room.gameState.questionAttempts = [];
 
     const firstPlayer = players[Math.floor(Math.random() * players.length)];
     room.gameState.currentTurnPlayerId = firstPlayer.id;
@@ -99,6 +102,7 @@ export class GameStateManager {
     room.gameState.buzzedPlayerId = null;
     room.gameState.dailyDoubleWager = null;
     room.gameState.dailyDoublePlayerId = null;
+    room.gameState.questionAttempts = [];
     room.gameState.phase = "reading";
     room.gameState.phaseEndsAt = Date.now() + timing.readingPhase;
 
@@ -243,10 +247,11 @@ export class GameStateManager {
       throw new Error("Only the Daily Double player can answer.");
     }
 
+    const playerAnswer = answer.trim();
     const value = isDailyDouble
       ? this.ensureDailyDoubleWager(room, playerId)
       : question.value;
-    const correct = fuzzyAnswerMatch(answer, question.answer);
+    const correct = fuzzyAnswerMatch(playerAnswer, question.answer);
     const signedPoints = correct ? value : -value;
 
     player.score += signedPoints;
@@ -265,10 +270,17 @@ export class GameStateManager {
     const result: AnswerResult = {
       correct,
       correctAnswer: correct || isDailyDouble ? question.answer : null,
-      playerAnswer: answer,
+      playerAnswer,
       pointsAwarded: signedPoints,
       newScore: player.score
     };
+    room.gameState.questionAttempts.push({
+      playerId: player.id,
+      playerName: player.name,
+      answer: playerAnswer,
+      correct,
+      pointsAwarded: signedPoints
+    });
 
     if (correct || isDailyDouble) {
       const completion = this.completeCurrentQuestion(
@@ -280,7 +292,8 @@ export class GameStateManager {
         nextTurnPlayerId: room.gameState.currentTurnPlayerId,
         questionCompleted: true,
         completedQuestionId: completion.questionId,
-        completedCorrectAnswer: completion.correctAnswer
+        completedCorrectAnswer: completion.correctAnswer,
+        completedAttempts: completion.attempts
       };
     }
 
@@ -293,11 +306,16 @@ export class GameStateManager {
       nextTurnPlayerId: room.gameState.currentTurnPlayerId,
       questionCompleted: false,
       completedQuestionId: null,
-      completedCorrectAnswer: null
+      completedCorrectAnswer: null,
+      completedAttempts: null
     };
   }
 
-  completeQuestionNoAnswer(room: Room): { questionId: string; correctAnswer: string } {
+  completeQuestionNoAnswer(room: Room): {
+    questionId: string;
+    correctAnswer: string;
+    attempts: QuestionAttempt[];
+  } {
     const question = room.gameState.selectedQuestion;
     if (!question) {
       throw new Error("No active question.");
@@ -305,6 +323,7 @@ export class GameStateManager {
 
     const questionId = question.id;
     const correctAnswer = question.answer;
+    const attempts = [...room.gameState.questionAttempts];
 
     room.gameState.answeredQuestions.add(question.id);
     room.gameState.selectedQuestion = null;
@@ -313,8 +332,9 @@ export class GameStateManager {
     room.gameState.buzzedPlayerId = null;
     room.gameState.dailyDoublePlayerId = null;
     room.gameState.dailyDoubleWager = null;
+    room.gameState.questionAttempts = [];
 
-    return { questionId, correctAnswer };
+    return { questionId, correctAnswer, attempts };
   }
 
   isGameComplete(room: Room): boolean {
@@ -351,13 +371,14 @@ export class GameStateManager {
   private completeCurrentQuestion(
     room: Room,
     nextTurnPlayerId: string
-  ): { questionId: string; correctAnswer: string } {
+  ): { questionId: string; correctAnswer: string; attempts: QuestionAttempt[] } {
     if (!room.gameState.selectedQuestion) {
       throw new Error("No active question.");
     }
 
     const questionId = room.gameState.selectedQuestion.id;
     const correctAnswer = room.gameState.selectedQuestion.answer;
+    const attempts = [...room.gameState.questionAttempts];
     room.gameState.answeredQuestions.add(questionId);
     room.gameState.selectedQuestion = null;
     room.gameState.phase = "selection";
@@ -366,7 +387,8 @@ export class GameStateManager {
     room.gameState.buzzedPlayerId = null;
     room.gameState.dailyDoublePlayerId = null;
     room.gameState.dailyDoubleWager = null;
-    return { questionId, correctAnswer };
+    room.gameState.questionAttempts = [];
+    return { questionId, correctAnswer, attempts };
   }
 
   private buildBoard(room: Room): Question[][] {

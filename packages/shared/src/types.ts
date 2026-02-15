@@ -111,6 +111,14 @@ export interface Player {
   dailyDoubleWrong: number;
 }
 
+export interface QuestionAttempt {
+  playerId: string;
+  playerName: string;
+  answer: string;
+  correct: boolean;
+  pointsAwarded: number;
+}
+
 export interface GameState {
   board: Question[][];
   phase: GamePhase;
@@ -121,6 +129,7 @@ export interface GameState {
   buzzedPlayerId: string | null;
   dailyDoubleWager: number | null;
   dailyDoublePlayerId: string | null;
+  questionAttempts: QuestionAttempt[];
 }
 
 export interface Room {
@@ -145,6 +154,7 @@ export interface SerializedGameState {
   buzzedPlayerId: string | null;
   dailyDoubleWager: number | null;
   dailyDoublePlayerId: string | null;
+  questionAttempts: QuestionAttempt[];
 }
 
 export interface SerializedRoom {
