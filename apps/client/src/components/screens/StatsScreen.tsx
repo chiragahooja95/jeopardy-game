@@ -51,12 +51,12 @@ export const StatsScreen = ({ onBack }: StatsScreenProps) => {
   return (
     <main className="screen">
       <header className="row">
-        <h1>Player Statistics</h1>
+        <h1>Number Goblin Report</h1>
         <button onClick={onBack}>Back</button>
       </header>
 
       <section className="panel">
-        <h2>Rates</h2>
+        <h2>Percent Wizardry</h2>
         <div className="chart-wrap">
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={rateData} margin={{ top: 8, right: 12, left: 0, bottom: 8 }}>
@@ -71,7 +71,7 @@ export const StatsScreen = ({ onBack }: StatsScreenProps) => {
       </section>
 
       <section className="panel">
-        <h2>Score Profile</h2>
+        <h2>Point Vibes</h2>
         <div className="chart-wrap">
           <ResponsiveContainer width="100%" height={220}>
             <BarChart data={scoreData} margin={{ top: 8, right: 12, left: 0, bottom: 8 }}>

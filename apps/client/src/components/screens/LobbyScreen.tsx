@@ -27,7 +27,7 @@ export const LobbyScreen = ({
     <main className="screen menu-screen">
       <header className="row">
         <div>
-          <h1>Lobby: {room.code}</h1>
+          <h1>Chaos Waiting Room: {room.code}</h1>
           <p className="subtitle">
             {room.players.length} player{room.players.length === 1 ? "" : "s"} connected
           </p>
@@ -43,7 +43,7 @@ export const LobbyScreen = ({
       </header>
 
       <section className="panel panel-sky">
-        <h2>Players</h2>
+        <h2>Crew Roll Call</h2>
         <div className="score-grid">
           {room.players.map((player) => (
             <article className="score-card" key={player.id}>

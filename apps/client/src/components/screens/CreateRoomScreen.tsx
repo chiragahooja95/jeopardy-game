@@ -33,14 +33,14 @@ export const CreateRoomScreen = ({ onBack, onCreateRoom, isSubmitting }: CreateR
   return (
     <main className="screen menu-screen">
       <header className="row">
-        <h1>Create Room</h1>
+        <h1>Cook Up a Chaos Room</h1>
         <button className="btn-violet" disabled={isSubmitting} onClick={onBack}>
           Back
         </button>
       </header>
 
       <section className="panel panel-sky">
-        <h2>Category Selection</h2>
+        <h2>Pick Your Flavor of Mayhem</h2>
         <div className="row">
           <label>
             Mode
@@ -97,7 +97,7 @@ export const CreateRoomScreen = ({ onBack, onCreateRoom, isSubmitting }: CreateR
       </section>
 
       <section className="panel panel-gold">
-        <h2>Game Settings</h2>
+        <h2>Chaos Dials</h2>
         <div className="row">
           <label>
             Question Count

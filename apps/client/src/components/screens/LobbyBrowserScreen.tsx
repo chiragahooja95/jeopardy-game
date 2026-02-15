@@ -42,8 +42,8 @@ export const LobbyBrowserScreen = ({ onBack, onJoinLobby }: LobbyBrowserScreenPr
     <main className="screen menu-screen">
       <header className="row">
         <div>
-          <h1>Lobby Browser</h1>
-          <p className="subtitle">Browse live rooms and join as player/spectator.</p>
+          <h1>Room Safari</h1>
+          <p className="subtitle">Sniff out live rooms and jump in.</p>
         </div>
         <div className="row">
           <button className="btn-violet" onClick={onBack}>

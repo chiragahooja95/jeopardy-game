@@ -25,8 +25,7 @@ export const HomeScreen = ({
   return (
     <main className="screen menu-screen">
       <section className="hero-banner">
-        <h1 className="hero-title">Multiplayer Jeopardy</h1>
-        <p className="subtitle">Build your profile, create a room, and play live with friends.</p>
+        <h1 className="hero-title">Chaos Quiz Party</h1>
       </section>
 
       <section className="panel panel-sky">
@@ -49,7 +48,7 @@ export const HomeScreen = ({
       </section>
 
       <section className="panel panel-gold">
-        <h2>Quick Stats</h2>
+        <h2>Brag-o-Meter</h2>
         <div className="stats-grid">
           <article>
             <h3>Games</h3>
@@ -75,7 +74,7 @@ export const HomeScreen = ({
       </section>
 
       <section className="panel panel-indigo">
-        <h2>Play</h2>
+        <h2>Big Red Buttons</h2>
         <div className="row play-actions">
           <button className="btn-sunset" disabled={isRoomActionPending} onClick={onOpenCreateRoom}>
             Create Room

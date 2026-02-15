@@ -45,6 +45,193 @@ select {
 
 .menu-screen {
   max-width: 980px;
+  isolation: isolate;
+  padding-top: 2.2rem;
+  position: relative;
+}
+
+.menu-screen::before {
+  animation: menu-float 12s ease-in-out infinite;
+  background:
+    radial-gradient(circle at 18% 18%, rgba(255, 194, 76, 0.26), transparent 36%),
+    radial-gradient(circle at 84% 16%, rgba(77, 196, 255, 0.22), transparent 34%),
+    radial-gradient(circle at 52% 90%, rgba(201, 120, 255, 0.22), transparent 40%);
+  content: "";
+  inset: 0;
+  pointer-events: none;
+  position: absolute;
+  z-index: -2;
+}
+
+.menu-screen::after {
+  background: linear-gradient(155deg, rgba(6, 17, 56, 0.82), rgba(9, 26, 76, 0.78));
+  border: 1px solid rgba(129, 191, 255, 0.22);
+  border-radius: 22px;
+  box-shadow:
+    inset 0 0 0 1px rgba(11, 26, 82, 0.54),
+    0 28px 44px rgba(7, 12, 34, 0.25);
+  content: "";
+  inset: 0.7rem 0.15rem 0.2rem;
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+}
+
+.menu-screen > * {
+  position: relative;
+  z-index: 1;
+}
+
+.menu-screen h1,
+.menu-screen h2,
+.menu-screen h3 {
+  color: #eaf2ff;
+  margin-top: 0;
+  text-shadow: 0 0 14px rgba(104, 195, 255, 0.2);
+}
+
+.menu-screen .subtitle {
+  color: #a9d4ff;
+}
+
+.menu-screen .panel {
+  background:
+    linear-gradient(165deg, rgba(11, 26, 83, 0.86), rgba(7, 19, 61, 0.92)),
+    radial-gradient(circle at 90% 0%, rgba(93, 188, 255, 0.18), transparent 45%);
+  border: 1px solid rgba(119, 188, 255, 0.34);
+  border-radius: 18px;
+  box-shadow:
+    inset 0 0 0 1px rgba(9, 21, 70, 0.72),
+    0 14px 26px rgba(5, 10, 34, 0.42);
+}
+
+.menu-screen .panel-sky {
+  background:
+    linear-gradient(160deg, rgba(8, 40, 113, 0.9), rgba(5, 23, 72, 0.92)),
+    radial-gradient(circle at 10% 0%, rgba(80, 206, 255, 0.24), transparent 45%);
+  border-color: rgba(117, 208, 255, 0.48);
+}
+
+.menu-screen .panel-gold {
+  background:
+    linear-gradient(160deg, rgba(70, 42, 9, 0.84), rgba(36, 24, 8, 0.92)),
+    radial-gradient(circle at 15% 0%, rgba(255, 216, 113, 0.23), transparent 48%);
+  border-color: rgba(255, 212, 118, 0.44);
+}
+
+.menu-screen .panel-indigo {
+  background:
+    linear-gradient(160deg, rgba(39, 16, 91, 0.86), rgba(19, 11, 59, 0.92)),
+    radial-gradient(circle at 85% 0%, rgba(183, 122, 255, 0.24), transparent 48%);
+  border-color: rgba(197, 154, 255, 0.48);
+}
+
+.menu-screen label,
+.menu-screen .status,
+.menu-screen .meta {
+  color: #b8d9ff;
+}
+
+.menu-screen input,
+.menu-screen select {
+  background: linear-gradient(160deg, rgba(10, 27, 80, 0.9), rgba(7, 20, 60, 0.92));
+  border: 1px solid rgba(127, 194, 255, 0.45);
+  box-shadow: inset 0 0 0 1px rgba(9, 21, 67, 0.85);
+  color: #f0f7ff;
+}
+
+.menu-screen input::placeholder {
+  color: rgba(191, 221, 255, 0.78);
+}
+
+.menu-screen button {
+  border: 1px solid rgba(205, 235, 255, 0.28);
+  border-radius: 10px;
+  box-shadow:
+    inset 0 0 0 1px rgba(20, 56, 150, 0.35),
+    0 7px 14px rgba(6, 20, 64, 0.42);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease;
+}
+
+.menu-screen button:hover:not(:disabled) {
+  box-shadow:
+    inset 0 0 0 1px rgba(124, 196, 255, 0.4),
+    0 0 20px rgba(86, 173, 255, 0.3);
+  filter: brightness(1.06);
+  transform: translateY(-1px);
+}
+
+.menu-screen button:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.menu-screen button:disabled {
+  filter: saturate(0.65) brightness(0.86);
+  opacity: 0.62;
+}
+
+.menu-screen .hero-banner {
+  background:
+    linear-gradient(125deg, rgba(22, 62, 170, 0.88), rgba(78, 36, 163, 0.86), rgba(15, 117, 162, 0.86)),
+    radial-gradient(circle at 14% 0%, rgba(255, 228, 132, 0.3), transparent 44%);
+  border: 1px solid rgba(147, 204, 255, 0.44);
+  border-radius: 22px;
+  box-shadow:
+    inset 0 0 0 1px rgba(13, 32, 95, 0.52),
+    0 14px 24px rgba(4, 10, 35, 0.34);
+  overflow: hidden;
+  padding: 1.35rem 1.25rem;
+  position: relative;
+}
+
+.menu-screen .hero-banner::after {
+  animation: menu-glint 4.4s linear infinite;
+  background: linear-gradient(110deg, transparent 30%, rgba(255, 255, 255, 0.22) 50%, transparent 70%);
+  content: "";
+  inset: -30% 10% -30% -65%;
+  pointer-events: none;
+  position: absolute;
+}
+
+.menu-screen .hero-title {
+  color: #ffffff;
+  font-size: clamp(1.9rem, 4.6vw, 2.9rem);
+  letter-spacing: 0.04em;
+  line-height: 1.05;
+  margin: 0;
+  text-transform: uppercase;
+  text-shadow:
+    0 0 22px rgba(135, 213, 255, 0.36),
+    0 4px 0 rgba(10, 30, 84, 0.55);
+}
+
+.menu-screen .play-actions {
+  display: grid;
+  gap: 0.65rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.menu-screen .play-actions input {
+  min-width: 0;
+}
+
+.menu-screen .stats-grid article {
+  background: rgba(8, 21, 65, 0.52);
+  border: 1px solid rgba(128, 199, 255, 0.24);
+  border-radius: 12px;
+  padding: 0.55rem 0.62rem;
+}
+
+.menu-screen .stats-grid article h3 {
+  color: #b6ddff;
+  text-transform: uppercase;
+}
+
+.menu-screen .stats-grid article p {
+  color: #f7fdff;
+  text-shadow: 0 0 10px rgba(122, 198, 255, 0.22);
 }
 
 .subtitle {
@@ -201,6 +388,25 @@ button:disabled {
   100% {
     opacity: 0.4;
     transform: scale(0.9);
+  }
+}
+
+@keyframes menu-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes menu-glint {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(170%);
   }
 }
 
@@ -918,6 +1124,27 @@ button:disabled {
   .row {
     align-items: stretch;
     flex-direction: column;
+  }
+
+  .menu-screen {
+    padding-top: 1.4rem;
+  }
+
+  .menu-screen::after {
+    inset: 0.35rem 0 0.15rem;
+  }
+
+  .menu-screen .hero-title {
+    font-size: clamp(1.45rem, 7.2vw, 2rem);
+    line-height: 1.08;
+  }
+
+  .menu-screen .panel {
+    padding: 0.82rem;
+  }
+
+  .menu-screen .play-actions {
+    grid-template-columns: 1fr;
   }
 
   .gameplay-screen {
